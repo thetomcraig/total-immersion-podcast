@@ -18,29 +18,16 @@
     <itunes:explicit>yes</itunes:explicit>
 
     <item>
-      <title>5 - Give Him the Chair!</title>
-      <itunes:author></itunes:author>
-      <itunes:subtitle></itunes:subtitle>
-      <itunes:summary>Squared Cirlce Subreddit is discussed (wrestling)</itunes:summary>
-      <description>Squared Cirlce Subreddit is discussed (wrestling)</description>
-      <itunes:image href="https://s3-us-west-2.amazonaws.com/total-immersion-podcast/cover.jpg" />
-      <enclosure url="http://dts.podtrac.com/redirect.mp3/https://s3-us-west-2.amazonaws.com/total-immersion-podcast/EP3+-+Green+Hats+and+HAM.mp3" length="" type="audio/mpeg"/>
-      <guid>http://dts.podtrac.com/redirect.mp3/https://s3-us-west-2.amazonaws.com/total-immersion-podcast/EP3+-+Green+Hats+and+HAM.mp3</guid>
-      <itunes:duration>38:27</itunes:duration>
-      <pubDate>Sun Sep 8 2017 16:33:00 GMT-0700</pubDate>
-    </item>
-
-    <item>
       <title>4 - 20,000 Men Under the Sea</title>
       <itunes:author></itunes:author>
       <itunes:subtitle></itunes:subtitle>
       <itunes:summary>Ask Men Under 30 is discussed</itunes:summary>
       <description>Ask Men Under 30 is discussed</description>
       <itunes:image href="https://s3-us-west-2.amazonaws.com/total-immersion-podcast/cover.jpg" />
-      <enclosure url="http://dts.podtrac.com/redirect.mp3/https://s3-us-west-2.amazonaws.com/total-immersion-podcast/EP3+-+Green+Hats+and+HAM.mp3" length="" type="audio/mpeg"/>
-      <guid>http://dts.podtrac.com/redirect.mp3/https://s3-us-west-2.amazonaws.com/total-immersion-podcast/EP3+-+Green+Hats+and+HAM.mp3</guid>
-      <itunes:duration>38:27</itunes:duration>
-      <pubDate>Sun Sep 8 2017 16:33:00 GMT-0700</pubDate>
+      <enclosure url="http://dts.podtrac.com/redirect.mp3/https://s3-us-west-2.amazonaws.com/total-immersion-podcast/EP4+-+Twenty+Thousand+Men+Under+the+Sea.mp3" length="" type="audio/mpeg"/>
+      <guid>http://dts.podtrac.com/redirect.mp3/https://s3-us-west-2.amazonaws.com/total-immersion-podcast/EP4+-+Twenty+Thousand+Men+Under+the+Sea.mp3</guid>
+      <itunes:duration>47:54</itunes:duration>
+      <pubDate>Sun Sep 20 2017 00:00:00 GMT-0700</pubDate>
     </item>
 
     <item>
