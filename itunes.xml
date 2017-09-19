@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+  <channel>
+    <title>Total Immersion</title>
+    <link>"http://dts.podtrac.com/redirect.mp3/https://s3-us-west-2.amazonaws.com/total-immersion-podcast/EP3+-+Green+Hats+and+HAM.mp3"</link>
+    <language>en-us</language>
+    <copyright></copyright>
+    <description>Rylan and Tom Immerse themselves in different subcultures.</description>
+    <itunes:summary>Rylan and Tom Immerse themselves in different subcultures.</itunes:summary>
+    <itunes:subtitle></itunes:subtitle>
+    <itunes:author>Tom Craig, Rylan Sedivy</itunes:author>
+    <itunes:owner>
+      <itunes:name>Tom Craig</itunes:name>
+      <itunes:email>thetomcraig@icloud.com</itunes:email>
+    </itunes:owner>
+    <itunes:image href="https://s3-us-west-2.amazonaws.com/total-immersion-podcast/cover.jpg" />
+    <itunes:category text="Comedy"/>
+    <itunes:explicit>yes</itunes:explicit>
+
+    <item>
+      <title>5 - Give Him the Chair!</title>
+      <itunes:author></itunes:author>
+      <itunes:subtitle></itunes:subtitle>
+      <itunes:summary>Squared Cirlce Subreddit is discussed (wrestling)</itunes:summary>
+      <description>Squared Cirlce Subreddit is discussed (wrestling)</description>
+      <itunes:image href="https://s3-us-west-2.amazonaws.com/total-immersion-podcast/cover.jpg" />
+      <enclosure url="http://dts.podtrac.com/redirect.mp3/https://s3-us-west-2.amazonaws.com/total-immersion-podcast/EP3+-+Green+Hats+and+HAM.mp3" length="" type="audio/mpeg"/>
+      <guid>http://dts.podtrac.com/redirect.mp3/https://s3-us-west-2.amazonaws.com/total-immersion-podcast/EP3+-+Green+Hats+and+HAM.mp3</guid>
+      <itunes:duration>38:27</itunes:duration>
+      <pubDate>Sun Sep 8 2017 16:33:00 GMT-0700</pubDate>
+    </item>
+
+    <item>
+      <title>4 - 20,000 Men Under the Sea</title>
+      <itunes:author></itunes:author>
+      <itunes:subtitle></itunes:subtitle>
+      <itunes:summary>Ask Men Under 30 is discussed</itunes:summary>
+      <description>Ask Men Under 30 is discussed</description>
+      <itunes:image href="https://s3-us-west-2.amazonaws.com/total-immersion-podcast/cover.jpg" />
+      <enclosure url="http://dts.podtrac.com/redirect.mp3/https://s3-us-west-2.amazonaws.com/total-immersion-podcast/EP3+-+Green+Hats+and+HAM.mp3" length="" type="audio/mpeg"/>
+      <guid>http://dts.podtrac.com/redirect.mp3/https://s3-us-west-2.amazonaws.com/total-immersion-podcast/EP3+-+Green+Hats+and+HAM.mp3</guid>
+      <itunes:duration>38:27</itunes:duration>
+      <pubDate>Sun Sep 8 2017 16:33:00 GMT-0700</pubDate>
+    </item>
+
+    <item>
+      <title>3 - Green Hats and HAM</title>
+      <itunes:author></itunes:author>
+      <itunes:subtitle></itunes:subtitle>
+      <itunes:summary>HAM Radio and Hats subreddits are discussed</itunes:summary>
+      <description>HAM Radio and Hats subreddits are discussed</description>
+      <itunes:image href="https://s3-us-west-2.amazonaws.com/total-immersion-podcast/cover.jpg" />
+      <enclosure url="http://dts.podtrac.com/redirect.mp3/https://s3-us-west-2.amazonaws.com/total-immersion-podcast/EP3+-+Green+Hats+and+HAM.mp3" length="" type="audio/mpeg"/>
+      <guid>http://dts.podtrac.com/redirect.mp3/https://s3-us-west-2.amazonaws.com/total-immersion-podcast/EP3+-+Green+Hats+and+HAM.mp3</guid>
+      <itunes:duration>38:27</itunes:duration>
+      <pubDate>Sun Sep 8 2017 16:33:00 GMT-0700</pubDate>
+    </item>
+
+    <item>
+      <title>2 - Ampersands After Dark</title>
+      <itunes:author></itunes:author>
+      <itunes:subtitle></itunes:subtitle>
+      <itunes:summary>Typography and Night Shift subreddits are discussed</itunes:summary>
+      <description>Typography and Night Shift subreddits are discussed</description>
+      <itunes:image href="https://s3-us-west-2.amazonaws.com/total-immersion-podcast/cover.jpg" />
+      <enclosure url="http://dts.podtrac.com/redirect.mp3/https://s3-us-west-2.amazonaws.com/total-immersion-podcast/EP2+-+Ampersands+After+Dark.mp3" length="" type="audio/mpeg"/>
+      <guid>http://dts.podtrac.com/redirect.mp3/https://s3-us-west-2.amazonaws.com/total-immersion-podcast/EP2+-+Ampersands+After+Dark.mp3</guid>
+      <itunes:duration>35:34</itunes:duration>
+      <pubDate>Sun Aug 23 2017 16:21:44 GMT-0700</pubDate>
+    </item>
+
+    <item>
+      <title>1 - Is that a pen in your pocket?</title>
+      <itunes:author></itunes:author>
+      <itunes:subtitle></itunes:subtitle>
+      <itunes:summary>Pens and Terrain Building subreddits are discussed</itunes:summary>
+      <description>Pens and Terrain Building subreddits are discussed</description>
+      <itunes:image href="https://s3-us-west-2.amazonaws.com/total-immersion-podcast/cover.jpg" />
+      <enclosure url="http://dts.podtrac.com/redirect.mp3/https://s3-us-west-2.amazonaws.com/total-immersion-podcast/EP1+-+Is+That+a+Pen+in+Your+Pocket%3F.mp3" length="" type="audio/mpeg"/>
+      <guid>http://dts.podtrac.com/redirect.mp3/https://s3-us-west-2.amazonaws.com/total-immersion-podcast/EP1+-+Is+That+a+Pen+in+Your+Pocket%3F.mp3</guid>
+      <itunes:duration>44:49</itunes:duration>
+      <pubDate>Sun Aug 13 2017 16:21:44 GMT-0700</pubDate>
+    </item>
+
+      <item>
+        <title>Pilot</title>
+        <itunes:author></itunes:author>
+        <itunes:subtitle></itunes:subtitle>
+        <itunes:summary>Rylan and Tom catch up</itunes:summary>
+        <description>Rylan and Tom catch up</description>
+        <itunes:image href="https://s3-us-west-2.amazonaws.com/total-immersion-podcast/cover.jpg" />
+        <enclosure url="http://dts.podtrac.com/redirect.mp3/https://s3-us-west-2.amazonaws.com/total-immersion-podcast/pilot.mp3" length="" type="audio/mpeg"/>
+        <guid>http://dts.podtrac.com/redirect.mp3/https://s3-us-west-2.amazonaws.com/total-immersion-podcast/pilot.mp3</guid>
+        <pubDate>Sun Aug 06 2017 16:21:44 GMT-0700</pubDate>
+        <itunes:duration>34:22</itunes:duration>
+      </item>
+
+  </channel>
+  </rss>
