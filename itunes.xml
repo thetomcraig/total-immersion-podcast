@@ -2,7 +2,7 @@
   <rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
   <channel>
     <title>Total Immersion</title>
-    <link>"http://dts.podtrac.com/redirect.mp3/https://s3-us-west-2.amazonaws.com/total-immersion-podcast/EP3+-+Green+Hats+and+HAM.mp3"</link>
+    <link>"http://dts.podtrac.com/redirect.mp3/https://s3-us-west-2.amazonaws.com/total-immersion-podcast/EP4+-+Twenty+Thousand+Men+Under+the+Sea.mp3"</link>
     <language>en-us</language>
     <copyright></copyright>
     <description>Rylan and Tom Immerse themselves in different subcultures.</description>
@@ -63,8 +63,8 @@
       <itunes:summary>Pens and Terrain Building subreddits are discussed</itunes:summary>
       <description>Pens and Terrain Building subreddits are discussed</description>
       <itunes:image href="https://s3-us-west-2.amazonaws.com/total-immersion-podcast/cover.jpg" />
-      <enclosure url="http://dts.podtrac.com/redirect.mp3/https://s3-us-west-2.amazonaws.com/total-immersion-podcast/EP1+-+Is+That+a+Pen+in+Your+Pocket%3F.mp3" length="" type="audio/mpeg"/>
-      <guid>http://dts.podtrac.com/redirect.mp3/https://s3-us-west-2.amazonaws.com/total-immersion-podcast/EP1+-+Is+That+a+Pen+in+Your+Pocket%3F.mp3</guid>
+      <enclosure url="http://dts.podtrac.com/redirect.mp3/https://https://s3-us-west-2.amazonaws.com/total-immersion-podcast/EP1+-+Is+That+a+Pen+in+Your+Pocket.mp3" length="" type="audio/mpeg"/>
+      <guid>http://dts.podtrac.com/redirect.mp3/https://https://s3-us-west-2.amazonaws.com/total-immersion-podcast/EP1+-+Is+That+a+Pen+in+Your+Pocket.mp3</guid>
       <itunes:duration>44:49</itunes:duration>
       <pubDate>Sun Aug 13 2017 16:21:44 GMT-0700</pubDate>
     </item>
