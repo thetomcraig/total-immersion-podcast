@@ -18,6 +18,19 @@
     <itunes:explicit>yes</itunes:explicit>
 
     <item>
+      <title>5 - Give Him The Chair!</title>
+      <itunes:author></itunes:author>
+      <itunes:subtitle></itunes:subtitle>
+      <itunes:summary>Squared Circle (Wrestling) is discussed</itunes:summary>
+      <description>Squared Circle (Wrestling) is discussed</description>
+      <itunes:image href="https://s3-us-west-2.amazonaws.com/total-immersion-podcast/cover.jpg" />
+      <enclosure url="https://s3-us-west-2.amazonaws.com/total-immersion-podcast/EP5+-+Give+Him+the+Chair.mp3" length="" type="audio/mpeg"/>
+      <guid>https://s3-us-west-2.amazonaws.com/total-immersion-podcast/EP5+-+Give+Him+the+Chair.mp3</guid>
+      <itunes:duration>45:05</itunes:duration>
+      <pubDate>Wed Sep 27 2017 00:00:00 GMT-0700</pubDate>
+    </item>
+
+    <item>
       <title>4 - 20,000 Men Under the Sea</title>
       <itunes:author></itunes:author>
       <itunes:subtitle></itunes:subtitle>
@@ -63,8 +76,8 @@
       <itunes:summary>Pens and Terrain Building subreddits are discussed</itunes:summary>
       <description>Pens and Terrain Building subreddits are discussed</description>
       <itunes:image href="https://s3-us-west-2.amazonaws.com/total-immersion-podcast/cover.jpg" />
-      <enclosure url="http://dts.podtrac.com/redirect.mp3/https://https://s3-us-west-2.amazonaws.com/total-immersion-podcast/EP1+-+Is+That+a+Pen+in+Your+Pocket.mp3" length="" type="audio/mpeg"/>
-      <guid>http://dts.podtrac.com/redirect.mp3/https://https://s3-us-west-2.amazonaws.com/total-immersion-podcast/EP1+-+Is+That+a+Pen+in+Your+Pocket.mp3</guid>
+      <enclosure url="http://dts.podtrac.com/redirect.mp3/https://s3-us-west-2.amazonaws.com/total-immersion-podcast/EP1+-+Is+That+a+Pen+in+Your+Pocket.mp3" length="" type="audio/mpeg"/>
+      <guid>http://dts.podtrac.com/redirect.mp3/https://s3-us-west-2.amazonaws.com/total-immersion-podcast/EP1+-+Is+That+a+Pen+in+Your+Pocket.mp3</guid>
       <itunes:duration>44:49</itunes:duration>
       <pubDate>Sun Aug 13 2017 16:21:44 GMT-0700</pubDate>
     </item>
