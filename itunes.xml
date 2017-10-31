@@ -2,7 +2,7 @@
   <rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
   <channel>
     <title>Total Immersion</title>
-    <link>"http://dts.podtrac.com/redirect.mp3/https://s3-us-west-2.amazonaws.com/total-immersion-podcast/EP5+-+Give+Him+the+Chair.mp3"</link>
+    <link>"http://dts.podtrac.com/redirect.mp3/https://s3-us-west-2.amazonaws.com/total-immersion-podcast/EP9+-+So+A+Podcast+Walks+Into+A+Bar....mp3"</link>
     <language>en-us</language>
     <copyright></copyright>
     <description>Rylan and Tom Immerse themselves in different subcultures.</description>
@@ -19,6 +19,44 @@
     <lastBuildDate>Wed, 04 Oct 2017 00:00:00 PDT</lastBuildDate>
     <itunes:author>Tom Craig</itunes:author>
     <pubDate>Wed, 04 Oct 2017 00:00:00 PDT</pubDate>
+    <item>
+      <title>9 - So A Podcast Walks Into A Bar...</title>
+      <itunes:author></itunes:author>
+      <itunes:subtitle></itunes:subtitle>
+      <itunes:summary>Bartending is discussed</itunes:summary>
+      <description>Bartending is discussed</description>
+      <itunes:image href="https://s3-us-west-2.amazonaws.com/total-immersion-podcast/cover.jpg" />
+      <enclosure url="http://dts.podtrac.com/redirect.mp3/https://s3-us-west-2.amazonaws.com/total-immersion-podcast/EP9+-+So+A+Podcast+Walks+Into+A+Bar....mp3" length="" type="audio/mpeg"/>
+      <guid>http://dts.podtrac.com/redirect.mp3/https://s3-us-west-2.amazonaws.com/total-immersion-podcast/EP9+-+So+A+Podcast+Walks+Into+A+Bar....mp3</guid>
+      <itunes:duration>38:14</itunes:duration>
+      <pubDate>Wed Oct 25 2017 00:00:00 GMT-0700</pubDate>
+    </item>
+
+    <item>
+      <title>8 - The Dark Net Rises</title>
+      <itunes:author></itunes:author>
+      <itunes:subtitle></itunes:subtitle>
+      <itunes:summary>The Darknet is discussed</itunes:summary>
+      <description>The Darknet is discussed</description>
+      <itunes:image href="https://s3-us-west-2.amazonaws.com/total-immersion-podcast/cover.jpg" />
+      <enclosure url="http://dts.podtrac.com/redirect.mp3/https://s3-us-west-2.amazonaws.com/total-immersion-podcast/EP8+-+The+Dark+Net+Rises.mp3" length="" type="audio/mpeg"/>
+      <guid>http://dts.podtrac.com/redirect.mp3/https://s3-us-west-2.amazonaws.com/total-immersion-podcast/EP8+-+The+Dark+Net+Rises.mp3</guid>
+      <itunes:duration>48:01</itunes:duration>
+      <pubDate>Wed Oct 18 2017 00:00:00 GMT-0700</pubDate>
+    </item>
+
+    <item>
+      <title>7 - Orchid You Not</title>
+      <itunes:author></itunes:author>
+      <itunes:subtitle></itunes:subtitle>
+      <itunes:summary>Botany is discussed</itunes:summary>
+      <description>Botany is discussed</description>
+      <itunes:image href="https://s3-us-west-2.amazonaws.com/total-immersion-podcast/cover.jpg" />
+      <enclosure url="http://dts.podtrac.com/redirect.mp3/https://s3-us-west-2.amazonaws.com/total-immersion-podcast/EP7+-+Orchid+You+Not.mp3" length="" type="audio/mpeg"/>
+      <guid>http://dts.podtrac.com/redirect.mp3/https://s3-us-west-2.amazonaws.com/total-immersion-podcast/EP7+-+Orchid+You+Not.mp3</guid>
+      <itunes:duration>39:09</itunes:duration>
+      <pubDate>Wed Oct 11 2017 00:00:00 GMT-0700</pubDate>
+    </item>
 
     <item>
       <title>6 - Definitely Not Freemasons</title>
