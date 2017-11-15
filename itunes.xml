@@ -2,7 +2,7 @@
   <rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
   <channel>
     <title>Total Immersion</title>
-    <link>"http://dts.podtrac.com/redirect.mp3/https://s3-us-west-2.amazonaws.com/total-immersion-podcast/EP9+-+So+A+Podcast+Walks+Into+A+Bar....mp3"</link>
+    <link>"http://dts.podtrac.com/redirect.mp3/https://s3-us-west-2.amazonaws.com/total-immersion-podcast/EP10+-+Most+Deafinitely.mp3"</link>
     <language>en-us</language>
     <copyright></copyright>
     <description>Rylan and Tom Immerse themselves in different subcultures.</description>
@@ -19,8 +19,48 @@
     <lastBuildDate>Wed, 04 Oct 2017 00:00:00 PDT</lastBuildDate>
     <itunes:author>Tom Craig</itunes:author>
     <pubDate>Wed, 04 Oct 2017 00:00:00 PDT</pubDate>
+
     <item>
-      <title>9 - So A Podcast Walks Into A Bar...</title>
+      <title>12 - Fantastic Footballs and Where to Find Them</title>
+      <itunes:author></itunes:author>
+      <itunes:subtitle></itunes:subtitle>
+      <itunes:summary>Fantasy Football is discussed</itunes:summary>
+      <description>Fantasy Football is discussed</description>
+      <itunes:image href="https://s3-us-west-2.amazonaws.com/total-immersion-podcast/cover.jpg" />
+      <enclosure url="http://dts.podtrac.com/redirect.mp3/https://s3-us-west-2.amazonaws.com/total-immersion-podcast/EP12+Fantasy+Footballs+and+Where+to+Find+Them.mp3" length="" type="audio/mpeg"/>
+      <guid>http://dts.podtrac.com/redirect.mp3/https://s3-us-west-2.amazonaws.com/total-immersion-podcast/EP12+Fantasy+Footballs+and+Where+to+Find+Them.mp3</guid>
+      <itunes:duration>37:31</itunes:duration>
+      <pubDate>Wed Nov 15 2017 00:00:00 GMT-0700</pubDate>
+    </item>
+
+    <item>
+      <title>11 - Be a Were</title>
+      <itunes:author></itunes:author>
+      <itunes:subtitle></itunes:subtitle>
+      <itunes:summary>Lycanthropy is discussed</itunes:summary>
+      <description>Lycanthropy is discussed</description>
+      <itunes:image href="https://s3-us-west-2.amazonaws.com/total-immersion-podcast/cover.jpg" />
+      <enclosure url="http://dts.podtrac.com/redirect.mp3/https://s3-us-west-2.amazonaws.com/total-immersion-podcast/EP11+Be+a+Were.mp3" length="" type="audio/mpeg"/>
+      <guid>http://dts.podtrac.com/redirect.mp3/https://s3-us-west-2.amazonaws.com/total-immersion-podcast/EP11+Be+a+Were.mp3</guid>
+      <itunes:duration>39:39</itunes:duration>
+      <pubDate>Wed Nov 8 2017 00:00:00 GMT-0700</pubDate>
+    </item>
+
+    <item>
+      <title>10 - Most Deafinitely</title>
+      <itunes:author></itunes:author>
+      <itunes:subtitle></itunes:subtitle>
+      <itunes:summary>Deaf culture is discussed</itunes:summary>
+      <description>Deaf culture is discussed</description>
+      <itunes:image href="https://s3-us-west-2.amazonaws.com/total-immersion-podcast/cover.jpg" />
+      <enclosure url="http://dts.podtrac.com/redirect.mp3/https://s3-us-west-2.amazonaws.com/total-immersion-podcast/EP10+-+Most+Deafinitely.mp3" length="" type="audio/mpeg"/>
+      <guid>http://dts.podtrac.com/redirect.mp3/https://s3-us-west-2.amazonaws.com/total-immersion-podcast/EP10+-+Most+Deafinitely.mp3</guid>
+      <itunes:duration>49:36</itunes:duration>
+      <pubDate>Wed Oct 31 2017 00:00:00 GMT-0700</pubDate>
+    </item>
+
+    <item>
+      <title>9 - So a Podcast Walks Into a Bar...</title>
       <itunes:author></itunes:author>
       <itunes:subtitle></itunes:subtitle>
       <itunes:summary>Bartending is discussed</itunes:summary>
@@ -72,7 +112,7 @@
     </item>
 
     <item>
-      <title>5 - Give Him The Chair!</title>
+      <title>5 - Give Him the Chair!</title>
       <itunes:author></itunes:author>
       <itunes:subtitle></itunes:subtitle>
       <itunes:summary>Squared Circle (Wrestling) is discussed</itunes:summary>
@@ -124,7 +164,7 @@
     </item>
 
     <item>
-      <title>1 - Is that a pen in your pocket?</title>
+      <title>1 - Is that a Pen in Your Pocket?</title>
       <itunes:author></itunes:author>
       <itunes:subtitle></itunes:subtitle>
       <itunes:summary>Pens and Terrain Building subreddits are discussed</itunes:summary>
