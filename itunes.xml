@@ -2,7 +2,7 @@
   <rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
   <channel>
     <title>Total Immersion</title>
-    <link>"http://dts.podtrac.com/https://s3-us-west-2.amazonaws.com/total-immersion-podcast/EP17+-+Flattery+Will+Get+You+Nowhere.mp3"</link>
+    <link>"http://dts.podtrac.com/redirect.mp3/https://s3-us-west-2.amazonaws.com/total-immersion-podcast/EP18+-+Its+a+Wonderful+Second+Life.mp3"</link>
     <language>en-us</language>
     <copyright></copyright>
     <description>Rylan and Tom Immerse themselves in different subcultures.</description>
@@ -19,6 +19,19 @@
     <lastBuildDate>Wed, 04 Oct 2017 00:00:00 PDT</lastBuildDate>
     <itunes:author>Tom Craig</itunes:author>
     <pubDate>Wed, 04 Oct 2017 00:00:00 PDT</pubDate>
+
+    <item>
+      <title>18 - It's a Wonderful Second Life</title>
+      <itunes:author></itunes:author>
+      <itunes:subtitle></itunes:subtitle>
+      <itunes:summary>Second Life is discussed</itunes:summary>
+      <description>Second Life is discussed</description>
+      <itunes:image href="https://s3-us-west-2.amazonaws.com/total-immersion-podcast/cover.jpg" />
+      <enclosure url="http://dts.podtrac.com/redirect.mp3/https://s3-us-west-2.amazonaws.com/total-immersion-podcast/EP18+-+Its+a+Wonderful+Second+Life.mp3" length="" type="audio/mpeg"/>
+      <guid>http://dts.podtrac.com/redirect.mp3/https://s3-us-west-2.amazonaws.com/total-immersion-podcast/EP18+-+Its+a+Wonderful+Second+Life.mp3</guid>
+      <itunes:duration>33:47</itunes:duration>
+      <pubDate>Wed Dec 27 2017 00:00:00 GMT-0700</pubDate>
+    </item>
 
     <item>
       <title>17 - Flattery Will Get You Nowhere</title>
