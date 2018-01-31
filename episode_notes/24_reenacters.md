@@ -1,9 +1,11 @@
-###24 - Civil War Reenacters
+24 - Civil War Reenacters
+===
 
 * Recreate appearence of a particular battle from the Civil War.
 * People are _Reenacters_ or _Living Historians_
 
-####History
+History
+====
 * Reenactment started even before the original war ended
 * *Civil War veterans would recreate battles as a way of remembering fallen comrades*
 * Great Reunion of 1912 - celebrating the 50th anniversary
@@ -12,7 +14,8 @@
     * Rylan do you know what this is?
   * At night, an impromptu Union raid on the Confederate side of the Great Camp resulted in joint parades and camp fires following the "charge".
 
-####Classification
+Classification
+====
 * Three categories of reenacters
   * *Farbs*
     * Reenactors who spend relatively little time and/or money achieving authenticity with regard to uniforms, accessories, or period behavior. 
@@ -26,7 +29,8 @@
     * Hard-core authentics, sometimes derisively called "stitch counters"
     * They seek an "immersive" reenacting experience, trying to live, as much as possible, as someone of the 1860s might have. This includes eating seasonally and regionally appropriate food, sewing inside seams and undergarments in a period-appropriate manner, and staying in character throughout an event.
 
-####Events
+Events
+====
 * Public Demonstrations
   * Show maneuvers or small mock battles
 * Scripted Battles
@@ -45,7 +49,8 @@
 * The 1920s Berlin Project
   * Historical role-playing community in Second Life meant to simulate daily life in Berlin during the 20s
 
-####Community/Culture
+Community/Culture
+====
 * On reddit, lots of community
 * People askign questions
   * What type of garment is this
