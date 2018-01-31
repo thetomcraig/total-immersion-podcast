@@ -1,8 +1,7 @@
 Total Immersion
 ===
 
-![Cover](https://github.com/thetomcraig/total-immersion-podcast/blob/master/cover.jpg )
-<img src="https://github.com/thetomcraig/total-immersion-podcast/blob/master/cover.jpg" width="48">
+<img src="https://github.com/thetomcraig/total-immersion-podcast/blob/master/cover.jpg" width="96">
 
 Total Immersion is weekly a podcast in which we immerse ourselves in subcultures, proving we know nothing about anything.  
 Every Wednesday morning Tom tells Rylan about a topic he has immersed himself in, and we explore the topic together.  
