@@ -14,7 +14,7 @@ Podcast is available to download or listen from these fine sources:
 * [Stitcher](http://www.stitcher.com/s?fid=159543&refid=stpr)  
 * [Soundcloud](https://soundcloud.com/totalimmersionpodcast)  
 
-#### Show Notes  
+### Show Notes  
 | Ep. | Title | Description | Show Notes |  
 | --- | ----- | ----------- | ---------- |
 |  24 | Lights, Camera, Reenaction! | Civil War Reenactment is discussed | https://github.com/thetomcraig/total-immersion-podcast/blob/master/episode_notes/24_renaction.md |
