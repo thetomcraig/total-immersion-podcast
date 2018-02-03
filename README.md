@@ -15,32 +15,32 @@ Podcast is available to download or listen from these fine sources:
 * [Soundcloud](https://soundcloud.com/totalimmersionpodcast)  
 
 #### Show Notes  
-| Ep. | Title | Show Notes |  
-| --- | ----- | ---------- |  
-|  24 | Lights, Camera, Reenaction! | https://github.com/thetomcraig/total-immersion-podcast/blob/master/episode_notes/24_renaction.md |
-|  23 | Portugal. The Podcast | https://github.com/thetomcraig/total-immersion-podcast/blob/master/episode_notes/23_portugal.md	|
-|  22 | Of All the Episodes of All the Podcasts in the World... | https://github.com/thetomcraig/total-immersion-podcast/blob/master/episode_notes/22_morocco.md |
-|  21 | Tat's all Folks | https://github.com/thetomcraig/total-immersion-podcast/blob/master/episode_notes/21_tattoos.md	|
-|  20 | Reptotalitarians | https://github.com/thetomcraig/total-immersion-podcast/blob/master/episode_notes/20_retillians.md	|
-|  19 | It's Still a Wonderful Second Life | https://github.com/thetomcraig/total-immersion-podcast/blob/master/episode_notes/19_second_life_2.md	|
-|  18 | It's a Wonderful Second Life | https://github.com/thetomcraig/total-immersion-podcast/blob/master/episode_notes/18_second_life.md	|
-|  17 | Flattery Will Get You Nowhere | https://github.com/thetomcraig/total-immersion-podcast/blob/master/episode_notes/17_flat_earth.md	|
-|  16 | Insane Clown Podcast | https://github.com/thetomcraig/total-immersion-podcast/blob/master/episode_notes/16_icp.md	|
-|  15 | Skynet in Fishnets | https://github.com/thetomcraig/total-immersion-podcast/blob/master/episode_notes/15_sex_dolls.md	|
-|  14 | Ground Control to Major Tom and Rylan | https://github.com/thetomcraig/total-immersion-podcast/blob/master/episode_notes/14_ufology.md	|
-|  13 | The Reborn Identity | https://github.com/thetomcraig/total-immersion-podcast/blob/master/episode_notes/13_reborn_dolls.md	|
-|  12 | Fantastic Footballs and Where to Find Them | https://github.com/thetomcraig/total-immersion-podcast/blob/master/episode_notes/12_fantasy_football.md	|
-|  11 | Be a Were | https://github.com/thetomcraig/total-immersion-podcast/blob/master/episode_notes/ |
-|  10 | Most Deafinitely | https://github.com/thetomcraig/total-immersion-podcast/blob/master/episode_notes/10_deaf.md |
-|   9 | So a Podcast Walks Into a Bar... | https://github.com/thetomcraig/total-immersion-podcast/blob/master/episode_notes/9_bartending.md|
-|   8 | The Dark Net Rises | https://github.com/thetomcraig/total-immersion-podcast/blob/master/episode_notes/8_dark_web.md	|
-|   7 | Orchid You Not | https://github.com/thetomcraig/total-immersion-podcast/blob/master/episode_notes/7_botany.md |
-|   6 | Definitely Not Freemasons | https://github.com/thetomcraig/total-immersion-podcast/blob/master/episode_notes/6_freemasonry.md	|
-|   5 | Give Him the Chair! | https://github.com/thetomcraig/total-immersion-podcast/blob/master/episode_notes/5_wrestling.md	|
-|   4 | 20,000 Men Under the Sea | https://github.com/thetomcraig/total-immersion-podcast/blob/master/episode_notes/4_ask_men.md	|
-|   3 | Green Hats and HAM | https://github.com/thetomcraig/total-immersion-podcast/blob/master/episode_notes/3_radio.md	|
-|   2 | Ampersands After Dark | https://github.com/thetomcraig/total-immersion-podcast/blob/master/episode_notes/2_typography_and_night_shift.md |
-|   1 | Is that a Pen in Your Pocket? | |
+| Ep. | Title | Description | Show Notes |  
+| --- | ----- | ----------- | ---------- |
+|  24 | Lights, Camera, Reenaction! | Civil War Reenactment is discussed | https://github.com/thetomcraig/total-immersion-podcast/blob/master/episode_notes/24_renaction.md |
+|  23 | Portugal. The Podcast | Portugal is discussed | https://github.com/thetomcraig/total-immersion-podcast/blob/master/episode_notes/23_portugal.md	|
+|  22 | Of All the Episodes of All the Podcasts in the World... | Morocco is discussed | https://github.com/thetomcraig/total-immersion-podcast/blob/master/episode_notes/22_morocco.md |
+|  21 | Tat's all Folks | Tattoo subculture is discussed | https://github.com/thetomcraig/total-immersion-podcast/blob/master/episode_notes/21_tattoos.md	|
+|  20 | Reptotalitarians | The Reptilian conspiracy theory is discussed | https://github.com/thetomcraig/total-immersion-podcast/blob/master/episode_notes/20_retillians.md	|
+|  19 | It's Still a Wonderful Second Life | The economy of Second  Life is discussed | https://github.com/thetomcraig/total-immersion-podcast/blob/master/episode_notes/19_second_life_2.md	|
+|  18 | It's a Wonderful Second Life | Second Life is discussed | https://github.com/thetomcraig/total-immersion-podcast/blob/master/episode_notes/18_second_life.md	|
+|  17 | Flattery Will Get You Nowhere | Flat Earth Society is discussed | https://github.com/thetomcraig/total-immersion-podcast/blob/master/episode_notes/17_flat_earth.md	|
+|  16 | Insane Clown Podcast | Insane Clown Posse is discussed | https://github.com/thetomcraig/total-immersion-podcast/blob/master/episode_notes/16_icp.md	|
+|  15 | Skynet in Fishnets | Sex robots are discussed | https://github.com/thetomcraig/total-immersion-podcast/blob/master/episode_notes/15_sex_dolls.md	|
+|  14 | Ground Control to Major Tom and Rylan | Ufology is discussed | https://github.com/thetomcraig/total-immersion-podcast/blob/master/episode_notes/14_ufology.md	|
+|  13 | The Reborn Identity | Reborn dolls are discussed | https://github.com/thetomcraig/total-immersion-podcast/blob/master/episode_notes/13_reborn_dolls.md	|
+|  12 | Fantastic Footballs and Where to Find Them | Fantasy Football is discussed | https://github.com/thetomcraig/total-immersion-podcast/blob/master/episode_notes/12_fantasy_football.md	|
+|  11 | Be a Were | Lycanthropy is discussed | https://github.com/thetomcraig/total-immersion-podcast/blob/master/episode_notes/ |
+|  10 | Most Deafinitely | Deaf culture is discussed | https://github.com/thetomcraig/total-immersion-podcast/blob/master/episode_notes/10_deaf.md |
+|   9 | So a Podcast Walks Into a Bar... | Bartending is discussed | https://github.com/thetomcraig/total-immersion-podcast/blob/master/episode_notes/9_bartending.md|
+|   8 | The Dark Net Rises | The Darknet is discussed | https://github.com/thetomcraig/total-immersion-podcast/blob/master/episode_notes/8_dark_web.md	|
+|   7 | Orchid You Not | Botany is discussed | https://github.com/thetomcraig/total-immersion-podcast/blob/master/episode_notes/7_botany.md |
+|   6 | Definitely Not Freemasons | Shhh Freemasons are not discussed | https://github.com/thetomcraig/total-immersion-podcast/blob/master/episode_notes/6_freemasonry.md	|
+|   5 | Give Him the Chair! | Squared Circle (Wrestling) is discussed | https://github.com/thetomcraig/total-immersion-podcast/blob/master/episode_notes/5_wrestling.md	|
+|   4 | 20,000 Men Under the Sea | Ask Men Under 30 is discussed | https://github.com/thetomcraig/total-immersion-podcast/blob/master/episode_notes/4_ask_men.md	|
+|   3 | Green Hats and HAM | HAM Radio and Hats subreddits are discussed | https://github.com/thetomcraig/total-immersion-podcast/blob/master/episode_notes/3_radio.md	|
+|   2 | Ampersands After Dark | Typography and Night Shift subreddits are discussed | https://github.com/thetomcraig/total-immersion-podcast/blob/master/episode_notes/2_typography_and_night_shift.md |
+|   1 | Is that a Pen in Your Pocket? | Pens and Terrain Building subreddits are discussed | |
 
 ####Notes on the repo
 * All of our episode notes are available in `episode_notes`
