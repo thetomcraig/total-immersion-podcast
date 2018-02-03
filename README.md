@@ -15,9 +15,9 @@ Podcast is available to download or listen from these fine sources:
 * [Soundcloud](https://soundcloud.com/totalimmersionpodcast)  
 
 
-####Show Notes
-| Ep. | Title | Show Notes |
-| --- | ----- | ---------- |
+####Show Notes  
+| Ep. | Title | Show Notes |  
+| --- | ----- | ---------- |  
 |  24 | Lights, Camera, Reenaction! | https://github.com/thetomcraig/total-immersion-podcast/blob/master/episode_notes/24_renaction.md |
 |  23 | Portugal. The Podcast | https://github.com/thetomcraig/total-immersion-podcast/blob/master/episode_notes/23_portugal.md	|
 |  22 | Of All the Episodes of All the Podcasts in the World... | https://github.com/thetomcraig/total-immersion-podcast/blob/master/episode_notes/22_morocco.md |
