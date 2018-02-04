@@ -15,6 +15,7 @@ Podcast is available to download or listen from these fine sources:
 ### Show Notes  
 | Ep. | Title | Description | Listen | Show Notes |  
 | --- | ----- | ----------- | ------ | ---------- |
+|  25 | <TBD> | Airline Pilots are discussed |iTunes| [Notes](https://github.com/thetomcraig/total-immersion-podcast/blob/master/episode_notes/25_pilots.md)|
 |  24 | Lights, Camera, Reenaction! | Civil War Reenactment is discussed |iTunes| [Notes](https://github.com/thetomcraig/total-immersion-podcast/blob/master/episode_notes/24_reenacters.md)|
 |  23 | Portugal. The Podcast | Portugal is discussed |[iTunes](https://itunes.apple.com/us/podcast/23-portugal-the-podcast/id1268913004?i=1000401113234&mt=2)| [Notes](https://github.com/thetomcraig/total-immersion-podcast/blob/master/episode_notes/23_portugal.md)|
 |  22 | Of All the Episodes of All the Podcasts in the World... | Morocco is discussed |[itunes](https://itunes.apple.com/us/podcast/22-of-all-the-episodes-of-all-the-podcasts-in-the-world/id1268913004?i=1000400606767&mt=2)|[Notes]( https://github.com/thetomcraig/total-immersion-podcast/blob/master/episode_notes/22_morocco.md) |
