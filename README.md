@@ -1,18 +1,23 @@
 Total Immersion
 ===
 
-<img src="https://github.com/thetomcraig/total-immersion-podcast/blob/master/cover.jpg" width="96">
+<div style='text-align:center'>
+    <img src="https://github.com/thetomcraig/total-immersion-podcast/blob/master/cover.jpg" width="96">
+</div>
 
-* Total Immersion is weekly a podcast in which we immerse ourselves in subcultures, proving we know nothing about anything.  
+<p style="text-align: center;">
+Total Immersion is weekly a podcast in which we immerse ourselves in subcultures, proving we know nothing about anything.  
 
 Join us every Wednesday morning as we immerse ourselves in the worlds of Freemasons, Botanists, Flat Earth Theorists and more!  
+</p>
 
+### Listen
 Podcast is available to download or listen from these fine sources:  
 * [Apple Podcasts](https://itunes.apple.com/us/podcast/total-immersion/id1268913004?mt=2)  
 * [Stitcher](http://www.stitcher.com/s?fid=159543&refid=stpr)  
 * [Soundcloud](https://soundcloud.com/totalimmersionpodcast)  
 
-### Show Notes  
+### Episodes
 | Ep. | Title | Description | Listen | Show Notes |  
 | --- | ----- | ----------- | ------ | ---------- |
 |  25 | <TBD> | Airline Pilots are discussed |iTunes| [Notes](https://github.com/thetomcraig/total-immersion-podcast/blob/master/episode_notes/25_pilots.md)|
