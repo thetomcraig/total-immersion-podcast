@@ -1,11 +1,10 @@
 Total Immersion
 ===
 
-<h3 style="text-align: center;" markdown="1">
-    <p>
-        <img src="https://github.com/thetomcraig/total-immersion-podcast/blob/master/cover_updated.jpg" width="450" align="middle">
-    </p>
-</h3>
+
+<p align="center">
+    <img src="https://github.com/thetomcraig/total-immersion-podcast/blob/master/cover_updated.jpg" width="450" align="middle">
+</p>
 
 Total Immersion is weekly a podcast in which we immerse ourselves in subcultures, proving we know nothing about anything.  
 
