@@ -13,7 +13,7 @@
       <itunes:name>Tom Craig</itunes:name>
       <itunes:email>thetomcraig@icloud.com</itunes:email>
     </itunes:owner>
-    <itunes:image href="https://s3-us-west-2.amazonaws.com/total-immersion-podcast/cover.jpg" />
+    <itunes:image href="https://s3-us-west-2.amazonaws.com/total-immersion-podcast/total_immersion_cover.jpg" />
     <itunes:category text="Comedy"/>
     <itunes:explicit>yes</itunes:explicit>
     <lastBuildDate>Wed, 04 Oct 2017 00:00:00 PDT</lastBuildDate>
@@ -26,7 +26,7 @@
       <itunes:subtitle></itunes:subtitle>
       <itunes:summary>Airline Pilots are discussed</itunes:summary>
       <description>Airline Pilots are discussed</description>
-      <itunes:image href="https://s3-us-west-2.amazonaws.com/total-immersion-podcast/cover.jpg" />
+      <itunes:image href="https://s3-us-west-2.amazonaws.com/total-immersion-podcast/total_immersion_cover.jpg" />
       <enclosure url="http://dts.podtrac.com/redirect.mp3/https://s3-us-west-2.amazonaws.com/total-immersion-podcast/EP25+-+Plane+and+Simple.mp3" length="" type="audio/mpeg"/>
       <guid>http://dts.podtrac.com/redirect.mp3/https://s3-us-west-2.amazonaws.com/total-immersion-podcast/EP25+-+Plane+and+Simple.mp3</guid>
       <itunes:duration>32:34</itunes:duration>
@@ -38,7 +38,7 @@
       <itunes:subtitle></itunes:subtitle>
       <itunes:summary>Civil War Reenactors are discussed</itunes:summary>
       <description>Civil War Reenactors are discussed</description>
-      <itunes:image href="https://s3-us-west-2.amazonaws.com/total-immersion-podcast/cover.jpg" />
+      <itunes:image href="https://s3-us-west-2.amazonaws.com/total-immersion-podcast/total_immersion_cover.jpg" />
       <enclosure url="http://dts.podtrac.com/redirect.mp3/https://s3-us-west-2.amazonaws.com/total-immersion-podcast/EP24+-+Lights+Camera+Reenaction.mp3" length="" type="audio/mpeg"/>
       <guid>http://dts.podtrac.com/redirect.mp3/https://s3-us-west-2.amazonaws.com/total-immersion-podcast/EP24+-+Lights+Camera+Reenaction.mp3</guid>
       <itunes:duration>40:02</itunes:duration>
@@ -50,7 +50,7 @@
       <itunes:subtitle></itunes:subtitle>
       <itunes:summary>Portugal is discussed</itunes:summary>
       <description>Portugal is discussed</description>
-      <itunes:image href="https://s3-us-west-2.amazonaws.com/total-immersion-podcast/cover.jpg" />
+      <itunes:image href="https://s3-us-west-2.amazonaws.com/total-immersion-podcast/total_immersion_cover.jpg" />
       <enclosure url="http://dts.podtrac.com/redirect.mp3/https://s3-us-west-2.amazonaws.com/total-immersion-podcast/EP23+-+Portugal+The+Podcast.mp3" length="" type="audio/mpeg"/>
       <guid>http://dts.podtrac.com/redirect.mp3/https://s3-us-west-2.amazonaws.com/total-immersion-podcast/EP23+-+Portugal+The+Podcast.mp3</guid>
       <itunes:duration>35:06</itunes:duration>
@@ -62,7 +62,7 @@
       <itunes:subtitle></itunes:subtitle>
       <itunes:summary>Morocco is discussed</itunes:summary>
       <description>Morocco is discussed</description>
-      <itunes:image href="https://s3-us-west-2.amazonaws.com/total-immersion-podcast/cover.jpg" />
+      <itunes:image href="https://s3-us-west-2.amazonaws.com/total-immersion-podcast/total_immersion_cover.jpg" />
       <enclosure url="http://dts.podtrac.com/redirect.mp3/https://s3-us-west-2.amazonaws.com/total-immersion-podcast/EP22+-+Of+All+the+Episodes.mp3" length="" type="audio/mpeg"/>
       <guid>http://dts.podtrac.com/redirect.mp3/https://s3-us-west-2.amazonaws.com/total-immersion-podcast/EP22+-+Of+All+the+Episodes.mp3</guid>
       <itunes:duration>34:17</itunes:duration>
@@ -74,7 +74,7 @@
       <itunes:subtitle></itunes:subtitle>
       <itunes:summary>Tattoo subculture is discussed</itunes:summary>
       <description>Tattoo subculture is discussed</description>
-      <itunes:image href="https://s3-us-west-2.amazonaws.com/total-immersion-podcast/cover.jpg" />
+      <itunes:image href="https://s3-us-west-2.amazonaws.com/total-immersion-podcast/total_immersion_cover.jpg" />
       <enclosure url="http://dts.podtrac.com/redirect.mp3/https://s3-us-west-2.amazonaws.com/total-immersion-podcast/EP21+-+Tats+All+Folks.mp3" length="" type="audio/mpeg"/>
       <guid>http://dts.podtrac.com/redirect.mp3/https://s3-us-west-2.amazonaws.com/total-immersion-podcast/EP21+-+Tats+All+Folks.mp3</guid>
       <itunes:duration>36:02</itunes:duration>
@@ -86,7 +86,7 @@
       <itunes:subtitle></itunes:subtitle>
       <itunes:summary>The Reptilian conspiracy theory is discussed</itunes:summary>
       <description>The Reptilian conspiracy theory is discussed</description>
-      <itunes:image href="https://s3-us-west-2.amazonaws.com/total-immersion-podcast/cover.jpg" />
+      <itunes:image href="https://s3-us-west-2.amazonaws.com/total-immersion-podcast/total_immersion_cover.jpg" />
       <enclosure url="http://dts.podtrac.com/redirect.mp3/https://s3-us-west-2.amazonaws.com/total-immersion-podcast/EP20+-+Reptotalitarians.mp3" length="" type="audio/mpeg"/>
       <guid>http://dts.podtrac.com/redirect.mp3/https://s3-us-west-2.amazonaws.com/total-immersion-podcast/EP20+-+Reptotalitarians.mp3</guid>
       <itunes:duration>33:30</itunes:duration>
@@ -98,7 +98,7 @@
       <itunes:subtitle></itunes:subtitle>
       <itunes:summary>The economy of Second Life is discussed</itunes:summary>
       <description>The economy of Second  Life is discussed</description>
-      <itunes:image href="https://s3-us-west-2.amazonaws.com/total-immersion-podcast/cover.jpg" />
+      <itunes:image href="https://s3-us-west-2.amazonaws.com/total-immersion-podcast/total_immersion_cover.jpg" />
       <enclosure url="http://dts.podtrac.com/redirect.mp3/https://s3-us-west-2.amazonaws.com/total-immersion-podcast/EP19+-+Its+Still+a+Wonderful+Second+Life.mp3" length="" type="audio/mpeg"/>
       <guid>http://dts.podtrac.com/redirect.mp3/https://s3-us-west-2.amazonaws.com/total-immersion-podcast/EP19+-+Its+Still+a+Wonderful+Second+Life.mp3</guid>
       <itunes:duration>27:59</itunes:duration>
@@ -111,7 +111,7 @@
       <itunes:subtitle></itunes:subtitle>
       <itunes:summary>Second Life is discussed</itunes:summary>
       <description>Second Life is discussed</description>
-      <itunes:image href="https://s3-us-west-2.amazonaws.com/total-immersion-podcast/cover.jpg" />
+      <itunes:image href="https://s3-us-west-2.amazonaws.com/total-immersion-podcast/total_immersion_cover.jpg" />
       <enclosure url="http://dts.podtrac.com/redirect.mp3/https://s3-us-west-2.amazonaws.com/total-immersion-podcast/EP18+-+Its+a+Wonderful+Second+Life.mp3" length="" type="audio/mpeg"/>
       <guid>http://dts.podtrac.com/redirect.mp3/https://s3-us-west-2.amazonaws.com/total-immersion-podcast/EP18+-+Its+a+Wonderful+Second+Life.mp3</guid>
       <itunes:duration>33:47</itunes:duration>
@@ -124,7 +124,7 @@
       <itunes:subtitle></itunes:subtitle>
       <itunes:summary>Flat Earth Society is discussed</itunes:summary>
       <description>Flat Earth Society is discussed</description>
-      <itunes:image href="https://s3-us-west-2.amazonaws.com/total-immersion-podcast/cover.jpg" />
+      <itunes:image href="https://s3-us-west-2.amazonaws.com/total-immersion-podcast/total_immersion_cover.jpg" />
       <enclosure url="http://dts.podtrac.com/redirect.mp3/https://s3-us-west-2.amazonaws.com/total-immersion-podcast/EP17+-+Flattery+Will+Get+You+Nowhere.mp3" length="" type="audio/mpeg"/>
       <guid>http://dts.podtrac.com/redirect.mp3/https://s3-us-west-2.amazonaws.com/total-immersion-podcast/EP17+-+Flattery+Will+Get+You+Nowhere.mp3</guid>
       <itunes:duration>28:02</itunes:duration>
@@ -137,7 +137,7 @@
       <itunes:subtitle></itunes:subtitle>
       <itunes:summary>Insane Clown Posse is discussed</itunes:summary>
       <description>Insane Clown Posse is discussed</description>
-      <itunes:image href="https://s3-us-west-2.amazonaws.com/total-immersion-podcast/cover.jpg" />
+      <itunes:image href="https://s3-us-west-2.amazonaws.com/total-immersion-podcast/total_immersion_cover.jpg" />
       <enclosure url="http://dts.podtrac.com/redirect.mp3/https://s3-us-west-2.amazonaws.com/total-immersion-podcast/EP16+-+Insane+Clown+Podcast.mp3" length="" type="audio/mpeg"/>
       <guid>http://dts.podtrac.com/redirect.mp3/https://s3-us-west-2.amazonaws.com/total-immersion-podcast/EP16+-+Insane+Clown+Podcast.mp3</guid>
       <itunes:duration>27:17</itunes:duration>
@@ -150,7 +150,7 @@
       <itunes:subtitle></itunes:subtitle>
       <itunes:summary>Sex robots are discussed</itunes:summary>
       <description>Sex robots are discussed</description>
-      <itunes:image href="https://s3-us-west-2.amazonaws.com/total-immersion-podcast/cover.jpg" />
+      <itunes:image href="https://s3-us-west-2.amazonaws.com/total-immersion-podcast/total_immersion_cover.jpg" />
       <enclosure url="http://dts.podtrac.com/redirect.mp3/https://s3-us-west-2.amazonaws.com/total-immersion-podcast/EP15+-+Skynet+in+Fishnets.mp3" length="" type="audio/mpeg"/>
       <guid>http://dts.podtrac.com/redirect.mp3/https://s3-us-west-2.amazonaws.com/total-immersion-podcast/EP15+-+Skynet+in+Fishnets.mp3</guid>
       <itunes:duration>38:59</itunes:duration>
@@ -163,7 +163,7 @@
       <itunes:subtitle></itunes:subtitle>
       <itunes:summary>Ufology is discussed</itunes:summary>
       <description>Ufology is discussed</description>
-      <itunes:image href="https://s3-us-west-2.amazonaws.com/total-immersion-podcast/cover.jpg" />
+      <itunes:image href="https://s3-us-west-2.amazonaws.com/total-immersion-podcast/total_immersion_cover.jpg" />
       <enclosure url="http://dts.podtrac.com/redirect.mp3/https://s3-us-west-2.amazonaws.com/total-immersion-podcast/EP14+-+Ground+Control+to+Major+Tom+and+Rylan.mp3" length="" type="audio/mpeg"/>
       <guid>http://dts.podtrac.com/redirect.mp3/https://s3-us-west-2.amazonaws.com/total-immersion-podcast/EP14+-+Ground+Control+to+Major+Tom+and+Rylan.mp3</guid>
       <itunes:duration>30:10</itunes:duration>
@@ -176,7 +176,7 @@
       <itunes:subtitle></itunes:subtitle>
       <itunes:summary>Reborn dolls are discussed</itunes:summary>
       <description>Reborn dolls are discussed</description>
-      <itunes:image href="https://s3-us-west-2.amazonaws.com/total-immersion-podcast/cover.jpg" />
+      <itunes:image href="https://s3-us-west-2.amazonaws.com/total-immersion-podcast/total_immersion_cover.jpg" />
       <enclosure url="http://dts.podtrac.com/redirect.mp3/https://s3-us-west-2.amazonaws.com/total-immersion-podcast/EP13+-+The+Reborn+Identity.mp3" length="" type="audio/mpeg"/>
       <guid>http://dts.podtrac.com/redirect.mp3/https://s3-us-west-2.amazonaws.com/total-immersion-podcast/EP13+-+The+Reborn+Identity.mp3</guid>
       <itunes:duration>38:27</itunes:duration>
@@ -189,7 +189,7 @@
       <itunes:subtitle></itunes:subtitle>
       <itunes:summary>Fantasy Football is discussed</itunes:summary>
       <description>Fantasy Football is discussed</description>
-      <itunes:image href="https://s3-us-west-2.amazonaws.com/total-immersion-podcast/cover.jpg" />
+      <itunes:image href="https://s3-us-west-2.amazonaws.com/total-immersion-podcast/total_immersion_cover.jpg" />
       <enclosure url="http://dts.podtrac.com/redirect.mp3/https://s3-us-west-2.amazonaws.com/total-immersion-podcast/EP12+Fantasy+Footballs+and+Where+to+Find+Them.mp3" length="" type="audio/mpeg"/>
       <guid>http://dts.podtrac.com/redirect.mp3/https://s3-us-west-2.amazonaws.com/total-immersion-podcast/EP12+Fantasy+Footballs+and+Where+to+Find+Them.mp3</guid>
       <itunes:duration>37:31</itunes:duration>
@@ -202,7 +202,7 @@
       <itunes:subtitle></itunes:subtitle>
       <itunes:summary>Lycanthropy is discussed</itunes:summary>
       <description>Lycanthropy is discussed</description>
-      <itunes:image href="https://s3-us-west-2.amazonaws.com/total-immersion-podcast/cover.jpg" />
+      <itunes:image href="https://s3-us-west-2.amazonaws.com/total-immersion-podcast/total_immersion_cover.jpg" />
       <enclosure url="http://dts.podtrac.com/redirect.mp3/https://s3-us-west-2.amazonaws.com/total-immersion-podcast/EP11+Be+a+Were.mp3" length="" type="audio/mpeg"/>
       <guid>http://dts.podtrac.com/redirect.mp3/https://s3-us-west-2.amazonaws.com/total-immersion-podcast/EP11+Be+a+Were.mp3</guid>
       <itunes:duration>39:39</itunes:duration>
@@ -215,7 +215,7 @@
       <itunes:subtitle></itunes:subtitle>
       <itunes:summary>Deaf culture is discussed</itunes:summary>
       <description>Deaf culture is discussed</description>
-      <itunes:image href="https://s3-us-west-2.amazonaws.com/total-immersion-podcast/cover.jpg" />
+      <itunes:image href="https://s3-us-west-2.amazonaws.com/total-immersion-podcast/total_immersion_cover.jpg" />
       <enclosure url="http://dts.podtrac.com/redirect.mp3/https://s3-us-west-2.amazonaws.com/total-immersion-podcast/EP10+-+Most+Deafinitely.mp3" length="" type="audio/mpeg"/>
       <guid>http://dts.podtrac.com/redirect.mp3/https://s3-us-west-2.amazonaws.com/total-immersion-podcast/EP10+-+Most+Deafinitely.mp3</guid>
       <itunes:duration>49:36</itunes:duration>
@@ -228,7 +228,7 @@
       <itunes:subtitle></itunes:subtitle>
       <itunes:summary>Bartending is discussed</itunes:summary>
       <description>Bartending is discussed</description>
-      <itunes:image href="https://s3-us-west-2.amazonaws.com/total-immersion-podcast/cover.jpg" />
+      <itunes:image href="https://s3-us-west-2.amazonaws.com/total-immersion-podcast/total_immersion_cover.jpg" />
       <enclosure url="http://dts.podtrac.com/redirect.mp3/https://s3-us-west-2.amazonaws.com/total-immersion-podcast/EP9+-+So+A+Podcast+Walks+Into+A+Bar....mp3" length="" type="audio/mpeg"/>
       <guid>http://dts.podtrac.com/redirect.mp3/https://s3-us-west-2.amazonaws.com/total-immersion-podcast/EP9+-+So+A+Podcast+Walks+Into+A+Bar....mp3</guid>
       <itunes:duration>38:14</itunes:duration>
@@ -241,7 +241,7 @@
       <itunes:subtitle></itunes:subtitle>
       <itunes:summary>The Darknet is discussed</itunes:summary>
       <description>The Darknet is discussed</description>
-      <itunes:image href="https://s3-us-west-2.amazonaws.com/total-immersion-podcast/cover.jpg" />
+      <itunes:image href="https://s3-us-west-2.amazonaws.com/total-immersion-podcast/total_immersion_cover.jpg" />
       <enclosure url="http://dts.podtrac.com/redirect.mp3/https://s3-us-west-2.amazonaws.com/total-immersion-podcast/EP8+-+The+Dark+Net+Rises.mp3" length="" type="audio/mpeg"/>
       <guid>http://dts.podtrac.com/redirect.mp3/https://s3-us-west-2.amazonaws.com/total-immersion-podcast/EP8+-+The+Dark+Net+Rises.mp3</guid>
       <itunes:duration>48:01</itunes:duration>
@@ -254,7 +254,7 @@
       <itunes:subtitle></itunes:subtitle>
       <itunes:summary>Botany is discussed</itunes:summary>
       <description>Botany is discussed</description>
-      <itunes:image href="https://s3-us-west-2.amazonaws.com/total-immersion-podcast/cover.jpg" />
+      <itunes:image href="https://s3-us-west-2.amazonaws.com/total-immersion-podcast/total_immersion_cover.jpg" />
       <enclosure url="http://dts.podtrac.com/redirect.mp3/https://s3-us-west-2.amazonaws.com/total-immersion-podcast/EP7+-+Orchid+You+Not.mp3" length="" type="audio/mpeg"/>
       <guid>http://dts.podtrac.com/redirect.mp3/https://s3-us-west-2.amazonaws.com/total-immersion-podcast/EP7+-+Orchid+You+Not.mp3</guid>
       <itunes:duration>39:09</itunes:duration>
@@ -267,7 +267,7 @@
       <itunes:subtitle></itunes:subtitle>
       <itunes:summary>Shhh Freemasons are not discussed</itunes:summary>
       <description>Shhh Freemasons are not discussed</description>
-      <itunes:image href="https://s3-us-west-2.amazonaws.com/total-immersion-podcast/cover.jpg" />
+      <itunes:image href="https://s3-us-west-2.amazonaws.com/total-immersion-podcast/total_immersion_cover.jpg" />
       <enclosure url="http://dts.podtrac.com/redirect.mp3/https://s3-us-west-2.amazonaws.com/total-immersion-podcast/EP6+-+Definitely+Not+Freemasons.mp3" length="" type="audio/mpeg"/>
       <guid>http://dts.podtrac.com/redirect.mp3/https://s3-us-west-2.amazonaws.com/total-immersion-podcast/EP6+-+Definitely+Not+Freemasons.mp3</guid>
       <itunes:duration>47:32</itunes:duration>
@@ -280,7 +280,7 @@
       <itunes:subtitle></itunes:subtitle>
       <itunes:summary>Squared Circle (Wrestling) is discussed</itunes:summary>
       <description>Squared Circle (Wrestling) is discussed</description>
-      <itunes:image href="https://s3-us-west-2.amazonaws.com/total-immersion-podcast/cover.jpg" />
+      <itunes:image href="https://s3-us-west-2.amazonaws.com/total-immersion-podcast/total_immersion_cover.jpg" />
       <enclosure url="http://dts.podtrac.com/redirect.mp3/https://s3-us-west-2.amazonaws.com/total-immersion-podcast/EP5+-+Give+Him+the+Chair.mp3" length="" type="audio/mpeg"/>
       <guid>http://dts.podtrac.com/redirect.mp3/https://s3-us-west-2.amazonaws.com/total-immersion-podcast/EP5+-+Give+Him+the+Chair.mp3</guid>
       <itunes:duration>45:05</itunes:duration>
@@ -293,7 +293,7 @@
       <itunes:subtitle></itunes:subtitle>
       <itunes:summary>Ask Men Under 30 is discussed</itunes:summary>
       <description>Ask Men Under 30 is discussed</description>
-      <itunes:image href="https://s3-us-west-2.amazonaws.com/total-immersion-podcast/cover.jpg" />
+      <itunes:image href="https://s3-us-west-2.amazonaws.com/total-immersion-podcast/total_immersion_cover.jpg" />
       <enclosure url="http://dts.podtrac.com/redirect.mp3/https://s3-us-west-2.amazonaws.com/total-immersion-podcast/EP4+-+Twenty+Thousand+Men+Under+the+Sea.mp3" length="" type="audio/mpeg"/>
       <guid>http://dts.podtrac.com/redirect.mp3/https://s3-us-west-2.amazonaws.com/total-immersion-podcast/EP4+-+Twenty+Thousand+Men+Under+the+Sea.mp3</guid>
       <itunes:duration>47:54</itunes:duration>
@@ -306,7 +306,7 @@
       <itunes:subtitle></itunes:subtitle>
       <itunes:summary>HAM Radio and Hats subreddits are discussed</itunes:summary>
       <description>HAM Radio and Hats subreddits are discussed</description>
-      <itunes:image href="https://s3-us-west-2.amazonaws.com/total-immersion-podcast/cover.jpg" />
+      <itunes:image href="https://s3-us-west-2.amazonaws.com/total-immersion-podcast/total_immersion_cover.jpg" />
       <enclosure url="http://dts.podtrac.com/redirect.mp3/https://s3-us-west-2.amazonaws.com/total-immersion-podcast/EP3+-+Green+Hats+and+HAM.mp3" length="" type="audio/mpeg"/>
       <guid>http://dts.podtrac.com/redirect.mp3/https://s3-us-west-2.amazonaws.com/total-immersion-podcast/EP3+-+Green+Hats+and+HAM.mp3</guid>
       <itunes:duration>38:27</itunes:duration>
@@ -319,7 +319,7 @@
       <itunes:subtitle></itunes:subtitle>
       <itunes:summary>Typography and Night Shift subreddits are discussed</itunes:summary>
       <description>Typography and Night Shift subreddits are discussed</description>
-      <itunes:image href="https://s3-us-west-2.amazonaws.com/total-immersion-podcast/cover.jpg" />
+      <itunes:image href="https://s3-us-west-2.amazonaws.com/total-immersion-podcast/total_immersion_cover.jpg" />
       <enclosure url="http://dts.podtrac.com/redirect.mp3/https://s3-us-west-2.amazonaws.com/total-immersion-podcast/EP2+-+Ampersands+After+Dark.mp3" length="" type="audio/mpeg"/>
       <guid>http://dts.podtrac.com/redirect.mp3/https://s3-us-west-2.amazonaws.com/total-immersion-podcast/EP2+-+Ampersands+After+Dark.mp3</guid>
       <itunes:duration>35:34</itunes:duration>
@@ -332,7 +332,7 @@
       <itunes:subtitle></itunes:subtitle>
       <itunes:summary>Pens and Terrain Building subreddits are discussed</itunes:summary>
       <description>Pens and Terrain Building subreddits are discussed</description>
-      <itunes:image href="https://s3-us-west-2.amazonaws.com/total-immersion-podcast/cover.jpg" />
+      <itunes:image href="https://s3-us-west-2.amazonaws.com/total-immersion-podcast/total_immersion_cover.jpg" />
       <enclosure url="http://dts.podtrac.com/redirect.mp3/https://s3-us-west-2.amazonaws.com/total-immersion-podcast/EP1+-+Is+That+a+Pen+in+Your+Pocket.mp3" length="" type="audio/mpeg"/>
       <guid>http://dts.podtrac.com/redirect.mp3/https://s3-us-west-2.amazonaws.com/total-immersion-podcast/EP1+-+Is+That+a+Pen+in+Your+Pocket.mp3</guid>
       <itunes:duration>44:49</itunes:duration>
@@ -345,7 +345,7 @@
         <itunes:subtitle></itunes:subtitle>
         <itunes:summary>Rylan and Tom catch up</itunes:summary>
         <description>Rylan and Tom catch up</description>
-        <itunes:image href="https://s3-us-west-2.amazonaws.com/total-immersion-podcast/cover.jpg" />
+        <itunes:image href="https://s3-us-west-2.amazonaws.com/total-immersion-podcast/total_immersion_cover.jpg" />
         <enclosure url="http://dts.podtrac.com/redirect.mp3/https://s3-us-west-2.amazonaws.com/total-immersion-podcast/pilot.mp3" length="" type="audio/mpeg"/>
         <guid>http://dts.podtrac.com/redirect.mp3/https://s3-us-west-2.amazonaws.com/total-immersion-podcast/pilot.mp3</guid>
         <pubDate>Sun Aug 06 2017 16:21:44 GMT-0700</pubDate>
