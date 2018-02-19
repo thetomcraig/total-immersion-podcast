@@ -8,7 +8,7 @@ Does not follow the scientific method; no scientific study has ever proved the e
 
 #### History
 * 1882 - Society for Psychical Research
-    *Dates back to 18th century - active today.  
+    * Dates back to 18th century - active today.  
     * Goal: Understand paranormal events and psychic abilities
     * Members included: Willian F. Barrett, Stainton Moses, Charles Massey, Edmund Gurney, Hensligh Wedgwood.
         * Hensligh Wedgwood was the cousin of Charles Darwin, and his sister married Darwin
