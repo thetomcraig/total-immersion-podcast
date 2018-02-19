@@ -49,11 +49,15 @@ Hunters attempt to record paranormal activity with:
         * EVP - Electronic Voice Phenomenon
     * Amazon Reviews:
         > The device malfunctions quite a bit...and no its not ghosts....  
+
         > Great update to the (SB) Spirit Box 7! Personally, I (for some reason) never really had much luck with the old SB-7, but on this model, I was receiving 'intelligent responses,' immediately!
+
         > found it a bit more complicated than the more basic model and most of the television shows seem to use the more basic ones and perhaps this is why? My investigate partner does not like these and the loudness and often lack of getting a signal in the house's we go to caused me to resell it.  
+
         > Works great. I've heard clear words and a few complete sentences while using during paranormal investigations. Easy to set up to minimize extraneous radio signals. Highly recommend for every paranormal toolkit.
 
         > does not work, asked a thousand questions nothing!!I need to hear from someone close to me! and nothing.
+
         > This is a great product. It is well made and it works great. I am someone that definitely attracts spirits, so to be able to communicate like this with them is amazing. The only problem is, (and there is probably no way around it since it uses radio waves) since it's a radio, it picks up many radio stations, so it can be hard to tell sometimes if you are getting a spirit voice or just a radio station.
 
 #### The People
