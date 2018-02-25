@@ -19,7 +19,8 @@ Podcast is available to download or listen from these fine sources:
 ### Episodes
 | Ep. | Title | Description | Listen | Show Notes |  
 | --- | ----- | ----------- | ------ | ---------- |
-|  27 | <TBD> |Micronations are discussed|[iTunes]()| [Notes]() |
+|  28 | <TBD> |Micronations are discussed|[iTunes]()| [Notes](https://github.com/thetomcraig/total-immersion-podcast/blob/master/episode_notes/28_micro_nations.md) |
+|  27 | <TBD> |Ghost Hunting is Discussed|[iTunes]()| [Notes](https://github.com/thetomcraig/total-immersion-podcast/blob/master/episode_notes/27_ghost_hunting.md) |
 |  26 | We Let The Dogs Out | Puppy Play is Discussed |[iTunes](https://itunes.apple.com/us/podcast/26-we-let-the-dogs-out/id1268913004?i=1000403615165&mt=2) | [Notes](https://github.com/thetomcraig/total-immersion-podcast/blob/master/episode_notes/26_puppy_people.md)|
 |  25 | Plane and Simple | Airline Pilots are Discussed |[iTunes](https://itunes.apple.com/us/podcast/25-plane-and-simple/id1268913004?i=1000402336344&mt=2)| [Notes](https://github.com/thetomcraig/total-immersion-podcast/blob/master/episode_notes/25_pilots.md)|
 |  24 | Lights, Camera, Reenaction! | Civil War Reenactment is discussed |[iTunes](https://itunes.apple.com/us/podcast/24-lights-camera-reenaction/id1268913004?i=1000401653075&mt=2) | [Notes](https://github.com/thetomcraig/total-immersion-podcast/blob/master/episode_notes/24_reenacters.md)|
