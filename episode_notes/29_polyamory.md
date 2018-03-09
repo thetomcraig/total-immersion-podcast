@@ -19,7 +19,7 @@ Polyamory
     * Generally speaking, most religions are against this, except Unitarianism
       * Unitarian Universalists for Polyamory Awareness, founded in 2001, has engaged in ongoing education and advocacy for greater understanding and acceptance of polyamory within the Unitarian Universalist Association.
 
-#### Mirriage
+#### Marriage
   * Many countires follow monogamous norms
   * Bigamy - Marrying one person while being married to another  
   * In most countires, legally it's okay to have sexual/romatic relationships with multiple partners
@@ -36,13 +36,13 @@ Polyamory
 
 #### Reddit
   * Lots of pride about this lifestyle
-  * Cross over of communities; LGBTM 
+  * Cross over of communities; LGBQTM 
     * Some people attracted to their male and female relationship partners
   * Lots of posts with large beds that can fit 3 people
     * Three seems to be the most common number of individuals in a relationship
     * Very supportive and positive community online 
   * Transitions are difficult
-    * Married heterosecual couples in which one partner decides they're gay
+    * Married heterosexual couples in which one partner decides they're gay
   * Successful polyamorous marriages
   
 #### Conclusion
