@@ -25,10 +25,10 @@
       <itunes:author></itunes:author>
       <itunes:subtitle></itunes:subtitle>
       <itunes:summary>Micronations are Discussed</itunes:summary>
-      <description>Micronations are Discussed<</description>
+      <description>Micronations are Discussed</description>
       <itunes:image href="https://s3-us-west-2.amazonaws.com/total-immersion-podcast/total_immersion_cover.jpg" />
-      <enclosure url="http://dts.podtrac.com/redirect.mp3/hhttps://s3-us-west-2.amazonaws.com/total-immersion-podcast/EP28+-+It's+Not+the+Size+of+the+Nation%E2%80%A6.mp3" length="" type="audio/mpeg"/>
-      <guid>http://dts.podtrac.com/redirect.mp3/hhttps://s3-us-west-2.amazonaws.com/total-immersion-podcast/EP28+-+It's+Not+the+Size+of+the+Nation%E2%80%A6.mp3</guid>
+      <enclosure url="http://dts.podtrac.com/redirect.mp3/https://s3-us-west-2.amazonaws.com/total-immersion-podcast/EP28+-+It's+Not+the+Size+of+the+Nation%E2%80%A6.mp3" length="" type="audio/mpeg"/>
+      <guid>http://dts.podtrac.com/redirect.mp3/https://s3-us-west-2.amazonaws.com/total-immersion-podcast/EP28+-+It's+Not+the+Size+of+the+Nation%E2%80%A6.mp3</guid>
       <itunes:duration>33:41</itunes:duration>
       <pubDate>Wed Mar 7 2018 00:00:00 GMT-0700</pubDate>
     </item>
