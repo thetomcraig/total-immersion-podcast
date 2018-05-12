@@ -58,9 +58,9 @@ Doomsday Preppers
 ### Weapons
 - Pretty popular catagory
   - I suspect this is the main interest for a lot of people on these websites
-> The AR15 is relatively affordable with base models starting out in the $600 range, most mid-level rifles going for $1000 (+ or – $200) and upper end custom models easily eclipsing the $3000 range.
-> We currently live in a world of airport pat-downs, forced healthcare, mandatory vaccinations, and the unauthorized surveillance of our whereabouts and our communications. If many politicians have their way, soon we may lose our right to bear arms and defend ourselves.
-- Seems like a link with right wing ideology...
+> The AR15 is relatively affordable with base models starting out in the $600 range, most mid-level rifles going for $1000 (+ or – $200) and upper end custom models easily eclipsing the $3000 range.  
+> We currently live in a world of airport pat-downs, forced healthcare, mandatory vaccinations, and the unauthorized surveillance of our whereabouts and our communications. If many politicians have their way, soon we may lose our right to bear arms and defend ourselves.  
+- Seems like a link with right wing ideology...  
 
 ### Non-material
 - For long term, you basically need to be a farmer
