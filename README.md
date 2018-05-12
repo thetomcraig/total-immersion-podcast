@@ -19,6 +19,9 @@ Podcast is available to download or listen from these fine sources:
 ### Episodes
 | Ep. | Title | Description | Listen | Show Notes |  
 | --- | ----- | ----------- | ------ | ---------- |
+|  31 | TBD | Doomsday Preppers are discussed|[iTunes]()| [Notes](https://github.com/thetomcraig/total-immersion-podcast/blob/master/episode_notes/31_doomsday_preppers.md) |
+|  30 | To Thine Own Self be True Crime | True Crime enthusiasts are discussed |[iTunes]()| [Notes](https://github.com/thetomcraig/total-immersion-podcast/blob/master/episode_notes/30_true_crime.md) |
+|  29 | Round Rubbin' | Polyamory and Polygamy are discussed |[iTunes]()| [Notes](https://github.com/thetomcraig/total-immersion-podcast/blob/master/episode_notes/29_polyamory.md) |
 |  28 | It's not the Size of the Nation... | Micronations are discussed|[iTunes](https://itunes.apple.com/us/podcast/28-its-not-the-size-of-the-nation/id1268913004?i=1000405411098&mt=2)| [Notes](https://github.com/thetomcraig/total-immersion-podcast/blob/master/episode_notes/28_micro_nations.md) |
 |  27 | Paranormal Podtivity |Ghost Hunting is Discussed|[iTunes](https://itunes.apple.com/us/podcast/27-paranormal-podtivity/id1268913004?i=1000404183702&mt=2)| [Notes](https://github.com/thetomcraig/total-immersion-podcast/blob/master/episode_notes/27_ghost_hunting.md) |
 |  26 | We Let The Dogs Out | Puppy Play is Discussed |[iTunes](https://itunes.apple.com/us/podcast/26-we-let-the-dogs-out/id1268913004?i=1000403615165&mt=2) | [Notes](https://github.com/thetomcraig/total-immersion-podcast/blob/master/episode_notes/26_puppy_people.md)|
