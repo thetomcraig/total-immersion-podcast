@@ -1,66 +1,53 @@
-Stans
+Bronies
 ===
 
-### What's this all about
-- People who are realy big fans and celebrities
-- Often female pop stars
-> Stans aren't just superfans, they're a community of like-minded souls coming together, unified under the banner of wanting to see their chosen celebrity flourish. Friendships are made, bonding over a shared love of an artist, their work, their achievements. --Huffpo
-- Stan can be a noun or verb
+### What's this all about & History
+* Grown men who are big fan of My Little Pony
+* Franchise has been around since the '80s, but animated series created in 2010 - _My Little Pony: Friendship is Magic_
+  * Lauren Faust was put in charge of this new rendition (worked on Power Puff Girls), because Hasbro felt like the
+    brand was tanking
+  * She created a more intelligent show similar to other cartoons/animated films that feature writing that appeal to adults and children
+  * This caused resurgence of popularity among girls and adult men  
 
-### Origins
-- Fans have always existed (obvi)
-- "Stan" comes from the 2000 era Eminem song "Stan"
-  - The song is about a guy named "Stan" who is an Eminem super fan who sends letters to Eminem and eventually ties up
-    Eminem's girlfried in his car and drives them into a river killing both
-- Also been called a portmanteau of "stalker" and "fan"
-
-### What makes a superfan?
-- Similar to the traditional idea of obsession
-- Difference here is the internet, so chance for larger and more dynamic community
-
-#### Obsession
-- Similar to addition
-- Fascination with a single thing - person, place, etc
-- Makes us feel purpose
-- Leads to neglect of other parts of our life
-- Losing the object of obsession is devistating as we have linked it with happinesso
-- Obesssing over something is similar to 'rumination'
-  - Cycle, and stress inducing
-- We have the propensity for obsession and rumination
-
-- My theory
-  - Like religion and sports and others, we like to submit to a higher power
-  - Celebrites are higher powers
-  - With the www, we can feel like they're actually _talking_ to us
-    - We get new info and maybe a back and forth; it's dynamic
-
-#### Other characteristics
-- `Stanning` is the term tht refers to actively being a stan for someone famous
-  - Could mean you follow all their online posts
-  - Read up on them, wikipedia, tabloids, etc
-  - Maybe fanfic, tattoos, etc
-
-### Internet
-- Twitter
-  - Subcultures exist within Twitter for various stans
-  - Have their own words, phrases etc
-  - Waring factions... more on that in a sec
-  - People posting art, memes, pictures
-  - Total shitshow
+* Most men are "steriotypical" men
+  > "I can build a custom motorcycle from scratch, can weld, and worked as a lube guy at a GM dealership,” Dustykatt says. “And on top of that, I watch a show for little girls."
 
 
-### Stan Wars
-- Lists `Stanbases`: The Beliebers, The Hive, etc
-- Bio pages include sections:
-  - Stan version of the truth
-  - Hater version of the truth
-  - Advantages and disadvantages of Stanning for the person
+#### Communities
+* Online
+  * Brony community started on 4Chan
+    * `brony` comes from the 4Chan URL that starts with `/b/`
+    * Men watching this show because children/relatives were watching it
+    * Posted online about how the show was actually pretty good
+    * More men watched because of this praise
+    * Small community created
 
-- Britney Spears stan page
-  - Theories that she has died and now a puppet/hologram
+* IRL
+  * BronyCon
+    * Over 10k attendees
+    * Lots of people involved in the show actually embrace the bronies
+    * The show will actually mention content that bronies produce
 
-- Beyonce
-  - Stuff I found incomprehensible
-  > First of all, I don't really like ninja music. Now before you act all offended, I would never (publicly) call any Black person a ninja, I’m just saying that Beyoncé usually makes ninja music. R&B/urban/Black people music has never made much sense to me; it's just a bunch of hollering, jungle noises and drums as far as I'm concerned (Attention all R&B artists: You're not in Africa anymore. Please call Dr. Luke! NOW!). I guess Beyoncé thinks she’s too good to use the same overused beats, sounds and producers as her peers, but I don’t see the point in releasing music for any purpose other than going Top 5 on the Hot 100 or appeasing Caucasian bottoms and 12 year olds. Let me just be clear, I don’t completely hate Black music or Black artists. I’ll listen to Black music if it’s performed by White Artists (Adele, Eminem, Amy Winehouse) and I’ll listen to Black artists as long as they are performing European-inspired music, but I don't really care for most of Beyoncé's discography. See, when I'm looking for songs to twerk my taint to, I want less "Treat me with respect and put a ring on it" and more "Fuck me raw and text me when you feel like it". 
+#### Bronies themselves
+* Just regular dudes
+* _Very_ earnest love of the show
+  * My Little Pony is not a "guilty pleasure"
+* But these are the bronies we see on the news/internet
+  * This is pretty common for lots of fan groups though
+* Seems like they are very outspoken and pushy
+  * Perhaps these are the ones we see most often
 
+#### Criticism
+* This is somehow immature
+* Maybe indicitive of something wrong the the fans
+* Maybe it serves some ulterior motive
+* It's just... weird
+* It comes down to a gender thing: this show is for _girls_
 
+#### Conclusion
+> We’re supposed to chug beer, ride motorcycles, be degrading to women, and like explosions. That’s what’s ingrained in our brains from the minute you’re born and put in a crib. Well, I like what I like. I don’t need society to tell me what I like. And that’s all there is to it.
+* Why is there so much hate about this particular group?
+  * It seems kind of rapey/pervy... But why?
+    * Can we dig deeper than "its weird"?
+
+* I watched an episode of this show... It was pretty normal
