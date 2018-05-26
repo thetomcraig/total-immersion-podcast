@@ -10,4 +10,3 @@
     <itunes:duration>TIME</itunes:duration>
     <pubDate>DATE 00:00:00 GMT-0700</pubDate>
 </item>
-<item>
