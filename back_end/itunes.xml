@@ -21,6 +21,18 @@
     <pubDate>Wed, 04 Oct 2017 00:00:00 PDT</pubDate>
 
     <item>
+        <title>33 - My Little Podcast</title>
+        <itunes:author></itunes:author>
+        <itunes:subtitle></itunes:subtitle>
+        <itunes:summary>Bronies (Fans of My Little Pony) are discussed</itunes:summary>
+        <description>Bronies (Fans of My Little Pony) are discussed</description>
+        <itunes:image href="https://s3-us-west-2.amazonaws.com/total-immersion-podcast/total_immersion_cover.jpg" />
+        <enclosure url="http://dts.podtrac.com/redirect.mp3/https://s3-us-west-2.amazonaws.com/total-immersion-podcast/EP33+-+My+Little+Podcast.mp3" length="" type="audio/mpeg"/>
+        <guid>http://dts.podtrac.com/redirect.mp3/https://s3-us-west-2.amazonaws.com/total-immersion-podcast/EP33+-+My+Little+Podcast.mp3</guid>
+        <itunes:duration>36:34</itunes:duration>
+        <pubDate>Fri, 1, Jun 00:00:00 GMT-0700</pubDate>
+    </item>
+    <item>
         <title>32 - What's the Plan Stan</title>
         <itunes:author></itunes:author>
         <itunes:subtitle></itunes:subtitle>
