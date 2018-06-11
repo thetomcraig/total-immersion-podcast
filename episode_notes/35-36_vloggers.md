@@ -64,11 +64,15 @@ Genealogists
 * Once you're on board you have to post in the fashion dictated by the brand/company that's paying you
 
 
-
-
-* Social Media Participant
-
 ### Social Media Influencer
+* Very similar to Brand Ambassador, but more about swaying large sections of social media users
+* Not tie to a specific brand or product or company` w
+
+
+### Conclusion
+* This is whack
+* So many new roles and jobes and shit
+  * I saw this one on the Bachelorete - `Social Media Participant`
 
 
 ## Part 2/2 - Youtubers
@@ -106,7 +110,7 @@ Genealogists
     > In other online video clips, Paul is seen running around the city with dead fish in his hands, thrusting them into the faces of passers-by and rubbing them on car windows.
     > He also buys a game console from a street market, throws it on the floor and demands a refund on the grounds that it is "much-o broken-o". He subsequently dressed up as Pikachu and threw a ball at pedestrians; when police intervened, he threw the ball at them.
 
-#### Conslusion
+### Conclusion
 * This has really changed how we view celebrity
   * Anyone can be a celebrity with varying levels of talent
   * Do just about anything for views
@@ -119,5 +123,6 @@ Genealogists
     * This pertains to everyday people online as well
     >  You don’t have to be a big YouTube star to think about when you make a relationship Instagram official, how much a partner should be mentioned on your social media feeds, or even what labels you publicly use for one another
   * Liza Koshy and David Dobrik
-
-
+    * Individual and joint brands, broke up and kept it a secret for 6 months
+    * Posted a video about the breakup
+    * Actaully kind of cool
