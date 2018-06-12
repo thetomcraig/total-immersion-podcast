@@ -21,6 +21,18 @@
     <pubDate>Wed, 04 Oct 2017 00:00:00 PDT</pubDate>
 
     <item>
+        <title>TEST TEST TEST</title>
+        <itunes:author></itunes:author>
+        <itunes:subtitle></itunes:subtitle>
+        <itunes:summary>Genealogy is discussed</itunes:summary>
+        <description>Genealogy is discussed</description>
+        <itunes:image href="https://s3-us-west-2.amazonaws.com/total-immersion-podcast/total_immersion_cover.jpg" />
+        <enclosure url="https://github.com/thetomcraig/total-immersion-podcast/blob/master/Episodes/EP1%20-%20Is%20That%20a%20Pen%20in%20Your%20Pocket.mp3" length="" type="audio/mpeg"/>
+        <guid>https://github.com/thetomcraig/total-immersion-podcast/blob/master/Episodes/EP1%20-%20Is%20That%20a%20Pen%20in%20Your%20Pocket.mp3</guid>
+        <itunes:duration>29:59</itunes:duration>
+        <pubDate>Fri, 8, Jun 00:00:00 GMT-0700</pubDate>
+    </item>
+    <item>
         <title>34 - Let Me Get in your Genes</title>
         <itunes:author></itunes:author>
         <itunes:subtitle></itunes:subtitle>
