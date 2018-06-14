@@ -1,4 +1,4 @@
-Vlogging Pt. 1 - Brand Ambassadors
+Vlogging Pt. 2 - Brand Ambassadors
 ===
 
 ### What's this all about & History
