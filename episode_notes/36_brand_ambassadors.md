@@ -26,7 +26,7 @@ Vlogging Pt. 2 - Brand Ambassadors
   * Questlove
 * This has been around forever, but w/ internet it's become cheaper and easier for anyone to be an abassador
 * Instagram has made it possible to reverse the process
-  * Rather than companies picking people like celbrities, individuals can prove themselves (to the brand) worthy of being ambassadors
+  * Rather than companies picking people like celebrities, individuals can prove themselves (to the brand) worthy of being ambassadors
   * There is an art and a set of rules to doing this
     * Consistently posting quality, relavant, cohesive content
     * Using the right hashtags and descriptions
