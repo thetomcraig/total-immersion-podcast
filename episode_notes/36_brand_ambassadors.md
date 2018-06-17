@@ -8,23 +8,18 @@ Vlogging Pt. 2 - Brand Ambassadors
   * 2006 - 2010ish
     * More advances cameras with ability to upload + good cameras
     * Big increase in use submitted vlog-like content
-  * 2010
-    * VidCon starts
-      * Largest in-person gathering of 'internet creators', viewers, representatives
-        * WTF is with these bs roles?
-      * Showcases changes in entertainment/education/information sharing
-    * Instagram launches
-      * Big deal for sharing pics/vids
+    * Lots more submissions
+    * "Content Crators" is a new profession
   * 2011
     * Snapchat lanuches
       * Also big deal for sharing this stuff
 
 * Lots of bullshit jobs and roles have been created
+  * COntent Creators
   * Social media influencer
   * Brand ambassator
 
 
-## Part 1/2 Instagram et. all
 ### Brand Ambassador
 * Person who is hired to represent a brand; show it off
 * This person should embody the corporate identity
