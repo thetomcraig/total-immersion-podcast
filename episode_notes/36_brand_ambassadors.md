@@ -15,7 +15,7 @@ Vlogging Pt. 2 - Brand Ambassadors
       * Also big deal for sharing this stuff
 
 * Lots of bullshit jobs and roles have been created
-  * COntent Creators
+  * Content Creators
   * Social media influencer
   * Brand ambassator
 
