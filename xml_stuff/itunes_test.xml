@@ -13,7 +13,7 @@
       <itunes:name>Tom Craig</itunes:name>
       <itunes:email>thetomcraig@icloud.com</itunes:email>
     </itunes:owner>
-    <itunes:image href="https://s3-us-west-2.amazonaws.com/total-immersion-podcast/total_immersion_cover.jpg" />
+    <itunes:image href="http://s3-us-west-2.amazonaws.com/total-immersion-podcast/total_immersion_cover.jpg" />
     <itunes:category text="Comedy"/>
     <itunes:explicit>yes</itunes:explicit>
     <lastBuildDate>Wed, 04 Oct 2017 00:00:00 PDT</lastBuildDate>
@@ -27,10 +27,10 @@
         <itunes:summary>Social Media Influencers are discussed</itunes:summary>
         <description>Social Media Influencers are discussed</description>
         <itunes:image href="https://s3-us-west-2.amazonaws.com/total-immersion-podcast/total_immersion_cover.jpg" />
-        <enclosure url="http://dts.podtrac.com/redirect.mp3/https://s3-us-west-2.amazonaws.com/total-immersion-podcast/EP36+-+Instagrammy+Nominations+2018+Announced+LIVE+on+Total+Immersion.mp3" length="" type="audio/mpeg"/>
+        <enclosure url="http://dts.podtrac.com/redirect.mp3/https://s3-us-west-2.amazonaws.com/total-immersion-podcast/EP36+-+Instagrammy+Nominations+2018+Announced+LIVE+on+Total+Immersion.mp3" length="85233856" type="audio/mpeg"/>
         <guid>http://dts.podtrac.com/redirect.mp3/https://s3-us-west-2.amazonaws.com/total-immersion-podcast/EP36+-+Instagrammy+Nominations+2018+Announced+LIVE+on+Total+Immersion.mp3</guid>
         <itunes:duration>42:56</itunes:duration>
-        <pubDate>Fri, 22, Jun 00:00:00 GMT-0700</pubDate>
+        <pubDate>Fri, 22, Jun 08:00:00 PDT</pubDate>
     </item>
     <item>
         <title>35 - TOM AND RYLAN REACT TO YOUTUBE - Official Announcement Trailer 2018</title>
@@ -42,7 +42,7 @@
         <enclosure url="http://dts.podtrac.com/redirect.mp3/s3-us-west-2.amazonaws.com/total-immersion-podcast/EP35+-+TOM+AND+RYLAN+REACT+TO+YOUTUBE+-+Official+Announcement+Trailer+2018.mp3" length="" type="audio/mpeg"/>
         <guid>http://dts.podtrac.com/redirect.mp3/s3-us-west-2.amazonaws.com/total-immersion-podcast/EP35+-+TOM+AND+RYLAN+REACT+TO+YOUTUBE+-+Official+Announcement+Trailer+2018.mp3</guid>
         <itunes:duration>35:31</itunes:duration>
-        <pubDate>Fri Jun 15 2018 00:00:00 GMT-0700</pubDate>
+        <pubDate>Fri, 15, Jun 00:00:00 GMT-0700</pubDate>
     </item>
     <item>
         <title>34 - Let Me Get in your Genes</title>
@@ -54,7 +54,7 @@
         <enclosure url="http://dts.podtrac.com/redirect.mp3/s3-us-west-2.amazonaws.com/total-immersion-podcast/EP34+-+Let+Me+Get+in+Your+Genes.mp3" length="" type="audio/mpeg"/>
         <guid>http://dts.podtrac.com/redirect.mp3/s3-us-west-2.amazonaws.com/total-immersion-podcast/EP34+-+Let+Me+Get+in+Your+Genes.mp3</guid>
         <itunes:duration>29:59</itunes:duration>
-        <pubDate>Fri Jun 8 2018 00:00:00 GMT-0700</pubDate>
+        <pubDate>Fri, 8, Jun 00:00:00 GMT-0700</pubDate>
     </item>
     <item>
         <title>33 - My Little Podcast</title>
@@ -66,7 +66,7 @@
         <enclosure url="http://dts.podtrac.com/redirect.mp3/s3-us-west-2.amazonaws.com/total-immersion-podcast/EP33+-+My+Little+Podcast.mp3" length="" type="audio/mpeg"/>
         <guid>http://dts.podtrac.com/redirect.mp3/s3-us-west-2.amazonaws.com/total-immersion-podcast/EP33+-+My+Little+Podcast.mp3</guid>
         <itunes:duration>36:34</itunes:duration>
-        <pubDate>Fri Jun 1 2018 00:00:00 GMT-0700</pubDate>
+        <pubDate>Fri, 1, Jun 00:00:00 GMT-0700</pubDate>
     </item>
     <item>
         <title>32 - What's the Plan Stan</title>
@@ -78,7 +78,7 @@
         <enclosure url="http://dts.podtrac.com/redirect.mp3/s3-us-west-2.amazonaws.com/total-immersion-podcast/EP32+-+What's+the+Plan+Stan.mp3" length="" type="audio/mpeg"/>
         <guid>http://dts.podtrac.com/redirect.mp3/s3-us-west-2.amazonaws.com/total-immersion-podcast/EP32+-+What's+the+Plan+Stan.mp3</guid>
         <itunes:duration>36:25</itunes:duration>
-        <pubDate>Fri May 25 2018 00:00:00 GMT-0700</pubDate>
+        <pubDate>Fri, 25, May 00:00:00 GMT-0700</pubDate>
     </item>
 
     <item>
@@ -91,7 +91,7 @@
         <enclosure url="http://dts.podtrac.com/redirect.mp3/s3-us-west-2.amazonaws.com/total-immersion-podcast/EP31+-+The+Podcast+After+Tomorrow.mp3" length="" type="audio/mpeg"/>
         <guid>http://dts.podtrac.com/redirect.mp3/s3-us-west-2.amazonaws.com/total-immersion-podcast/EP31+-+The+Podcast+After+Tomorrow.mp3</guid>
         <itunes:duration>39:05</itunes:duration>
-        <pubDate>Fri May 18 2018 00:00:00 GMT-0700</pubDate>
+        <pubDate>Fri, 18 May 00:00:00 GMT-0700</pubDate>
     </item>
 
     <item>
