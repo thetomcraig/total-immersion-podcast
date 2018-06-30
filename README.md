@@ -1,4 +1,4 @@
-Total Immersion
+Total Immersion Podcast
 ===
 
 
@@ -6,7 +6,7 @@ Total Immersion
     <img src="https://github.com/thetomcraig/total-immersion-podcast/blob/master/cover_updated.jpg" width="450" align="middle">
 </p>
 
-Total Immersion is weekly a podcast in which we immerse ourselves in subcultures, proving we know nothing about anything.  
+> Immersing ourselves in subcultures, proving we know nothing about anything.  
 
 Join us every Wednesday morning as we immerse ourselves in the worlds of Freemasons, Botanists, Flat Earth Theorists and more!  
 
