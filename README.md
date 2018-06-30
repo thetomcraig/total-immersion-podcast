@@ -3,7 +3,7 @@ Total Immersion
 
 
 <p align="center">
-    <img src="https://github.com/thetomcraig/total-immersion-podcast/blob/master/cover_updated.jpg" width="450" align="middle">
+    <img src="https://github.com/thetomcraig/total-immersion-podcast/blob/master/Images/cover_updated.jpg" width="450" align="middle">
 </p>
 
 Total Immersion is weekly a podcast in which we immerse ourselves in subcultures, proving we know nothing about anything.  
@@ -19,7 +19,12 @@ Podcast is available to download or listen from these fine sources:
 ### Episodes
 | Season | Ep Overall | Ep. In Season  | Title | Description | Listen | Show Notes |  
 | ------ | ---------- | -------------- | ----- | ----------- | ------ | ---------- |
-| 2 |  31 |1| TBD | Doomsday Preppers are discussed|[iTunes]()| [Notes](https://github.com/thetomcraig/total-immersion-podcast/blob/master/episode_notes/31_doomsday_preppers.md) |
+| 2 |  36 |6| Instagrammy Nominations 2018 Announced LIVE on Total Immersion| Social Media Influencers are discussed|[iTunes](https://itunes.apple.com/us/podcast/36-instagrammy-nominations-2018-announced-live-on-total/id1268913004?i=1000414440521&mt=2)| [Notes](https://github.com/thetomcraig/total-immersion-podcast/blob/master/episode_notes/36_brand_ambassadors.md) |
+| 2 |  35 |5| TOM AND RYLAN REACT TO YOUTUBE - Official Announcement Trailer 2018 | Vlogging and Youtubers are discussed|[iTunes](https://itunes.apple.com/us/podcast/35-tom-rylan-react-to-youtube-official-announcement/id1268913004?i=1000414440520&mt=2)| [Notes](https://github.com/thetomcraig/total-immersion-podcast/blob/master/episode_notes/35_youtubers.md) |
+| 2 |  34 |4| Let Me Get in Your Genes| Genealogy is discussed|[iTunes](https://itunes.apple.com/us/podcast/34-let-me-get-in-your-genes/id1268913004?i=1000414440630&mt=2)| [Notes](https://github.com/thetomcraig/total-immersion-podcast/blob/master/episode_notes/34_genealogists.md) |
+| 2 |  33 |3| My Little Podcast |Bronies (Fans of My Little Pony) are discussed|[iTunes](https://itunes.apple.com/us/podcast/33-my-little-podcast/id1268913004?i=1000414440637&mt=2)| [Notes](https://github.com/thetomcraig/total-immersion-podcast/blob/master/episode_notes/33_bronies.md) |
+| 2 |  32 |2| What's the Plan Stan | Stans (Super Fans) are discussed|[iTunes](https://itunes.apple.com/us/podcast/32-whats-the-plan-stan/id1268913004?i=1000414440525&mt=2)| [Notes](https://github.com/thetomcraig/total-immersion-podcast/blob/master/episode_notes/32_Stans.md) |
+| 2 |  31 |1| The Podcast After Tomorrow | Doomsday Preppers are discussed|[iTunes](https://itunes.apple.com/us/podcast/31-the-podcast-after-tomorrow/id1268913004?i=1000414440531&mt=2) | [Notes](https://github.com/thetomcraig/total-immersion-podcast/blob/master/episode_notes/31_doomsday_preppers.md) |
 | 1 |  30 |30 | To Thine Own Self be True Crime | True Crime enthusiasts are discussed |[iTunes]()| [Notes](https://github.com/thetomcraig/total-immersion-podcast/blob/master/episode_notes/30_true_crime.md) |
 | 1 |  29 |29 | Round Rubbin' | Polyamory and Polygamy are discussed |[iTunes]()| [Notes](https://github.com/thetomcraig/total-immersion-podcast/blob/master/episode_notes/29_polyamory.md) |
 | 1 |  28 |28 | It's not the Size of the Nation... | Micronations are discussed|[iTunes](https://itunes.apple.com/us/podcast/28-its-not-the-size-of-the-nation/id1268913004?i=1000405411098&mt=2)| [Notes](https://github.com/thetomcraig/total-immersion-podcast/blob/master/episode_notes/28_micro_nations.md) |
