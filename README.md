@@ -8,7 +8,7 @@ Total Immersion
 
 Total Immersion is weekly a podcast in which we immerse ourselves in subcultures, proving we know nothing about anything.  
 
-Join us every Wednesday morning as we immerse ourselves in the worlds of Freemasons, Botanists, Flat Earth Theorists and more!  
+Join us every Friday morning as we immerse ourselves in the worlds of Freemasons, Botanists, Flat Earth Theorists and more!  
 
 ### Listen
 Podcast is available to download or listen from these fine sources:  
@@ -59,4 +59,4 @@ Podcast is available to download or listen from these fine sources:
 ### Notes on the repo
 * All of our episode notes are available in `episode_notes`
 * Our music files are located in `music`
-* Index files and back end stuff is located in `back_end`
+* Index files and back end stuff is located in `xml_stuff`
