@@ -1,11 +1,15 @@
+new_title=$1
+new_hunk=()
+
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
-echo $DIR
+IFS=$'\n' a=($(cat ${DIR}/episode_hunk.txt))
 
-cat $(${DIR}/episode_hunk.txt) | while read line
+
+for i in "${a[@]}";
 do
-  echo "a line: $line"
-  # echo ${line//abc/XYZ}; 
-done 
-# < $DIR/file.txt > $DIR/file.txt.t;
+  i=${i/TITLE/$new_title}
+  new_hunk+=("$i")
+done
 
-# mv $DIR/file.txt{.t,}
+
+echo ${new_hunk[@]}
