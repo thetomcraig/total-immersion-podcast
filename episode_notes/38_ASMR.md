@@ -12,12 +12,12 @@ Autonomous Sensory Meridian Response
   * Yahoo
   * Facebook
   * Reddit
-* 2010 - Term Created in 2010
+* 2010 - Term Created
 * Other names considered at the time:
   * Attention induced euphoria
   * Attention induced observant euphoria
   * Auditory induced head orgasm
-    * Some didn't like this term because they felt ASMR was more relaxing and stimulating
+    * Some didn't like this term because they felt ASMR was more relaxing than stimulating
     * By 2015 a division occurred concerning sexual arousal
       * Some people create videos atagoriazed as ASMRotica
 
@@ -33,13 +33,13 @@ Autonomous Sensory Meridian Response
 ### Science/Rational
 * We really don't know why this is a thing
   * No clinical trials or data
-* Similar to `misophonia`
-  > Literally means the 'hatred of sound', but manifests typically as 'automatic negative emotional reactions to particular sounds – the opposite of what can be observed in reactions to specific audio stimuli in ASMR' -- Wikipedia
+* Related to (almost the opposite of) `misophonia`
+  > Literally means the 'hatred of sound', but manifests typically as 'automatic negative emotional reactions to particular sounds – the opposite of what can be observed in reactions to specific audio stimuli in ASMR -- Wikipedia
   > [Some people experience] ASMR to some sounds, and misophonia in response to others. In one case, a subject reports that the sound of someone whispering can precipitate ASMR or misophonia depending on who is producing it.
   * Personally I feel like I have this in a major way
     * Often annoying sounds like chewing, etc cause me a lot of unease and anxiety
 
-* Helps with lots of issues, but it's not really understood why
+* ASMR helps with lots of issues, but it's not really understood why
   * Sleep
   * Anxiety
   * Depression
@@ -48,7 +48,6 @@ Autonomous Sensory Meridian Response
 * YouTube
   * Lots of YouTube stars who make these videos 
     * ASMRtist
-  * They're bad though, not much scientific data; brands are shooting in the dark
   * As of 2017 there are over 9 million ASMR videos on YouTube. 
 * Reddit - r/asmr
   * Lots of posts of videos with people performing tasks and making sounds
@@ -56,6 +55,8 @@ Autonomous Sensory Meridian Response
     * Seems like this is even more satisfying
   * Role play - Basically the person reading through a script
     * Doctor's appointment
+    * Sensual or sexual experiences
+    * Fictional characters
   * Some examples:
     * ASMR - Eating Roast Beef Sandwich
     * (Deadjosey ASMR) Keyboard Typing [long]
@@ -68,10 +69,11 @@ Autonomous Sensory Meridian Response
 * This has become mainstream 
   * Lots of brand use ASMR in their ads
     * ASMRtists are often commissioned
+    * If the artists are not commissioned, the ads are often bad; brands are shooting in the dark
   * Art installations
 
 ### Conclusion
-* People have different reasons for doing this; it's prevalent enough to be working
+* People have different reasons for doing this; it's prevalent enough to be working in some capacity
   * Some people think its popular because we feel less connected with another today
 * Bob Ross for example is an example of this appeal:
   >  In episodes of _The Joy of Painting_... his soft, gentle, altruistic speaking mannerisms and the sound of him painting and his tools trigger [the effects of ASMR] on many of his viewers -- Wikipedia
