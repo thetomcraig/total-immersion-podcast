@@ -56,7 +56,8 @@ case $1 in
       helpStringFunction
     ;;
     -n|--new_hunk)
-      makeNewHunk "$*"
+      makeNewHunk "$*" > newEpHunk.xml
+      # xmllint --format newEpHunk.xml > newEpHunk.xml
     ;;
     *)
       echo "Option not recognized ($1);"
