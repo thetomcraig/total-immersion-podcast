@@ -5,25 +5,22 @@ source ${DIR}/helper_functions.sh
 
 makeNewHunk() {
   template_file=$1
-  path_to_mp3=$2
-  filename=$(basename -- "$path_to_mp3")
-  extension="${filename##*.}"
-  filenameShort="${filename%.*}"
+  # Todo, make this loop
+  path_to_mp3=$(ls $2)
+  description=$3
+  name="${path_to_mp3%\.*}"
 
-  echo $filename
-  echo $extension
-  echo $filenameShort
+  new_hunk=()
 
-  # new_hunk=()
+  readarray a < $template_file
+  for i in "${a[@]}";
+  do
+    i=${i/TITLE/$name}
+    i=${i/SUMMARY/${description}}
+    new_hunk+=("$i")
+  done
 
-
-  # for i in "${a[@]}";
-  # do
-    # i=${i/TITLE/$new_title}
-    # new_hunk+=("$i")
-  # done
-
-  # echo ${new_hunk[@]}
+  echo ${new_hunk[@]}
 }
 
 helpStringFunction() {
@@ -38,7 +35,7 @@ case $1 in
       helpStringFunction
     ;;
     -n|--new_hunk)
-      makeNewHunk $2 $3
+      makeNewHunk $2 $3 $4
     ;;
     *)
       echo "Option not recognized ($1);"
