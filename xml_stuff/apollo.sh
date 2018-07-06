@@ -3,20 +3,41 @@
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 source ${DIR}/helper_functions.sh
 
+bucket="total-immersion-podcast/"
+URL_prefix="https://s3-us-west-2.amazonaws.com/${bucket}"
+
+
 makeNewHunk() {
-  template_file=$1
-  # Todo, make this loop
-  path_to_mp3=$(ls $2)
-  description=$3
-  name="${path_to_mp3%\.*}"
+  OIFS=$IFS;
+  IFS=" ";
+  IFS=$OIFS
+
+  commands=($1)
+  mp3s_dir=${commands[1]}
+  mp3_name=$(ls $mp3s_dir)
+  path_to_mp3=${mp3s_dir}/${mp3_name}
+
+  name="${mp3_name%\.*}"
+  time=$(mp3info -p "%m:%02s\n" "${path_to_mp3}")
+  description="${commands[@]:2}"
+  bytes=$(wc -c < "${path_to_mp3}")
+
+  # Upload the file
+  source env/bin/activate
+  # s3cmd put ${path_to_mp3} s3://${bucket}
+  # Get the link from the uploaded file
+  s3_episode_url=$(echo ${URL_prefix}${mp3_name} | sed 's/ /+/g')
 
   new_hunk=()
-
+  template_file=./episode_hunk.txt
   readarray a < $template_file
   for i in "${a[@]}";
   do
     i=${i/TITLE/$name}
     i=${i/SUMMARY/${description}}
+    i=${i/TIME/${time}}
+    i=${i/LENGTH/${bytes}}
+    i=${i/LINK/${s3_episode_url}}
     new_hunk+=("$i")
   done
 
@@ -35,7 +56,7 @@ case $1 in
       helpStringFunction
     ;;
     -n|--new_hunk)
-      makeNewHunk $2 $3 $4
+      makeNewHunk "$*"
     ;;
     *)
       echo "Option not recognized ($1);"
