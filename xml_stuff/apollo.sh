@@ -3,31 +3,43 @@
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 source ${DIR}/helper_functions.sh
 
-bucket="total-immersion-podcast/"
-URL_prefix="https://s3-us-west-2.amazonaws.com/${bucket}"
+new_hunk_filename="newHunk.xml"
 
+get_mp3s_from_dir() {
+  mp3s_dir=$1
+  mp3_filenames=$(ls $mp3s_dir/**)
+  IFS=$'\n' mp3_paths=( $(ls $mp3s_dir/**) )
+}
 
-makeNewHunk() {
-  OIFS=$IFS;
-  IFS=" ";
-  IFS=$OIFS
+uploadToS3DEBUG() {
+  echo "fake-s3-url.com"
+}
+uploadToS3() {
+  mp3_path=$1
+  bucket="total-immersion-podcast/"
+  URL_prefix="https://s3-us-west-2.amazonaws.com/${bucket}"
 
-  commands=($1)
-  mp3s_dir=${commands[1]}
-  mp3_name=$(ls $mp3s_dir)
-  path_to_mp3=${mp3s_dir}/${mp3_name}
-
-  name="${mp3_name%\.*}"
-  time=$(mp3info -p "%m:%02s\n" "${path_to_mp3}")
-  description="${commands[@]:2}"
-  bytes=$(wc -c < "${path_to_mp3}")
-
-  # Upload the file
+  # Upload the file using the S3 python program
   source env/bin/activate
-  # s3cmd put ${path_to_mp3} s3://${bucket}
+  s3cmd put ${path_to_mp3} s3://${bucket}
   # Get the link from the uploaded file
   s3_episode_url=$(echo ${URL_prefix}${mp3_name} | sed 's/ /+/g')
+  echo $s3_episode_url
+}
 
+makeNewHunk() {
+  mp3_path=$1
+  s3_episode_url=$2
+  description=$3
+  mp3_path_no_ext="${mp3_path%\.*}"
+  name="${mp3_path_no_ext##*/}"
+
+  date=$(date '+%a, %C %b %Y')
+  time=$(mp3info -p "%m:%02s\n" "${mp3_path}")
+  bytes=$(wc -c < "${mp3_path}")
+
+  # Create new hunk array
+  # Copy template file and do replacement
   new_hunk=()
   template_file=./episode_hunk.txt
   readarray a < $template_file
@@ -38,10 +50,51 @@ makeNewHunk() {
     i=${i/TIME/${time}}
     i=${i/LENGTH/${bytes}}
     i=${i/LINK/${s3_episode_url}}
+    i=${i/DATE/${date}}
     new_hunk+=("$i")
   done
 
-  echo ${new_hunk[@]}
+  printf '%s' "${new_hunk[@]}" > $new_hunk_filename
+}
+
+updateXML () {
+  cp ./itunes.xml ./itunes.xml.bak
+  new_hunk_text=$(cat $new_hunk_filename)
+
+  new_itunes_xml=()
+  readarray a < "./itunes.xml"
+  for i in "${a[@]}";
+  do
+    i=${i/"<!-- New episodes here -->"/$new_hunk_text}
+    new_itunes_xml+=("$i")
+  done
+  printf '%s' "${new_itunes_xml[@]}" > itunes.xml.new
+}
+
+cleanup() {
+  xmllint --format itunes.xml.new.xml > tunes.xml.new
+  rm $new_hunk_filename
+}
+
+messageRylan() {
+  pushbullet_key="o.qQi1AYMsiP7uL6VCSELe08UjbK8HjJho"
+  curl --header "Access-Token: $pushbullet_key" \
+    -H "Content-Type: application/json" \
+    -d "{ \"email\": \"rylansedivy@gmail.com\", \
+                    \"title\": \"$1\", \
+                    \"type\": \"note\" \
+       }" \
+    -X POST \
+    https://api.pushbullet.com/v2/pushes
+}
+
+diffXMLs() {
+  colordiff itunes.xml itunes.xml.new
+}
+
+removeBackupFiles() {
+  rm itunes.xml.bak
+  mv itunes.xml.new itunes.xml
 }
 
 helpStringFunction() {
@@ -55,14 +108,58 @@ case $1 in
     -h*|--help)
       helpStringFunction
     ;;
+
     -n|--new_hunk)
-      newHunk=$(makeNewHunk "$*")
-      echo $newHunk > newEpHunk.xml
-      xmllint --format newEpHunk.xml > newHunk.xml
+      # Calling this function will create the array filled with paths to mp3 files
+      echo -n "Reading files..."
+      get_mp3s_from_dir $2
+      echo "Done"
+      echo "Begin iteration"
+      for i in "${mp3_paths[@]}";
+      do
+        echo -n "  Description for <$i>: "
+        read description
+
+        echo "  Uploading <$i>..."
+        s3_url=$(uploadToS3 $i)
+        echo "  Uploaded, here $s3_url"
+        echo "  Making new hunk..."
+        makeNewHunk $i $s3_url $description
+        echo "  Done"
+        echo "  Updating itunes.xml..."
+        updateXML
+        echo "  Done"
+        echo "  Cleaning up..."
+        cleanup
+        echo "  Done"
+        echo "  Diff:"
+        diffXMLs
+        echo "  Does this look correct? [y/N]:"
+        promptToContinue
+        removeBackupFiles
+      done
+      echo "All file processed"
+      echo "  Tell Rylan? [y/N]:"
+      promptToContinue
+      messageRylan "DONE"
     ;;
+
+    -s|--setup)
+      echo "Installing mp3info"
+      brew install mp3info > /dev/null
+      echo "Installing colordiff"
+      brew install colordiff > /dev/null
+      echo "DONE"
+      echo "Installing python requirements"
+      virtualenv env > /dev/null
+      source env/bin/activate > /dev/null
+      pip install -r requirements.txt > /dev/null
+      pip freeze
+      echo "DONE"
+    ;;
+
     *)
       echo "Option not recognized ($1);"
       helpStringFunction
     ;;
 esac
-
