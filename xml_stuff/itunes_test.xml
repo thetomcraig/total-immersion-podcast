@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
   <channel>
-    <title>Total Immersion TEST</title>
+    <title>Total Immersion TEST - 7/12 - 5:00pm</title>
     <link>"https://www.stitcher.com/podcast/tom-craig-rylan-sedivy/total-immersion?refid=stpr"</link>
     <language>en-us</language>
     <copyright/>
@@ -20,18 +20,6 @@
     <itunes:author>Tom Craig</itunes:author>
     <pubDate>Wed, 04 Oct 2017 00:00:00 PDT</pubDate>
     <item>
-      <title>32 - What's the Plan Stan</title>
-      <itunes:author/>
-      <itunes:subtitle/>
-      <itunes:summary>Stans (Super Fans) are discussed</itunes:summary>
-      <description>Stans (Super Fans) are discussed</description>
-      <itunes:image href="https://s3-us-west-2.amazonaws.com/total-immersion-podcast/total_immersion_cover.jpg"/>
-      <enclosure url="http://dts.podtrac.com/redirect.mp3/s3-us-west-2.amazonaws.com/total-immersion-podcast/EP32+-+What's+the+Plan+Stan.mp3" length="" type="audio/mpeg"/>
-      <guid>http://dts.podtrac.com/redirect.mp3/s3-us-west-2.amazonaws.com/total-immersion-podcast/EP32+-+What's+the+Plan+Stan.mp3</guid>
-      <itunes:duration>36:25</itunes:duration>
-      <pubDate>Fri May 25 2018 00:00:00 GMT-0700</pubDate>
-    </item>
-    <item>
       <title>31 - The Podcast After Tomorrow</title>
       <itunes:author/>
       <itunes:subtitle/>
@@ -42,42 +30,6 @@
       <guid>http://dts.podtrac.com/redirect.mp3/s3-us-west-2.amazonaws.com/total-immersion-podcast/EP31+-+The+Podcast+After+Tomorrow.mp3</guid>
       <itunes:duration>39:05</itunes:duration>
       <pubDate>Fri May 18 2018 00:00:00 GMT-0700</pubDate>
-    </item>
-    <item>
-      <title>30 - To Thine Own Self be True Crime</title>
-      <itunes:author/>
-      <itunes:subtitle/>
-      <itunes:summary>True Crime Enthusiasts are Discussed</itunes:summary>
-      <description>True Crime Enthusiasts are Discussed</description>
-      <itunes:image href="https://s3-us-west-2.amazonaws.com/total-immersion-podcast/total_immersion_cover.jpg"/>
-      <enclosure url="http://dts.podtrac.com/redirect.mp3/s3-us-west-2.amazonaws.com/total-immersion-podcast/EP30+-+To+Thine+Own+Self+be+True+Crime.mp3" length="" type="audio/mpeg"/>
-      <guid>http://dts.podtrac.com/redirect.mp3/s3-us-west-2.amazonaws.com/total-immersion-podcast/EP30+-+To+Thine+Own+Self+be+True+Crime.mp3</guid>
-      <itunes:duration>39:01</itunes:duration>
-      <pubDate>Wed Mar 21 2018 00:00:00 GMT-0700</pubDate>
-    </item>
-    <item>
-      <title>29 - Round Rubbin'</title>
-      <itunes:author/>
-      <itunes:subtitle/>
-      <itunes:summary>Polyamory is Discussed</itunes:summary>
-      <description>Polyamory is Discussed</description>
-      <itunes:image href="https://s3-us-west-2.amazonaws.com/total-immersion-podcast/total_immersion_cover.jpg"/>
-      <enclosure url="http://dts.podtrac.com/redirect.mp3/s3-us-west-2.amazonaws.com/total-immersion-podcast/EP29+-+Round+Rubbin'.mp3" length="" type="audio/mpeg"/>
-      <guid>http://dts.podtrac.com/redirect.mp3/s3-us-west-2.amazonaws.com/total-immersion-podcast/EP29+-+Round+Rubbin'.mp3</guid>
-      <itunes:duration>39:11</itunes:duration>
-      <pubDate>Wed Mar 14 2018 00:00:00 GMT-0700</pubDate>
-    </item>
-    <item>
-      <title>28 - It's not the Size of the Nation...</title>
-      <itunes:author/>
-      <itunes:subtitle/>
-      <itunes:summary>Micronations are Discussed</itunes:summary>
-      <description>Micronations are Discussed</description>
-      <itunes:image href="https://s3-us-west-2.amazonaws.com/total-immersion-podcast/total_immersion_cover.jpg"/>
-      <enclosure url="http://dts.podtrac.com/redirect.mp3/s3-us-west-2.amazonaws.com/total-immersion-podcast/EP28+-+It's+Not+the+Size+of+the+Nation%E2%80%A6.mp3" length="" type="audio/mpeg"/>
-      <guid>http://dts.podtrac.com/redirect.mp3/s3-us-west-2.amazonaws.com/total-immersion-podcast/EP28+-+It's+Not+the+Size+of+the+Nation%E2%80%A6.mp3</guid>
-      <itunes:duration>33:41</itunes:duration>
-      <pubDate>Wed Mar 7 2018 00:00:00 GMT-0700</pubDate>
     </item>
     <item>
       <title>27 - Paranormal Podtivity</title>
