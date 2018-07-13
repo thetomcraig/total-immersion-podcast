@@ -3,12 +3,11 @@
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 source ${DIR}/helper_functions.sh
 
-new_hunk_filename="newHunk.xml"
+new_hunk_filename="episode_hunk.xml.new"
 
 get_mp3s_from_dir() {
   mp3s_dir=$1
-  mp3_filenames=$(ls $mp3s_dir/**)
-  IFS=$'\n' mp3_paths=( $(ls $mp3s_dir/**) )
+  IFS=$'\n' mp3_paths=( $(ls $mp3s_dir/**.mp3) )
 }
 
 uploadToS3DEBUG() {
@@ -21,7 +20,8 @@ uploadToS3() {
 
   # Upload the file using the S3 python program
   source env/bin/activate
-  s3cmd put ${path_to_mp3} s3://${bucket}
+  # TODO, this outputs improprly
+  s3cmd put ${mp3_path} s3://${bucket}
   # Get the link from the uploaded file
   s3_episode_url=$(echo ${URL_prefix}${mp3_name} | sed 's/ /+/g')
   echo $s3_episode_url
@@ -41,7 +41,7 @@ makeNewHunk() {
   # Create new hunk array
   # Copy template file and do replacement
   new_hunk=()
-  template_file=./episode_hunk.txt
+  template_file=./episode_hunk.xml
   readarray a < $template_file
   for i in "${a[@]}";
   do
@@ -71,9 +71,9 @@ updateXML () {
   printf '%s' "${new_itunes_xml[@]}" > itunes.xml.new
 }
 
-cleanup() {
-  xmllint --format itunes.xml.new > tunes.xml.new
-  rm $new_hunk_filename
+lint() {
+  xmllint --format itunes.xml.new > itunes.xml.new.formatted
+  mv itunes.xml.new.formatted itunes.xml.new
 }
 
 messageRylan() {
@@ -93,9 +93,10 @@ diffXMLs() {
   colordiff itunes.xml itunes.xml.new
 }
 
-removeBackupFiles() {
-  rm itunes.xml.bak
+removeFilesAndFinishXML() {
+  rm $new_hunk_filename
   mv itunes.xml.new itunes.xml
+  rm itunes.xml.bak
 }
 
 helpStringFunction() {
@@ -132,13 +133,13 @@ case $1 in
         updateXML
         echo "  Done"
         echo "  Cleaning up..."
-        cleanup
+        lint
         echo "  Done"
         echo "  Diff:"
         diffXMLs
         echo "  Does this look correct? [y/N]:"
         promptToContinue
-        removeBackupFiles
+        removeFilesAndFinishXML 
       done
       echo "All file processed"
       echo "  Tell Rylan? [y/N]:"
