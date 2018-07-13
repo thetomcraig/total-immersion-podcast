@@ -72,7 +72,7 @@ updateXML () {
 }
 
 cleanup() {
-  xmllint --format itunes.xml.new.xml > tunes.xml.new
+  xmllint --format itunes.xml.new > tunes.xml.new
   rm $new_hunk_filename
 }
 
@@ -89,6 +89,7 @@ messageRylan() {
 }
 
 diffXMLs() {
+  echo "here"
   colordiff itunes.xml itunes.xml.new
 }
 
@@ -100,8 +101,9 @@ removeBackupFiles() {
 helpStringFunction() {
   echo "usage:  apollo [option]"
   echo "Options and arguments:"
-  echo "-n|--new_hunk <template file> <path to mp3> : show this help message"
-  echo "-h|--help                                   : show this help message"
+  echo "-h|--help               : Show this help message"
+  echo "-a|--add <path to mp3s> : Upload new ep and add to itunes.xml"
+  echo "-s|--setup)             : Setup apollo and install requirements"
 }
 
 case $1 in
@@ -109,7 +111,7 @@ case $1 in
       helpStringFunction
     ;;
 
-    -n|--new_hunk)
+    -a|--add)
       # Calling this function will create the array filled with paths to mp3 files
       echo -n "Reading files..."
       get_mp3s_from_dir $2
