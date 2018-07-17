@@ -8,8 +8,10 @@ Train Conductors
 Vril Society
 Moriticans
 Horse people
-Pirate Radio
 Wine
+Cosmology
 Steampunk
-Qanon
 Slime
+Mechanics
+Cancel Survivors (too spicy)
+Uber and Lyft drivers
