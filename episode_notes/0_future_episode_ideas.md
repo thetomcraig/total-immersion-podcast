@@ -18,3 +18,4 @@ Ideas
 * Mechanics
 * Cancel Survivors (too spicy?)
 * Uber and Lyft drivers
+* Youtube 2 - Draama vids (Isabel)
