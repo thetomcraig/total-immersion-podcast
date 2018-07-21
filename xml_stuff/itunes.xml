@@ -21,6 +21,18 @@
     <pubDate>Wed, 04 Oct 2017 00:00:00 PDT</pubDate>
     <!-- New episodes here -->
     <item>
+      <title>EP40 - Yo ho yo ho, Priate Radio Life for Me</title>
+      <itunes:author/>
+      <itunes:subtitle/>
+      <itunes:summary>Pirate Radio subculture is discussed</itunes:summary>
+      <description>Pirate Radio subculture is discussed</description>
+      <itunes:image href="https://s3-us-west-2.amazonaws.com/total-immersion-podcast/total_immersion_cover.jpg"/>
+      <enclosure url="http://dts.podtrac.com/redirect.mp3/https://s3-us-west-2.amazonaws.com/total-immersion-podcast/EP40+-+Yo+ho+yo+ho%2C+Priate+Radio+Life+for+Me.mp3" length=" 82005376" type="audio/mpeg"/>
+      <guid>http://dts.podtrac.com/redirect.mp3/https://s3-us-west-2.amazonaws.com/total-immersion-podcast/EP40+-+Yo+ho+yo+ho%2C+Priate+Radio+Life+for+Me.mp3</guid>
+      <itunes:duration>34:10</itunes:duration>
+      <pubDate>Fri, 20 Jul 2018 00:00:00 GMT-0700</pubDate>
+    </item>
+    <item>
       <title>39 - Uncle Sam Wants Q!</title>
       <itunes:author/>
       <itunes:subtitle/>
