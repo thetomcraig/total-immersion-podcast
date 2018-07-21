@@ -20,19 +20,22 @@ uploadToS3() {
 
   # Upload the file using the S3 python program
   source env/bin/activate
-  # TODO, this outputs improprly
-  s3cmd put ${mp3_path} s3://${bucket}
+  # TODO, this outputs improperly
+  # s3cmd put ${mp3_path} s3://${bucket}
   # Get the link from the uploaded file
-  s3_episode_url=$(echo ${URL_prefix}${mp3_name} | sed 's/ /+/g')
+  # s3_episode_url=$(echo ${URL_prefix}${mp3_name} | sed 's/ /+/g')
+  s3_episode_url="https://s3-us-west-2.amazonaws.com/total-immersion-podcast/EP40+-+Yo+ho+yo+ho%2C+Priate+Radio+Life+for+Me.mp3"
   echo $s3_episode_url
 }
 
 makeNewHunk() {
   mp3_path=$1
-  s3_episode_url=$2
+  full_url=$2
+  url ="$(echo ${$full_url} | sed 's/https://g')"
   description=$3
   mp3_path_no_ext="${mp3_path%\.*}"
-  name="${mp3_path_no_ext##*/}"
+  file_name="${mp3_path_no_ext##*/}"
+  name="$(echo ${file_name} | sed 's/EP//g')"
 
   date=$(date '+%a, %C %b %Y')
   time=$(mp3info -p "%m:%02s\n" "${mp3_path}")
@@ -49,7 +52,7 @@ makeNewHunk() {
     i=${i/SUMMARY/${description}}
     i=${i/TIME/${time}}
     i=${i/LENGTH/${bytes}}
-    i=${i/LINK/${s3_episode_url}}
+    i=${i/LINK/${url}}
     i=${i/DATE/${date}}
     new_hunk+=("$i")
   done
@@ -103,7 +106,6 @@ helpStringFunction() {
   echo "usage:  apollo [option]"
   echo "Options and arguments:"
   echo "-h|--help               : Show this help message"
-  echo "-a|--add <path to mp3s> : Upload new ep and add to itunes.xml"
   echo "-s|--setup)             : Setup apollo and install requirements"
 }
 
@@ -112,8 +114,19 @@ case $1 in
       helpStringFunction
     ;;
 
-    -a|--add)
-      # Calling this function will create the array filled with paths to mp3 files
+    -u|--upload)
+      echo -n "Reading files..."
+      get_mp3s_from_dir $2
+      echo "Done"
+      echo "Begin iteration"
+      for i in "${mp3_paths[@]}";
+      do
+        echo "  Uploading <$i>..."
+        s3_url=$(uploadToS3 $i)
+        echo "  Uploaded"
+      done
+    ;;
+    -x|--xml-update)
       echo -n "Reading files..."
       get_mp3s_from_dir $2
       echo "Done"
@@ -122,10 +135,8 @@ case $1 in
       do
         echo -n "  Description for <$i>: "
         read description
-
-        echo "  Uploading <$i>..."
-        s3_url=$(uploadToS3 $i)
-        echo "  Uploaded, here $s3_url"
+        echo -n "  S3 URL for <$i>: "
+        read s3_url 
         echo "  Making new hunk..."
         makeNewHunk $i $s3_url $description
         echo "  Done"
@@ -141,6 +152,9 @@ case $1 in
         promptToContinue
         removeFilesAndFinishXML 
       done
+    ;;
+    -f|--finish)
+      # Do the uploading of the xml and validate
       echo "All file processed"
       echo "  Tell Rylan? [y/N]:"
       promptToContinue
