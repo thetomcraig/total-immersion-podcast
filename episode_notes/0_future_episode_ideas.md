@@ -13,9 +13,8 @@ Ideas
 * Pirate Radio
 * Wine
 * Steampunk
-* Slime
 * Cosmology
 * Mechanics
-* Cancel Survivors (too spicy?)
+* Cancer Survivors (too spicy?)
 * Uber and Lyft drivers
 * Youtube 2 - Draama vids (Isabel)
