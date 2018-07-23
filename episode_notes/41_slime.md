@@ -21,9 +21,28 @@ Slime
 
 
 #### Where did this come from?
+* No fucking idea
+
+#### What is it?
+* Ingredients
+  * Plastic bowl
+  * Spatula (preferably silicone so the slime won’t stick to it)
+  * Borax powder (can be found at Walmart in the laundry section for $4)
+  * 1 cup of hot/warm water
+  * ½ cup of Elmer’s glue
+  * ½ cup of shaving cream
+  * ½ cup of foaming hand soap
+  * 1 tablespoon of cornstarch
+  * Lotion
+  * Food coloring (optional)
+
+#### Why do people like it?
+* Its basically ASMR
+* But this has an audio and visual component
 
 
 #### Conclusion
+* Weird, but I kinda like it
 
 #### Sources
 ```
