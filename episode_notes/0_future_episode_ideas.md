@@ -18,3 +18,6 @@ Ideas
 * Cancer Survivors (too spicy?)
 * Uber and Lyft drivers
 * Youtube 2 - Draama vids (Isabel)
+* Manga/Anime
+* Wiaboo
+* Otaku
