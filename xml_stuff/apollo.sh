@@ -21,9 +21,9 @@ uploadToS3() {
   # Upload the file using the S3 python program
   source env/bin/activate
   # TODO, this outputs improperly
-  # s3cmd put ${mp3_path} s3://${bucket}
+  s3cmd put ${mp3_path} s3://${bucket}
   # Get the link from the uploaded file
-  # s3_episode_url=$(echo ${URL_prefix}${mp3_name} | sed 's/ /+/g')
+  s3_episode_url=$(echo ${URL_prefix}${mp3_name} | sed 's/ /+/g')
   s3_episode_url="https://s3-us-west-2.amazonaws.com/total-immersion-podcast/EP40+-+Yo+ho+yo+ho%2C+Priate+Radio+Life+for+Me.mp3"
   echo $s3_episode_url
 }
@@ -31,7 +31,7 @@ uploadToS3() {
 makeNewHunk() {
   mp3_path=$1
   full_url=$2
-  url ="$(echo ${$full_url} | sed 's/https://g')"
+  url=$(echo $full_url | sed 's/https\:\/\///g')
   description=$3
   mp3_path_no_ext="${mp3_path%\.*}"
   file_name="${mp3_path_no_ext##*/}"
@@ -155,7 +155,11 @@ case $1 in
     ;;
     -f|--finish)
       # Do the uploading of the xml and validate
-      echo "All file processed"
+      date=$(date '+%a, %C %b %Y')
+      git add itunes.xml
+      git commit -m "Episode added for $date"
+      git push
+      echo "Pushed to master"
       echo "  Tell Rylan? [y/N]:"
       promptToContinue
       messageRylan "DONE"
