@@ -24,7 +24,6 @@ uploadToS3() {
   s3cmd put ${mp3_path} s3://${bucket}
   # Get the link from the uploaded file
   s3_episode_url=$(echo ${URL_prefix}${mp3_name} | sed 's/ /+/g')
-  s3_episode_url="https://s3-us-west-2.amazonaws.com/total-immersion-podcast/EP40+-+Yo+ho+yo+ho%2C+Priate+Radio+Life+for+Me.mp3"
   echo $s3_episode_url
 }
 
@@ -150,19 +149,28 @@ case $1 in
         diffXMLs
         echo "  Does this look correct? [y/N]:"
         promptToContinue
+        # TODO validate
         removeFilesAndFinishXML 
       done
     ;;
     -f|--finish)
       # Do the uploading of the xml and validate
       date=$(date '+%a, %C %b %Y')
+      # TODO update readme list
       git add itunes.xml
       git commit -m "Episode added for $date"
       git push
       echo "Pushed to master"
+      open "https://podcastsconnect.apple.com/"
+      echo "  Refreshed? [y/N]:"
+      promptToContinue
       echo "  Tell Rylan? [y/N]:"
       promptToContinue
       messageRylan "DONE"
+    ;;
+
+    -c|--clean)
+      removeFilesAndFinishXML
     ;;
 
     -s|--setup)
