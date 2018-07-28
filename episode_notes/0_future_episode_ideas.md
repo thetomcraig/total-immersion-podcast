@@ -21,3 +21,4 @@ Ideas
 * Manga/Anime
 * Wiaboo
 * Otaku
+* No waste
