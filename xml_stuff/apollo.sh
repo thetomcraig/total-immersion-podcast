@@ -4,6 +4,7 @@ DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 source ${DIR}/helper_functions.sh
 
 new_hunk_filename="episode_hunk.xml.new"
+validator_url="http://castfeedvalidator.com/?url=https://raw.githubusercontent.com/thetomcraig/total-immersion-podcast/master/xml_stuff/itunes.xml"
 
 get_mp3s_from_dir() {
   mp3s_dir=$1
@@ -147,9 +148,9 @@ case $1 in
         echo "  Done"
         echo "  Diff:"
         diffXMLs
-        echo "  Does this look correct? [y/N]:"
+        echo "  Validated? Answer after success [y/N]:"
+        open ${validator_url}
         promptToContinue
-        # TODO validate
         removeFilesAndFinishXML 
       done
     ;;
