@@ -5,6 +5,7 @@ source ${DIR}/helper_functions.sh
 
 new_hunk_filename="episode_hunk.xml.new"
 validator_url="http://castfeedvalidator.com/?url=https://raw.githubusercontent.com/thetomcraig/total-immersion-podcast/master/xml_stuff/itunes.xml"
+s3_search_prefix="https://console.aws.amazon.com/s3/buckets/total-immersion-podcast/?region=us-west-2&tab=overview&prefixSearch=EP"
 
 get_mp3s_from_dir() {
   mp3s_dir=$1
@@ -21,11 +22,7 @@ uploadToS3() {
 
   # Upload the file using the S3 python program
   source env/bin/activate
-  # TODO, this outputs improperly
   s3cmd put ${mp3_path} s3://${bucket}
-  # Get the link from the uploaded file
-  s3_episode_url=$(echo ${URL_prefix}${mp3_name} | sed 's/ /+/g')
-  echo $s3_episode_url
 }
 
 makeNewHunk() {
@@ -135,6 +132,11 @@ case $1 in
       do
         echo -n "  Description for <$i>: "
         read description
+        # TODO, get from file
+        ep_number="41"
+        s3_search_url=${s3_search_prefix}${ep_number}
+        echo -n "  Copy URL from browser..."
+        open $s3_search_url
         echo -n "  S3 URL for <$i>: "
         read s3_url 
         echo "  Making new hunk..."
