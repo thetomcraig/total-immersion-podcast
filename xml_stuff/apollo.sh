@@ -3,6 +3,8 @@
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 source ${DIR}/helper_functions.sh
 
+# TODO, cloesest release date should be closest friday
+closest_release_date=""
 new_hunk_filename="episode_hunk.xml.new"
 validator_url="http://castfeedvalidator.com/?url=https://raw.githubusercontent.com/thetomcraig/total-immersion-podcast/master/xml_stuff/itunes.xml"
 s3_search_prefix="https://console.aws.amazon.com/s3/buckets/total-immersion-podcast/?region=us-west-2&tab=overview&prefixSearch=EP"
@@ -28,13 +30,14 @@ uploadToS3() {
 makeNewHunk() {
   mp3_path=$1
   full_url=$2
-  url=$(echo $full_url | sed 's/https\:\/\///g')
   description=$3
+  date=$4
+
+  url=$(echo $full_url | sed 's/https\:\/\///g')
   mp3_path_no_ext="${mp3_path%\.*}"
   file_name="${mp3_path_no_ext##*/}"
   name="$(echo ${file_name} | sed 's/EP//g')"
 
-  date=$(date '+%a, %C %b %Y')
   time=$(mp3info -p "%m:%02s\n" "${mp3_path}")
   bytes=$(wc -c < "${mp3_path}")
 
@@ -132,6 +135,9 @@ case $1 in
       do
         echo -n "  Description for <$i>: "
         read description
+        echo -n "  Date for <$i>[default: ${closest_release_date}: "
+        # TODO, ignore if the input is empty string
+        read date 
         # TODO, get from file
         ep_number="41"
         s3_search_url=${s3_search_prefix}${ep_number}
@@ -140,7 +146,7 @@ case $1 in
         echo -n "  S3 URL for <$i>: "
         read s3_url 
         echo "  Making new hunk..."
-        makeNewHunk $i $s3_url $description
+        makeNewHunk $i $s3_url $description $date
         echo "  Done"
         echo "  Updating itunes.xml..."
         updateXML
