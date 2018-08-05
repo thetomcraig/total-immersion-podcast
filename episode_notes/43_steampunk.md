@@ -67,12 +67,11 @@ British Victorian era or American "Wild West"
   > [Activities include] workshops and panels on steampunk—as well as a seance, ballroom dance instruction, and the Chrononauts' Parade. 
   * Also very prominent at ComicCon
 
-#### Conclusion
-
 ##### Tom's Opinion
-
+* Not my thing, but pretty cool.
 
 #### Sources
 ```
 https://en.wikipedia.org/wiki/Steampunk
+https://www.reddit.com/r/steampunk/
 ```
