@@ -12,7 +12,6 @@ Ideas
 * Horse people
 * Pirate Radio
 * Wine
-* Steampunk
 * Cosmology
 * Mechanics
 * Cancer Survivors (too spicy?)
