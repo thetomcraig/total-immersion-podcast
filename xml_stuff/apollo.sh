@@ -4,7 +4,7 @@ DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 source ${DIR}/helper_functions.sh
 
 # TODO, cloesest release date should be closest friday
-closest_release_date=""
+closest_release_date="TODO, make this the closest friday"
 new_hunk_filename="episode_hunk.xml.new"
 validator_url="http://castfeedvalidator.com/?url=https://raw.githubusercontent.com/thetomcraig/total-immersion-podcast/master/xml_stuff/itunes.xml"
 s3_search_prefix="https://console.aws.amazon.com/s3/buckets/total-immersion-podcast/?region=us-west-2&tab=overview&prefixSearch=EP"
@@ -56,7 +56,7 @@ uploadToS3DEBUG() {
   echo "fake-s3-url.com"
 }
 
-makeXMLHunksForMp3s() {
+updateXMLForAllMp3s() {
   echo -n "Reading files..."
   get_mp3s_from_dir $1
   echo "Done"
@@ -84,12 +84,7 @@ makeXMLHunksForMp3s() {
     echo "  Cleaning up..."
     lint
     echo "  Done"
-    echo "  Diff:"
-    diffXMLs
-    echo "  Validated? Answer after success [y/N]:"
-    open ${validator_url}
-    promptToContinue
-    removeTempFiles
+    diffXMLsAndReplace
   done
 }
 
@@ -145,7 +140,8 @@ lint() {
   mv itunes.xml.new.formatted itunes.xml.new
 }
 
-pushXMLAndTellRylan() {
+pushXML() {
+  echo -n "Pushing to GitHub..."
   # Do the uploading of the xml and validate
   date=$(date '+%a, %C %b %Y')
   # TODO update readme list
@@ -153,16 +149,22 @@ pushXMLAndTellRylan() {
   git add itunes.xml
   git commit -m "Episode added for $date"
   git push
-  echo "Pushed to master"
+  echo "Done"
+}
+
+validateXML() {
+  echo "  Validated? Answer after success [y/N]:"
+  open ${validator_url}
+  promptToContinue
+}
+
+messageRylan() {
   open "https://podcastsconnect.apple.com/"
   echo "  Refreshed? [y/N]:"
   promptToContinue
   echo "  Tell Rylan? [y/N]:"
   promptToContinue
-  messageRylan "DONE"
-}
 
-messageRylan() {
   pushbullet_key="o.qQi1AYMsiP7uL6VCSELe08UjbK8HjJho"
   curl --header "Access-Token: $pushbullet_key" \
     -H "Content-Type: application/json" \
@@ -172,16 +174,22 @@ messageRylan() {
        }" \
     -X POST \
     https://api.pushbullet.com/v2/pushes
+
+  messageRylan "DONE"
 }
 
-diffXMLs() {
+diffXMLsAndReplace() {
   colordiff itunes.xml itunes.xml.new
+  echo "  Diff Ok [Y/n]?"
+  promptToContinue
+  mv itunes.xml.new itunes.xml
 }
 
 fullEpisodeUpload() {
   uploadMp3sToS3 $1
-  makeXMLHunksForMp3s $1
-  pushXMLAndTellRylan
+  updateXMLForAllMp3s $1
+  pushXML
+  messageRylan
 }
 
 removeTempFiles() {
@@ -193,7 +201,8 @@ helpStringFunction() {
   echo "usage:  apollo [option]"
   echo "Options and arguments:"
   echo "-h|--help                    : Show this help message"
-  echo "-f|--full-upload <directory> : Perform a full episode upload and XML update.  Same as calling -u, -x, -p"
+  echo "-f|--full-upload <directory> : Perform a full episode upload and XML update.  Same as
+  calling -u, -x, -p, -v, -c"
   echo "-u|--upload <directory>      : Read all mp3 files from the directory and upload them to S3"
   echo "-x|--xml-update <directory>  : Read all mp3 files from the directory and make a new  XML entry for each one "
   echo "-p|--push                    : Push the iTunes XML to GitHub and message Rylan"
@@ -215,10 +224,14 @@ case $1 in
     ;;
 
     -x|--xml-update)
-      makeXMLHunksForMp3s $2
+      updateXMLForAllMp3s $2
     ;;
     -p|--push)
-      pushXMLAndTellRylan
+      pushXML
+    ;;
+
+    -v|--validate)
+      validateXML
     ;;
 
     -c|--clean)
