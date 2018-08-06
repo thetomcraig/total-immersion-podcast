@@ -206,6 +206,7 @@ helpStringFunction() {
   echo "-u|--upload <directory>      : Read all mp3 files from the directory and upload them to S3"
   echo "-x|--xml-update <directory>  : Read all mp3 files from the directory and make a new  XML entry for each one "
   echo "-p|--push                    : Push the iTunes XML to GitHub and message Rylan"
+  echo "-p|--validate                : Validate the XML"
   echo "-c|--clean                   : Remove dnagling temporary files"
   echo "-s|--setup)                  : Setup Apollo and install requirements"
 }
