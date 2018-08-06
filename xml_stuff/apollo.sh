@@ -9,14 +9,39 @@ new_hunk_filename="episode_hunk.xml.new"
 validator_url="http://castfeedvalidator.com/?url=https://raw.githubusercontent.com/thetomcraig/total-immersion-podcast/master/xml_stuff/itunes.xml"
 s3_search_prefix="https://console.aws.amazon.com/s3/buckets/total-immersion-podcast/?region=us-west-2&tab=overview&prefixSearch=EP"
 
+setupApollo() {
+  echo "Installing mp3info"
+  brew install mp3info > /dev/null
+  echo "Installing colordiff"
+  brew install colordiff > /dev/null
+  echo "DONE"
+  echo "Installing python requirements"
+  virtualenv env > /dev/null
+  source env/bin/activate > /dev/null
+  pip install -r requirements.txt > /dev/null
+  pip freeze
+  echo "DONE"
+
+}
+
 get_mp3s_from_dir() {
   mp3s_dir=$1
   IFS=$'\n' mp3_paths=( $(ls $mp3s_dir/**.mp3) )
 }
 
-uploadToS3DEBUG() {
-  echo "fake-s3-url.com"
+uploadMp3sToS3() {
+  echo -n "Reading files..."
+  get_mp3s_from_dir $1
+  echo "Done"
+  echo "Begin iteration"
+  for i in "${mp3_paths[@]}";
+  do
+    echo "  Uploading <$i>..."
+    s3_url=$(uploadToS3 $i)
+    echo "  Uploaded"
+  done
 }
+
 uploadToS3() {
   mp3_path=$1
   bucket="total-immersion-podcast/"
@@ -25,6 +50,47 @@ uploadToS3() {
   # Upload the file using the S3 python program
   source env/bin/activate
   s3cmd put ${mp3_path} s3://${bucket}
+}
+
+uploadToS3DEBUG() {
+  echo "fake-s3-url.com"
+}
+
+makeXMLHunksForMp3s() {
+  echo -n "Reading files..."
+  get_mp3s_from_dir $1
+  echo "Done"
+  echo "Begin iteration"
+  for i in "${mp3_paths[@]}";
+  do
+    echo -n "  Description for <$i>: "
+    read description
+    echo -n "  Date for <$i>[default: ${closest_release_date}: "
+    # TODO, ignore if the input is empty string
+    read date
+    # TODO, get from file
+    ep_number="42"
+    s3_search_url=${s3_search_prefix}${ep_number}
+    echo -n "  Copy URL from browser..."
+    open $s3_search_url
+    echo -n "  S3 URL for <$i>: "
+    read s3_url
+    echo "  Making new hunk..."
+    makeNewHunk $i $s3_url $description $date
+    echo "  Done"
+    echo "  Updating itunes.xml..."
+    updateXML
+    echo "  Done"
+    echo "  Cleaning up..."
+    lint
+    echo "  Done"
+    echo "  Diff:"
+    diffXMLs
+    echo "  Validated? Answer after success [y/N]:"
+    open ${validator_url}
+    promptToContinue
+    removeTempFiles
+  done
 }
 
 makeNewHunk() {
@@ -79,6 +145,23 @@ lint() {
   mv itunes.xml.new.formatted itunes.xml.new
 }
 
+pushXMLAndTellRylan() {
+  # Do the uploading of the xml and validate
+  date=$(date '+%a, %C %b %Y')
+  # TODO update readme list
+  mv itunes.xml.new itunes.xml
+  git add itunes.xml
+  git commit -m "Episode added for $date"
+  git push
+  echo "Pushed to master"
+  open "https://podcastsconnect.apple.com/"
+  echo "  Refreshed? [y/N]:"
+  promptToContinue
+  echo "  Tell Rylan? [y/N]:"
+  promptToContinue
+  messageRylan "DONE"
+}
+
 messageRylan() {
   pushbullet_key="o.qQi1AYMsiP7uL6VCSELe08UjbK8HjJho"
   curl --header "Access-Token: $pushbullet_key" \
@@ -92,21 +175,30 @@ messageRylan() {
 }
 
 diffXMLs() {
-  echo "here"
   colordiff itunes.xml itunes.xml.new
 }
 
-removeFilesAndFinishXML() {
+fullEpisodeUpload() {
+  uploadMp3sToS3 $1
+  makeXMLHunksForMp3s $1
+  pushXMLAndTellRylan
+}
+
+removeTempFiles() {
   rm $new_hunk_filename
-  mv itunes.xml.new itunes.xml
   rm itunes.xml.bak
 }
 
 helpStringFunction() {
   echo "usage:  apollo [option]"
   echo "Options and arguments:"
-  echo "-h|--help               : Show this help message"
-  echo "-s|--setup)             : Setup apollo and install requirements"
+  echo "-h|--help                    : Show this help message"
+  echo "-f|--full-upload <directory> : Perform a full episode upload and XML update.  Same as calling -u, -x, -p"
+  echo "-u|--upload <directory>      : Read all mp3 files from the directory and upload them to S3"
+  echo "-x|--xml-update <directory>  : Read all mp3 files from the directory and make a new  XML entry for each one "
+  echo "-p|--push                    : Push the iTunes XML to GitHub and message Rylan"
+  echo "-c|--clean                   : Remove dnagling temporary files"
+  echo "-s|--setup)                  : Setup Apollo and install requirements"
 }
 
 case $1 in
@@ -114,86 +206,27 @@ case $1 in
       helpStringFunction
     ;;
 
+    -f|--full-upload)
+      fullEpisodeUpload $2
+    ;;
+
     -u|--upload)
-      echo -n "Reading files..."
-      get_mp3s_from_dir $2
-      echo "Done"
-      echo "Begin iteration"
-      for i in "${mp3_paths[@]}";
-      do
-        echo "  Uploading <$i>..."
-        s3_url=$(uploadToS3 $i)
-        echo "  Uploaded"
-      done
+      uploadMp3sToS3 $2
     ;;
+
     -x|--xml-update)
-      echo -n "Reading files..."
-      get_mp3s_from_dir $2
-      echo "Done"
-      echo "Begin iteration"
-      for i in "${mp3_paths[@]}";
-      do
-        echo -n "  Description for <$i>: "
-        read description
-        echo -n "  Date for <$i>[default: ${closest_release_date}: "
-        # TODO, ignore if the input is empty string
-        read date 
-        # TODO, get from file
-        ep_number="41"
-        s3_search_url=${s3_search_prefix}${ep_number}
-        echo -n "  Copy URL from browser..."
-        open $s3_search_url
-        echo -n "  S3 URL for <$i>: "
-        read s3_url 
-        echo "  Making new hunk..."
-        makeNewHunk $i $s3_url $description $date
-        echo "  Done"
-        echo "  Updating itunes.xml..."
-        updateXML
-        echo "  Done"
-        echo "  Cleaning up..."
-        lint
-        echo "  Done"
-        echo "  Diff:"
-        diffXMLs
-        echo "  Validated? Answer after success [y/N]:"
-        open ${validator_url}
-        promptToContinue
-        removeFilesAndFinishXML 
-      done
+      makeXMLHunksForMp3s $2
     ;;
-    -f|--finish)
-      # Do the uploading of the xml and validate
-      date=$(date '+%a, %C %b %Y')
-      # TODO update readme list
-      git add itunes.xml
-      git commit -m "Episode added for $date"
-      git push
-      echo "Pushed to master"
-      open "https://podcastsconnect.apple.com/"
-      echo "  Refreshed? [y/N]:"
-      promptToContinue
-      echo "  Tell Rylan? [y/N]:"
-      promptToContinue
-      messageRylan "DONE"
+    -p|--push)
+      pushXMLAndTellRylan
     ;;
 
     -c|--clean)
-      removeFilesAndFinishXML
+      removeTempFiles
     ;;
 
     -s|--setup)
-      echo "Installing mp3info"
-      brew install mp3info > /dev/null
-      echo "Installing colordiff"
-      brew install colordiff > /dev/null
-      echo "DONE"
-      echo "Installing python requirements"
-      virtualenv env > /dev/null
-      source env/bin/activate > /dev/null
-      pip install -r requirements.txt > /dev/null
-      pip freeze
-      echo "DONE"
+      setupApollo
     ;;
 
     *)
