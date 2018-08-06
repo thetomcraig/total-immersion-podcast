@@ -22,3 +22,11 @@ Ideas
 * Otaku
 * No waste
 * Runners
+* Coffee
+* Punk
+* Beatnick
+* HP Lovecraft Fans
+* Mechanical Keyboards
+* Moon Landing Hoax Believers
+*
+
