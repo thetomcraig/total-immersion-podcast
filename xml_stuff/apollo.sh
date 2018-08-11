@@ -3,8 +3,7 @@
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 source ${DIR}/helper_functions.sh
 
-# TODO, cloesest release date should be closest friday
-closest_release_date="TODO, make this the closest friday"
+release_date=$(date '+%a, %C %b %Y')
 new_hunk_filename="episode_hunk.xml.new"
 validator_url="http://castfeedvalidator.com/?url=https://raw.githubusercontent.com/thetomcraig/total-immersion-podcast/master/xml_stuff/itunes.xml"
 s3_search_prefix="https://console.aws.amazon.com/s3/buckets/total-immersion-podcast/?region=us-west-2&tab=overview&prefixSearch=EP"
@@ -65,9 +64,11 @@ updateXMLForAllMp3s() {
   do
     echo -n "  Description for <$i>: "
     read description
-    echo -n "  Date for <$i>[default: ${closest_release_date}: "
-    # TODO, ignore if the input is empty string
+    echo -n "  Date for <$i>[default: ${release_date}: "
     read date
+    if [[ -z "${date}" ]]; then
+      date=${release_date}
+    fi
     ep_number=$(echo ${i} | 's/(EP)([0-9]+)( - )(.*)/\2/p')
     s3_search_url=${s3_search_prefix}${ep_number}
     echo -n "  Copy URL from browser..."
