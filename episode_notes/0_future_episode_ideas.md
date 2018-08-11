@@ -28,5 +28,6 @@ Ideas
 * HP Lovecraft Fans
 * Mechanical Keyboards
 * Moon Landing Hoax Believers
-*
+* Piercing/body mods
+* Potterheads (Libby)
 
