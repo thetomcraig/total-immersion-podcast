@@ -21,6 +21,18 @@
     <pubDate>Wed, 04 Oct 2017 00:00:00 PDT</pubDate>
     <!-- New episodes here -->
     <item>
+      <title>43 - We All Steam for Steampunk</title>
+      <itunes:author/>
+      <itunes:subtitle/>
+      <itunes:summary>Steampunk subculture is discussed</itunes:summary>
+      <description>Steampunk subculture is discussed</description>
+      <itunes:image href="https://s3-us-west-2.amazonaws.com/total-immersion-podcast/total_immersion_cover.jpg"/>
+      <enclosure url="http://dts.podtrac.com/redirect.mp3/s3-us-west-2.amazonaws.com/total-immersion-podcast/EP43+-+We+All+Steam+for+Steampunk.mp3" length=" 81530048" type="audio/mpeg"/>
+      <guid>http://dts.podtrac.com/redirect.mp3/s3-us-west-2.amazonaws.com/total-immersion-podcast/EP43+-+We+All+Steam+for+Steampunk.mp3</guid>
+      <itunes:duration>33:58</itunes:duration>
+      <pubDate>Sat, 11 Aug 2018 00:00:00 GMT-0700</pubDate>
+    </item>
+    <item>
       <title>42 - Driving Miss Uber</title>
       <itunes:author/>
       <itunes:subtitle/>
