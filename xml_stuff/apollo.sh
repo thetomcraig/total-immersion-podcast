@@ -68,8 +68,7 @@ updateXMLForAllMp3s() {
     echo -n "  Date for <$i>[default: ${closest_release_date}: "
     # TODO, ignore if the input is empty string
     read date
-    # TODO, get from file
-    ep_number="42"
+    ep_number=$(echo ${i} | 's/(EP)([0-9]+)( - )(.*)/\2/p')
     s3_search_url=${s3_search_prefix}${ep_number}
     echo -n "  Copy URL from browser..."
     open $s3_search_url
@@ -158,24 +157,23 @@ validateXML() {
   promptToContinue
 }
 
-messageRylan() {
+refreshURL() {
   open "https://podcastsconnect.apple.com/"
   echo "  Refreshed? [y/N]:"
   promptToContinue
-  echo "  Tell Rylan? [y/N]:"
-  promptToContinue
+}
 
+messageRylan() {
+  messaage="DONE BRO"
   pushbullet_key="o.qQi1AYMsiP7uL6VCSELe08UjbK8HjJho"
   curl --header "Access-Token: $pushbullet_key" \
     -H "Content-Type: application/json" \
     -d "{ \"email\": \"rylansedivy@gmail.com\", \
-                    \"title\": \"$1\", \
+                    \"title\": \"${message}\", \
                     \"type\": \"note\" \
        }" \
     -X POST \
     https://api.pushbullet.com/v2/pushes
-
-  messageRylan "DONE"
 }
 
 diffXMLsAndReplace() {
@@ -189,7 +187,10 @@ fullEpisodeUpload() {
   uploadMp3sToS3 $1
   updateXMLForAllMp3s $1
   pushXML
+  validateXML
+  refreshURL
   messageRylan
+  removeTempFiles
 }
 
 removeTempFiles() {
@@ -202,11 +203,13 @@ helpStringFunction() {
   echo "Options and arguments:"
   echo "-h|--help                    : Show this help message"
   echo "-f|--full-upload <directory> : Perform a full episode upload and XML update.  Same as
-  calling -u, -x, -p, -v, -c"
+  calling -u, -x, -p, -v, -r, -m, -c"
   echo "-u|--upload <directory>      : Read all mp3 files from the directory and upload them to S3"
   echo "-x|--xml-update <directory>  : Read all mp3 files from the directory and make a new  XML entry for each one "
   echo "-p|--push                    : Push the iTunes XML to GitHub and message Rylan"
-  echo "-p|--validate                : Validate the XML"
+  echo "-v|--validate                : Validate the XML"
+  echo "-r|--refresh                 : Refresh the URL on the iTunes website"
+  echo "-m|--message                 : Message Rylan that the upload is done"
   echo "-c|--clean                   : Remove dnagling temporary files"
   echo "-s|--setup)                  : Setup Apollo and install requirements"
 }
@@ -233,6 +236,14 @@ case $1 in
 
     -v|--validate)
       validateXML
+    ;;
+
+    -r|--refresh)
+      refreshURL
+    ;;
+
+    -m|--message)
+      messageRylan
     ;;
 
     -c|--clean)
