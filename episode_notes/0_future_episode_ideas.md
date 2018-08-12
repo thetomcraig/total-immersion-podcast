@@ -2,7 +2,6 @@ Ideas
 =======
 * Cosmetic surgery 
 * Weight loss
-* Renaissance Faire people
 * People who marry prisoners
 * Scientology
 * Entomology
@@ -10,24 +9,44 @@ Ideas
 * Vril Society
 * Moriticans
 * Horse people
-* Pirate Radio
 * Wine
 * Cosmology
 * Mechanics
-* Cancer Survivors (too spicy?)
-* Uber and Lyft drivers
-* Youtube 2 - Draama vids (Isabel)
 * Manga/Anime
 * Wiaboo
 * Otaku
-* No waste
 * Runners
 * Coffee
 * Punk
 * Beatnick
 * HP Lovecraft Fans
 * Mechanical Keyboards
-* Moon Landing Hoax Believers
 * Piercing/body mods
-* Potterheads (Libby)
+* Body builders
+* Incel
+* Psychedelia
+* Preppy people
+* BDSM
+* Pokemon fans
+* Hackers
+* Hardcore
+* "High Culture"
+* Geaser/Raggare
+* Lad culture
+* Stilyagi
+* La Sape
 
+* Renaissance Faire people (Dad)
+* Cancer Survivors (Gianna?)
+* Youtube 2 - Draama vids (Isabel)
+
+* Libby
+  * Playboy Bunnies
+  * Potterheads 
+  * Moon Landing Hoax Believers
+  * No waste
+
+* Someone?
+  * Queer Culture 
+  * Burning Man People 
+  * Swingers
