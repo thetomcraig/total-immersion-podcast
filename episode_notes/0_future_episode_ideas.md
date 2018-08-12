@@ -35,6 +35,7 @@ Ideas
 * Lad culture
 * Stilyagi
 * La Sape
+* Physics nerds
 
 * Renaissance Faire people (Dad)
 * Cancer Survivors (Gianna?)
