@@ -7,6 +7,7 @@ release_date=$(date '+%a, %C %b %Y')
 new_hunk_filename="episode_hunk.xml.new"
 validator_url="http://castfeedvalidator.com/?url=https://raw.githubusercontent.com/thetomcraig/total-immersion-podcast/master/xml_stuff/itunes.xml"
 s3_search_prefix="https://console.aws.amazon.com/s3/buckets/total-immersion-podcast/?region=us-west-2&tab=overview&prefixSearch=EP"
+readme_new_episode_line="| ------ | ---------- | -------------- | ----- | ----------- | ------ | ---------- |"
 
 setupApollo() {
   echo "Installing mp3info"
@@ -184,6 +185,23 @@ diffXMLsAndReplace() {
   mv itunes.xml.new itunes.xml
 }
 
+
+
+updateReadme() {
+  new_episode_line="${readme_new_episode_line}"
+  new_episode_line+="| 2 | 37 | Test title | Description | Listen link | Notes Link |\n"
+
+  new_readme=()
+  readarray a < "../README.md"
+  for i in "${a[@]}";
+  do
+    i=${i/${readme_new_episode_line}/$new_episode_line}
+    new_readme+=("$i")
+  done
+  printf '%s' "${new_readme[@]}" > README.md
+}
+
+
 fullEpisodeUpload() {
   uploadMp3sToS3 $1
   updateXMLForAllMp3s $1
@@ -211,6 +229,7 @@ helpStringFunction() {
   echo "-v|--validate                : Validate the XML"
   echo "-r|--refresh                 : Refresh the URL on the iTunes website"
   echo "-m|--message                 : Message Rylan that the upload is done"
+  echo "-e|--update-readme           : Update the Readme file with a section for the new episodes"
   echo "-c|--clean                   : Remove dnagling temporary files"
   echo "-s|--setup)                  : Setup Apollo and install requirements"
 }
@@ -245,6 +264,10 @@ case $1 in
 
     -m|--message)
       messageRylan
+    ;;
+
+    -e|--update-readme)
+      updateReadme
     ;;
 
     -c|--clean)
