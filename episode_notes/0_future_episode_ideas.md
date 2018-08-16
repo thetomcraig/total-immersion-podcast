@@ -44,7 +44,6 @@ Ideas
 * Libby
   * Playboy Bunnies
   * Potterheads 
-  * Moon Landing Hoax Believers
   * No waste
 
 * Someone?
