@@ -65,7 +65,7 @@ updateXMLForAllMp3s() {
   do
     echo -n "  Description for <$i>: "
     read description
-    echo -n "  Date for <$i>[default: ${release_date}: "
+    echo -n "  Date for <$i>[default: ${release_date}]: "
     read date
     if [[ -z "${date}" ]]; then
       date=${release_date}
