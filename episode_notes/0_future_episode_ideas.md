@@ -36,6 +36,8 @@ Ideas
 * Stilyagi
 * La Sape
 * Physics nerds
+* Bikers
+* Cyclists
 
 * Renaissance Faire people (Dad)
 * Cancer Survivors (Gianna?)
