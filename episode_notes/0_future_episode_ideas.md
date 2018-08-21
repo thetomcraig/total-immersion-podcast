@@ -16,7 +16,6 @@ Ideas
 * Wiaboo
 * Otaku
 * Runners
-* Coffee
 * Punk
 * Beatnick
 * HP Lovecraft Fans
@@ -38,6 +37,7 @@ Ideas
 * Physics nerds
 * Bikers
 * Cyclists
+* Cannabis culture
 
 * Renaissance Faire people (Dad)
 * Cancer Survivors (Gianna?)
