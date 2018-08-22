@@ -48,6 +48,9 @@ Ideas
   * Potterheads 
   * No waste
 
+* Jacques
+  * Acting
+
 * Someone?
   * Queer Culture 
   * Burning Man People 
