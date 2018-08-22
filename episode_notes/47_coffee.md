@@ -3,9 +3,9 @@ Coffee
 
 #### What is this/Background
 * More than 60 percent of Americans say they need coffee to start their day.
-> Coffee culture describes a social atmosphere or series of associated social behaviors that depends heavily upon coffee, particularly as a social lubricant.  
-
-> In the late 20th century, particularly in the Western world and urbanized centers around the globe, espresso has been an increasingly dominant form.
+* This is about 
+  * The culture of coffee drinkers
+  * Coffee Shops
 
 #### History
 * Before Current Era
@@ -23,6 +23,8 @@ Coffee
     * Coffee quickly became the morning beverage of choice over beer and wine
 
 * Modern Era
+  > In the late 20th century, particularly in the Western world and urbanized centers around the globe, espresso has been an increasingly dominant form.
+
   * USA
     * Traders, conquistadors, and missionaries brought coffee over to the Americas with them during the Columbian Exchange.
     * The British brought coffee over to New York, then New Amsterdam, in the 1600s. 
@@ -50,22 +52,38 @@ Coffee
   * Sweeden - Fika
 
 * Coffee Shops
+  * Today, all over the place
+    * Of the top five most caffeinated cities, four of them were located on the West Coast. 
+      * Seattle and Portland on the list
   * Lasting impact due to a few things
     * Way to sober up between trips to taverns/bars
     * Way to get news
     * Social Hubs
-      * Today, all over the place
-        * Of the top five most caffeinated cities, four of them were located on the West Coast. 
-          * Seattle and Portland on the list
+    * "Third place"
+      * Most importantly perhaps, coffee shops are often some people's third place
+        * Not work or the office, but something in between
+      * Many coffee shops offer Wi-Fi for people to work on their laptops
+      * Pushback to people camping out
+        * Now some coffee shops don't offer Wi-Fi so fewer people will do this
   * Gentrification
     * Now they've become a symbol of gentrification
       * They arrive; rents increase
 
 ##### Tom's Opinion
+* Do you drink coffee?
+* Do you have particular blends or drinks you prefer?
+* Concerning "the people"
+  * Why do you think people like working at coffee shops so much?
+  * What do you think about the gentrification thing?
+* Do you like coffee shops?
+  * What do you do there?
+* How has coffee affected your life?
+* What would your life be like without it?
 
 #### Sources
 ```
 https://en.wikipedia.org/wiki/Coffee_culture
 https://theculturetrip.com/north-america/usa/articles/a-brief-history-of-american-coffee-culture/
 https://psmag.com/economics/history-of-coffee-shop-as-symbol-for-gentrification
+https://www.theatlantic.com/health/archive/2012/06/the-social-dynamics-of-coffee-shops/258443/
 ```
