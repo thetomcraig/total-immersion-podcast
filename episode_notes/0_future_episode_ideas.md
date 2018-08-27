@@ -55,3 +55,6 @@ Ideas
   * Queer Culture 
   * Burning Man People 
   * Swingers
+
+* Hin
+  * Multiple personality disorder people
