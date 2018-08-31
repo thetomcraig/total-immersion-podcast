@@ -21,6 +21,18 @@
     <pubDate>Wed, 04 Oct 2017 00:00:00 PDT</pubDate>
     <!-- New episodes here -->
     <item>
+      <title>46 - Luck Be a Lad Tonight</title>
+      <itunes:author/>
+      <itunes:subtitle/>
+      <itunes:summary>Lad Subculture is Discussed</itunes:summary>
+      <description>Lad Subculture is Discussed</description>
+      <itunes:image href="https://s3-us-west-2.amazonaws.com/total-immersion-podcast/total_immersion_cover.jpg"/>
+      <enclosure url="http://dts.podtrac.com/redirect.mp3/s3-us-west-2.amazonaws.com/total-immersion-podcast/EP46+-+Luck+Be+a+Lad+Tonight.mp3" length=" 78362048" type="audio/mpeg"/>
+      <guid>http://dts.podtrac.com/redirect.mp3/s3-us-west-2.amazonaws.com/total-immersion-podcast/EP46+-+Luck+Be+a+Lad+Tonight.mp3</guid>
+      <itunes:duration/>
+      <pubDate>Fri, 20 Aug 2018 00:00:00 GMT-0700</pubDate>
+    </item>
+    <item>
       <title>45 - Lunar Lander Lunatics</title>
       <itunes:author/>
       <itunes:subtitle/>
