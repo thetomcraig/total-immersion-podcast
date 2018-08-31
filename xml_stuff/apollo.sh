@@ -3,7 +3,7 @@
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 source ${DIR}/helper_functions.sh
 
-release_date=$(date '+%a, %C %b %Y')
+release_date=$(date '+%a %C %b %Y')
 new_hunk_filename="episode_hunk.xml.new"
 validator_url="http://castfeedvalidator.com/?url=https://raw.githubusercontent.com/thetomcraig/total-immersion-podcast/master/xml_stuff/itunes.xml"
 s3_search_prefix="https://console.aws.amazon.com/s3/buckets/total-immersion-podcast/?region=us-west-2&tab=overview&prefixSearch=EP"
@@ -165,27 +165,12 @@ refreshURL() {
   promptToContinue
 }
 
-messageRylan() {
-  messaage="DONE BRO"
-  pushbullet_key="o.qQi1AYMsiP7uL6VCSELe08UjbK8HjJho"
-  curl --header "Access-Token: $pushbullet_key" \
-    -H "Content-Type: application/json" \
-    -d "{ \"email\": \"rylansedivy@gmail.com\", \
-                    \"title\": \"${message}\", \
-                    \"type\": \"note\" \
-       }" \
-    -X POST \
-    https://api.pushbullet.com/v2/pushes
-}
-
 diffXMLsAndReplace() {
   colordiff itunes.xml itunes.xml.new
   echo "  Diff Ok [Y/n]?"
   promptToContinue
   mv itunes.xml.new itunes.xml
 }
-
-
 
 updateReadme() {
   new_episode_line="${readme_new_episode_line}"
@@ -195,12 +180,11 @@ updateReadme() {
   readarray a < "../README.md"
   for i in "${a[@]}";
   do
-    i=${i/${readme_new_episode_line}/$new_episode_line}
-    new_readme+=("$i")
+    i=${i}/${readme_new_episode_line}/${new_episode_line}
+    new_readme+=("${i}")
   done
   printf '%s' "${new_readme[@]}" > README.md
 }
-
 
 fullEpisodeUpload() {
   uploadMp3sToS3 $1
@@ -208,29 +192,36 @@ fullEpisodeUpload() {
   pushXML
   validateXML
   refreshURL
-  messageRylan
-  removeTempFiles
+  cleanupRootDirectory
 }
 
-removeTempFiles() {
+cleanupRootDirectory() {
+  mp3s_dir=$1
+
+  rm $mp3s_dir/**.mp3
   rm $new_hunk_filename
   rm itunes.xml.bak
 }
 
 helpStringFunction() {
-  echo "usage:  apollo [option]"
+  echo "usage: apollo [option]"
   echo "Options and arguments:"
   echo "-h|--help                    : Show this help message"
-  echo "-f|--full-upload <directory> : Perform a full episode upload and XML update.  Same as
-  calling -u, -x, -p, -v, -r, -m, -c"
+  echo "-f|--full-upload <directory> : Perform a full episode upload and XML update.
+                               Same as calling
+                                --upload,
+                                --xml-update,
+                                --push,
+                                --validate,
+                                --refresh,
+                                --clean"
   echo "-u|--upload <directory>      : Read all mp3 files from the directory and upload them to S3"
   echo "-x|--xml-update <directory>  : Read all mp3 files from the directory and make a new  XML entry for each one "
-  echo "-p|--push                    : Push the iTunes XML to GitHub and message Rylan"
+  echo "-p|--push                    : Push the iTunes XML to GitHub"
   echo "-v|--validate                : Validate the XML"
   echo "-r|--refresh                 : Refresh the URL on the iTunes website"
-  echo "-m|--message                 : Message Rylan that the upload is done"
   echo "-e|--update-readme           : Update the Readme file with a section for the new episodes"
-  echo "-c|--clean                   : Remove dnagling temporary files"
+  echo "-c|--clean <directory>       : Remove dangling temporary files"
   echo "-s|--setup)                  : Setup Apollo and install requirements"
 }
 
@@ -262,16 +253,12 @@ case $1 in
       refreshURL
     ;;
 
-    -m|--message)
-      messageRylan
-    ;;
-
     -e|--update-readme)
       updateReadme
     ;;
 
     -c|--clean)
-      removeTempFiles
+      cleanupRootDirectory $2
     ;;
 
     -s|--setup)
