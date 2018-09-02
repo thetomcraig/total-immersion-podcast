@@ -1,5 +1,7 @@
 Ideas
 =======
+* Military
+* Calamari race team vs r/motorcycles
 * Cosmetic surgery 
 * Weight loss
 * People who marry prisoners
