@@ -198,9 +198,9 @@ fullEpisodeUpload() {
 cleanupRootDirectory() {
   mp3s_dir=$1
 
-  rm $mp3s_dir/**.mp3
-  rm $new_hunk_filename
-  rm itunes.xml.bak
+  rm -f $mp3s_dir/**.mp3
+  rm -f $new_hunk_filename
+  rm -f itunes.xml.bak
 }
 
 helpStringFunction() {
