@@ -21,6 +21,18 @@
     <pubDate>Wed, 04 Oct 2017 00:00:00 PDT</pubDate>
     <!-- New episodes here -->
     <item>
+      <title>47 - Hit the Grounds Running</title>
+      <itunes:author/>
+      <itunes:subtitle/>
+      <itunes:summary>Coffee subculture is discussed</itunes:summary>
+      <description>Coffee subculture is discussed</description>
+      <itunes:image href="https://s3-us-west-2.amazonaws.com/total-immersion-podcast/total_immersion_cover.jpg"/>
+      <enclosure url="http://dts.podtrac.com/redirect.mp3/s3-us-west-2.amazonaws.com/total-immersion-podcast/EP47+-+Hit+the+Grounds+Running.mp3" length=" 89760128" type="audio/mpeg"/>
+      <guid>http://dts.podtrac.com/redirect.mp3/s3-us-west-2.amazonaws.com/total-immersion-podcast/EP47+-+Hit+the+Grounds+Running.mp3</guid>
+      <itunes:duration>37:24</itunes:duration>
+      <pubDate>Sat 20 Sep 2018 00:00:00 GMT-0700</pubDate>
+    </item>
+    <item>
       <title>46 - Luck Be a Lad Tonight</title>
       <itunes:author/>
       <itunes:subtitle/>
