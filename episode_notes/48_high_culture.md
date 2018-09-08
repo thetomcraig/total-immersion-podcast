@@ -61,6 +61,12 @@ High Culture
 
 
 #### Questions
+* Why do you think this existed?
+  * And do you think it still does today?
+* What do you think this looks like today?
+* Do you feel like part of High Culture?
+* Do you enjoy High Art?
+
 
 #### Sources
 ```
