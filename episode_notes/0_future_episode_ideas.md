@@ -31,9 +31,7 @@ Ideas
 * Pokemon fans
 * Hackers
 * Hardcore
-* "High Culture"
 * Geaser/Raggare
-* Lad culture
 * Stilyagi
 * La Sape
 * Physics nerds
@@ -43,7 +41,7 @@ Ideas
 
 * Renaissance Faire people (Dad)
 * Cancer Survivors (Gianna?)
-* Youtube 2 - Draama vids (Isabel)
+* Youtube 2 - Drama vids (Isabel)
 
 * Libby
   * Playboy Bunnies
