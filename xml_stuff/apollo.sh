@@ -144,7 +144,7 @@ lint() {
 pushXML() {
   echo -n "Pushing to GitHub..."
   # Do the uploading of the xml and validate
-  date=$(date '+%a, %C %b %Y')
+  date=$(date '+%a, %d %b %Y')
   # TODO update readme list
   mv itunes.xml.new itunes.xml
   git add itunes.xml
