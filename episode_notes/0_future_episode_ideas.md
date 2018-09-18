@@ -38,7 +38,8 @@ Ideas
 * Bikers
 * Cyclists
 * Cannabis culture
-
+* Viners
+* Anarchists
 * Renaissance Faire people (Dad)
 * Cancer Survivors (Gianna?)
 * Youtube 2 - Drama vids (Isabel)
@@ -47,6 +48,7 @@ Ideas
   * Playboy Bunnies
   * Potterheads 
   * No waste
+  * Grind on me dancing
 
 * Jacques
   * Acting
@@ -61,3 +63,6 @@ Ideas
 
 * Nick C
   * Ravers
+
+* Laura E
+  * FIRE
