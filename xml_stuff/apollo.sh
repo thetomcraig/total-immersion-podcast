@@ -4,7 +4,8 @@ DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 source ${DIR}/helper_functions.sh
 
 release_date=$(date '+%a %C %b %Y')
-new_hunk_filename="episode_hunk.xml.new"
+template_filename=./episode_hunk.xml
+new_hunk_filename="${template_filename}.new"
 validator_url="http://castfeedvalidator.com/?url=https://raw.githubusercontent.com/thetomcraig/total-immersion-podcast/master/xml_stuff/itunes.xml"
 s3_search_prefix="https://console.aws.amazon.com/s3/buckets/total-immersion-podcast/?region=us-west-2&tab=overview&prefixSearch=EP"
 readme_new_episode_line="| ------ | ---------- | -------------- | ----- | ----------- | ------ | ---------- |"
@@ -76,11 +77,8 @@ updateXMLForAllMp3s() {
     open $s3_search_url
     echo -n "  S3 URL for <$i>: "
     read s3_url
-    echo "  Making new hunk..."
-    makeNewHunk $i $s3_url $description $date
-    echo "  Done"
-    echo "  Updating itunes.xml..."
-    updateXML
+    echo "Updating itunes.xml and readme.md..."
+    updateXMLAndReadme $i $s3_url $description $date $ep_number
     echo "  Done"
     echo "  Cleaning up..."
     lint
@@ -89,26 +87,47 @@ updateXMLForAllMp3s() {
   done
 }
 
-makeNewHunk() {
+updateXMLAndReadme() {
   mp3_path=$1
   full_url=$2
   description=$3
   date=$4
+  ep_number=$5
 
   url=$(echo $full_url | sed 's/https\:\/\///g')
   mp3_path_no_ext="${mp3_path%\.*}"
   file_name="${mp3_path_no_ext##*/}"
   name="$(echo ${file_name} | sed 's/EP//g')"
 
-  time=$(mp3info -p "%m:%02s\n" "${mp3_path}")
+  duration=$(mp3info -p "%m:%02s\n" "${mp3_path}")
   bytes=$(wc -c < "${mp3_path}")
+
+  echo -n "  iTunes Link: "
+  read listen_link
+  echo -n "  Notes Link: "
+  read notes_link
+
+
+  makeNewXMLHunkFile ${name} ${description} ${duration} ${bytes} ${url} ${date}
+  updateReade ${name} ${description} ${ep_number} ${listen_link} ${notes_link}
+}
+
+makeNewXMLHunkFile() {
+  name=$1
+  description=$2
+  duration=$3
+  bytes=$3
+  url=$3
+  date=$3
+
+  # Bckup the xml file
+  cp ./itunes.xml ./itunes.xml.bak
 
   # Create new hunk array
   # Copy template file and do replacement
   new_hunk=()
-  template_file=./episode_hunk.xml
-  readarray a < $template_file
-  for i in "${a[@]}";
+  readarray template_file_lines < ${template_file_name}
+  for i in "${template_file_lines[@]}";
   do
     i=${i/TITLE/$name}
     i=${i/SUMMARY/${description}}
@@ -118,23 +137,38 @@ makeNewHunk() {
     i=${i/DATE/${date}}
     new_hunk+=("$i")
   done
-
-  printf '%s' "${new_hunk[@]}" > $new_hunk_filename
-}
-
-updateXML () {
-  cp ./itunes.xml ./itunes.xml.bak
-  new_hunk_text=$(cat $new_hunk_filename)
-
+  # Hunk complete
+  # Open the itunes xml file
   new_itunes_xml=()
   readarray a < "./itunes.xml"
   for i in "${a[@]}";
   do
-    i=${i/"<!-- New episodes here -->"/$new_hunk_text}
+    i=${i/"<!-- New episodes here -->"/${new_hunk[@]}}
     new_itunes_xml+=("$i")
   done
   printf '%s' "${new_itunes_xml[@]}" > itunes.xml.new
 }
+
+updateReadme() {
+  name=$1
+  description=$2
+  ep_number=$3
+  listen_link=$4
+  notes_link=$5
+
+  new_episode_line="${readme_new_episode_line}"
+  new_episode_line+="| 2 | ${ep_number} | ${name} | ${description}| ${listen_link} | ${notes_link} |\n"
+
+  new_readme=()
+  readarray a < "../README.md"
+  for i in "${a[@]}";
+  do
+    i=${i}/${readme_new_episode_line}/${new_episode_line}
+    new_readme+=("${i}")
+  done
+  printf '%s' "${new_readme[@]}" > README.md
+}
+
 
 lint() {
   xmllint --format itunes.xml.new > itunes.xml.new.formatted
@@ -170,20 +204,6 @@ diffXMLsAndReplace() {
   echo "  Diff Ok [Y/n]?"
   promptToContinue
   mv itunes.xml.new itunes.xml
-}
-
-updateReadme() {
-  new_episode_line="${readme_new_episode_line}"
-  new_episode_line+="| 2 | 37 | Test title | Description | Listen link | Notes Link |\n"
-
-  new_readme=()
-  readarray a < "../README.md"
-  for i in "${a[@]}";
-  do
-    i=${i}/${readme_new_episode_line}/${new_episode_line}
-    new_readme+=("${i}")
-  done
-  printf '%s' "${new_readme[@]}" > README.md
 }
 
 fullEpisodeUpload() {
