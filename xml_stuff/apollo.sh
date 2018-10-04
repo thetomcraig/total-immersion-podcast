@@ -126,7 +126,7 @@ makeNewXMLHunkFile() {
   # Create new hunk array
   # Copy template file and do replacement
   new_hunk=()
-  readarray template_file_lines < ${template_file_name}
+  readarray template_file_lines < ${template_filename}
   for i in "${template_file_lines[@]}";
   do
     i=${i/TITLE/$name}
