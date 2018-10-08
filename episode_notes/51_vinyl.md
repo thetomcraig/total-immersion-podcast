@@ -51,14 +51,17 @@ Vinyl Record Collectors
     * Physicality
       * The record, record player, and artistic sleeve are physical artifacts
         * you don't get any of this with digital music
-* People who are particular about sound quality
-  * Some people think that the vinyl sound is somehow "better" than alternatives
-  * This can be true due to several factors
-    * High compression of digital file
-    * Crappy headphones
-    * Crappy internet connectivity
-  * However this is not `always` true; see sidebar
 
+* People who are particular about sound quality
+    * Some people think that the vinyl sound is somehow "better" than alternatives
+    * This can be true due to several factors
+      * High compression of digital file
+      * Crappy headphones
+      * Crappy internet connectivity
+    * However this is not `always` true; see sidebar
+
+* Rylan:
+```
 * Sidebar - Digital vs. Analog Signals
   * (Paraphrase this section if short on time)
   * There are two standards for recording sound (And other information)
@@ -68,6 +71,7 @@ Vinyl Record Collectors
     * Digital
       * From Wikipedia: `[Digial signal is one] in which the continuous quantity is a representation of a sequence of discrete values which can only take on one of a finite number of values.`
   * Digital sound is therefore more precise, but at a lower quality sounds choppy, unlike the "smooth" or "warm" sound of vinyl
+```
 
 #### The Subculture
 * The subculture is has a lot of attractive activities contained
