@@ -27,8 +27,8 @@
       <itunes:summary>Hipster subculture is discussed</itunes:summary>
       <description>Hipster subculture is discussed</description>
       <itunes:image href="https://s3-us-west-2.amazonaws.com/total-immersion-podcast/total_immersion_cover.jpg"/>
-      <enclosure url="http://dts.podtrac.com/redirect.mp3/https://s3-us-west-2.amazonaws.com/total-immersion-podcast/EP49+-+Hip%2C+Hip%2C+Hipster.mp3" length="41:37" type="audio/mpeg"/>
-      <guid>http://dts.podtrac.com/redirect.mp3/https://s3-us-west-2.amazonaws.com/total-immersion-podcast/EP49+-+Hip%2C+Hip%2C+Hipster.mp3</guid>
+      <enclosure url="http://dts.podtrac.com/redirect.mp3/s3-us-west-2.amazonaws.com/total-immersion-podcast/EP49+-+Hip%2C+Hip%2C+Hipster.mp3" length="41:37" type="audio/mpeg"/>
+      <guid>http://dts.podtrac.com/redirect.mp3/s3-us-west-2.amazonaws.com/total-immersion-podcast/EP49+-+Hip%2C+Hip%2C+Hipster.mp3</guid>
       <itunes:duration>41:37</itunes:duration>
       <pubDate>Mon 8 Sep 2018 00:00:00 GMT-0700</pubDate>
     </item>
