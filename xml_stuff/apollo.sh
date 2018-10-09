@@ -3,7 +3,7 @@
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 source ${DIR}/helper_functions.sh
 
-release_date=$(date '+%a %C %b %Y')
+release_date=$(date '+%a %d %b %Y')
 template_filename=./episode_hunk.xml
 new_hunk_filename="${template_filename}.new"
 validator_url="http://castfeedvalidator.com/?url=https://raw.githubusercontent.com/thetomcraig/total-immersion-podcast/master/xml_stuff/itunes.xml"
