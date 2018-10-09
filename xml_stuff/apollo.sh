@@ -116,9 +116,9 @@ makeNewXMLHunkFile() {
   name=$1
   description=$2
   duration=$3
-  bytes=$3
-  url=$3
-  date=$3
+  bytes=$4
+  url=$5
+  date=$6
 
   # Bckup the xml file
   cp ./itunes.xml ./itunes.xml.bak
