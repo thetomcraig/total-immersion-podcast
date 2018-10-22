@@ -37,6 +37,7 @@ Cyclists
 * Mental Health
   * Lots of people doing this because it helps them with their mood etc
   > A year ago I was being hospitalized for depression... Now? 140 miler reddit! 
+
   > I tell my wife “it’s bikes or Prozac.” She’s cool with all the biking
 
 * Community, and a sense of growth and accomplishment
@@ -47,9 +48,9 @@ Cyclists
   * Therapeutic 
 
 #### Questions
-???
-???
-???
+???  
+???  
+???  
 
 #### Sources
 ```
