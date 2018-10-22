@@ -1,6 +1,5 @@
 Cyclists
 ===
-
 ### Intro
 * This is about riding a bicycle for recreation
 * Wikipedia definition:
