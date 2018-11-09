@@ -13,9 +13,16 @@ readme_new_episode_line="| ------ | ---------- | -------------- | ----- | ------
 setupApollo() {
   echo "Installing mp3info"
   brew install mp3info > /dev/null
+  echo "DONE"
+
   echo "Installing colordiff"
   brew install colordiff > /dev/null
   echo "DONE"
+
+  echo "Installing bash 4"
+  brew update && brew install bash > /dev/null
+  echo "DONE"
+
   echo "Installing python requirements"
   virtualenv env > /dev/null
   source env/bin/activate > /dev/null
