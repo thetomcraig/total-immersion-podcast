@@ -24,11 +24,11 @@
       <title>51 - Off the Record</title>
       <itunes:author/>
       <itunes:subtitle/>
-      <itunes:summary>Vintl Collectors are discussed</itunes:summary>
-      <description>Vintl Collectors are discussed</description>
+      <itunes:summary>Vinyl Collectors are discussed</itunes:summary>
+      <description>Vinyl Collectors are discussed</description>
       <itunes:image href="https://s3-us-west-2.amazonaws.com/total-immersion-podcast/total_immersion_cover.jpg"/>
-      <enclosure url="http://dts.podtrac.com/redirect.mp3/console.aws.amazon.com/s3/buckets/total-immersion-podcast/EP51%20-%20Off%20the%20Record.mp3" length=" 113680448" type="audio/mpeg"/>
-      <guid>http://dts.podtrac.com/redirect.mp3/console.aws.amazon.com/s3/buckets/total-immersion-podcast/EP51%20-%20Off%20the%20Record.mp3</guid>
+      <enclosure url="http://dts.podtrac.com/redirect.mp3/s3-us-west-2.amazonaws.com/total-immersion-podcast/EP51+-+Off+the+Record.mp3" length=" 113680448" type="audio/mpeg"/>
+      <guid>http://dts.podtrac.com/redirect.mp3/s3-us-west-2.amazonaws.com/total-immersion-podcast/EP51+-+Off+the+Record.mp3</guid>
       <itunes:duration/>
       <pubDate>Thu 08 Nov 2018 00:00:00 GMT-0700</pubDate>
     </item>
