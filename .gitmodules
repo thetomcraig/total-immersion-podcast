@@ -1,0 +1,3 @@
+[submodule "xml_stuff/APOLLO"]
+	path = xml_stuff/APOLLO
+	url = https://github.com/thetomcraig/APOLLO
