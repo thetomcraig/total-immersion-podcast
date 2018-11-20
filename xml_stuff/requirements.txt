@@ -1,4 +1,0 @@
-python-dateutil==2.7.3
-python-magic==0.4.15
-s3cmd==2.0.1
-six==1.11.0
