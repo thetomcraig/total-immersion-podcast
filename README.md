@@ -19,6 +19,24 @@ Podcast is available to download or listen from these fine sources:
 ### Episodes
 | Season | Ep Overall | Ep. In Season  | Title | Description | Listen | Show Notes |  
 | ------ | ---------- | -------------- | ----- | ----------- | ------ | ---------- |
+| 2 |  54 |25| Giving it Our Best ZEFfort |Zef subculture is discussed|[iTunes]()| [Notes]() |
+| 2 |  53 |24| Vines Against Humanity |Defunct social media platform, Vine, is discussed|[iTunes]()| [Notes]() |
+| 2 |  52 |23| A Woman Needs a Man Like a Fish Needs this Podcast |Cyclists are discussed|[iTunes]()| [Notes]() |
+| 2 |  51 |22| Off the Record |Vinyl Collectors are discussed|[iTunes]()| [Notes]() |
+| 2 |  50 |21| C. R. E. A. M. (Cast Rules Everything Around Me) |FIRE Subculture (Financially Independent, Retire Early) is discussed|[iTunes]()| [Notes]() |
+| 2 |  49 |20| Hip, Hip, Hipster! |Hipsters are discussed|[iTunes]()| [Notes]() |
+| 2 |  48 |19| Hold Your Head Up High (Culture)|High Culture is disussed |[iTunes]()| [Notes]() |
+| 2 |  47 |18| Hit the Grounds Running |Coffee subculture is discussed|[iTunes]()| [Notes]() |
+| 2 |  46 |17| Luck Be a Lad Tonight |Lad subculture is discussed|[iTunes]()| [Notes]() |
+| 2 |  45 |16| Lunar Lander Lunatics|Moon Landing Hoax Believers are discussed |[iTunes]()| [Notes]() |
+| 2 |  44 |15| Investing In Podcast Futues |Futurism is discussed|[iTunes]()| [Notes]() |
+| 2 |  43 |14| I Steam, You Steam, We All Steam for Steampunnk! |Steampunk subculture is discussed|[iTunes]()| [Notes]() |
+| 2 |  42 |13| Driving Miss Uber|Uber drivers are discussed |[iTunes]()| [Notes]() |
+| 2 |  41 |12| Prime Time for Slime |Slime subculture is discussed|[iTunes]()| [Notes]() |
+| 2 |  40 |11| Yo ho yo ho, Pirate Radio Life for Me|Pirate Radio subculture is discussed |[iTunes]()| [Notes]() |
+| 2 |  39 |10| Uncle Sam Wants Q! |Subculure surrounding the online persona 'Q' is discussed|[iTunes]()| [Notes]() |
+| 2 |  38 |8| ASMR U READY |ASMR subculture is discussed|[iTunes]()| [Notes]() |
+| 2 |  37 |7| Crack to the Future|Demosceners (Computer Artists) are discussed |[iTunes]()| [Notes]() |
 | 2 |  36 |6| Instagrammy Nominations 2018 Announced LIVE on Total Immersion| Social Media Influencers are discussed|[iTunes](https://itunes.apple.com/us/podcast/36-instagrammy-nominations-2018-announced-live-on-total/id1268913004?i=1000414440521&mt=2)| [Notes](https://github.com/thetomcraig/total-immersion-podcast/blob/master/episode_notes/36_brand_ambassadors.md) |
 | 2 |  35 |5| TOM AND RYLAN REACT TO YOUTUBE - Official Announcement Trailer 2018 | Vlogging and Youtubers are discussed|[iTunes](https://itunes.apple.com/us/podcast/35-tom-rylan-react-to-youtube-official-announcement/id1268913004?i=1000414440520&mt=2)| [Notes](https://github.com/thetomcraig/total-immersion-podcast/blob/master/episode_notes/35_youtubers.md) |
 | 2 |  34 |4| Let Me Get in Your Genes| Genealogy is discussed|[iTunes](https://itunes.apple.com/us/podcast/34-let-me-get-in-your-genes/id1268913004?i=1000414440630&mt=2)| [Notes](https://github.com/thetomcraig/total-immersion-podcast/blob/master/episode_notes/34_genealogists.md) |
