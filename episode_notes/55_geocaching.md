@@ -35,12 +35,6 @@ Geocaching
   * They were hard to find and only the most advanced hikers could find them
     * Meaning it would often take a long time to actually mail any given letter
   * Lots of traditions surrounding the types of boxes and how they're found
-* 1970s
-  *  Letterboxes started to be setup in more easily accessible locations
-  * Thus, the tradition of actually dropping letters in has ceased 
-* 1998
-  * Smithsonian Magazine had a feature on letterboxing, and the US became interested, dovetails with the inception of
-    geocaching a few years later
 * 2000 - Geogaching
   * The Global Positioning System, GPS, removed a feature called "Selective Availability", which made the system a lot
     more accurate
@@ -56,22 +50,9 @@ Geocaching
   * Eventually an official urban game - "GeoCaching" (compared to lower case "geocaching") was developed
     * Each of these caches has a code you can enter into a website to register the find
     * Games are played to find a certain number - the first individual or group to find all is the winner
-* 2011 - Munzee
-  * Scavenger hunting game like geocaching that uses QR codes and GPS tech to prove a find
-  * Mobile phone, tablet, computer, GPS receiver
-  * LOL, under common attributes on the Wikipedia page, it lists "venue" as "Earth"
-
-#### More Detail
-* There are types of caches other than the physical containers:
-  * BIT cache - card with a QR code, like a Munzee
-* Virtual cache
-  * Coordinates for a location that may have an object other than a container (like a historical land mark)
-    * Here you log a find by taking a picture at the site
-* Reverse cache
-  * A description is given for something to find, and the finder locates an example of this object, records the
-    coordinates 
-* Others...
-  * USB cache, earthcache, multicache, night cache, chirp cache, moving cache, event cache, guest book cache
+* Now
+  * With smartphones and 3G, etc
+    * Lots of different and new ways to do this kind of thing
 
 #### Culture
 * It's a unique culture
@@ -109,6 +90,10 @@ Geocaching
   no "official rules" or "leaders"
 
 #### Questions???
+* New things have been inspired by this
+  * 2011 - Munzee
+  * 2016 - Pokemon Go
+    * And Ingress before it
 
 ### Sources
 ```
