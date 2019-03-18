@@ -1,5 +1,6 @@
 Zero Wasters
 ===
+* Thanks to Libby for this topic
 ### Intro
 > Zero Waste is a philosophy that encourages the redesign of resource life cycles to that all products are reused.  
 > The goal is for no trash to be sent to landfills, incinerators, or the ocean.  
