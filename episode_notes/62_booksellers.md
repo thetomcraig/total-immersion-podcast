@@ -99,10 +99,9 @@ Book Sellers
     - When wrapping, do so in acid-free paper
 - Dust jackets are often stored separate to avoid tearing, or other damage
 
-
-
-
 ### Conclusion
+- Lots more here than I anticipated
+- Neat
 
 ### Sources
 ```
