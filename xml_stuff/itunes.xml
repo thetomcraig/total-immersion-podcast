@@ -27,7 +27,7 @@
       <itunes:summary>Book Collecting is discussed</itunes:summary>
       <description>Book Collecting is discussed</description>
       <itunes:image href="https://s3-us-west-2.amazonaws.com/total-immersion-podcast/total_immersion_cover.jpg"/>
-      <enclosure url="http://dts.podtrac.com/redirect.mp3/total-immersion-podcast.s3-us-west-2.amazonaws.com/EP62+-+Don't+Judge+a+Podcast+by+it's+Cover.mp3" length=" 102101888" type="audio/mpeg"/>
+      <enclosure url="http://dts.podtrac.com/redirect.mp3/s3-us-west-2.amazonaws.com/total-immersion-podcast/EP62+-+Don't+Judge+a+Podcast+by+it's+Cover.mp3" length=" 102101888" type="audio/mpeg"/>
       <guid>http://dts.podtrac.com/redirect.mp3/total-immersion-podcast.s3-us-west-2.amazonaws.com/EP62+-+Don't+Judge+a+Podcast+by+it's+Cover.mp3</guid>
       <itunes:duration/>
       <pubDate>Thu, 27 Jun 2019 20:30:36 PDT 00:00:00 GMT-0700</pubDate>
