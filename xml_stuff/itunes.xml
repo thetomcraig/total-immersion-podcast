@@ -21,6 +21,18 @@
     <pubDate>Wed, 04 Oct 2017 00:00:00 PDT</pubDate>
     <!-- New episodes here -->
     <item>
+      <title>63 - This Podcast Writes Itself</title>
+      <itunes:author/>
+      <itunes:subtitle/>
+      <itunes:summary>Interview with Charlie Craig.  TV writing is discussed.</itunes:summary>
+      <description>Interview with Charlie Craig.  TV writing is discussed.</description>
+      <itunes:image href="https://s3-us-west-2.amazonaws.com/total-immersion-podcast/total_immersion_cover.jpg"/>
+      <enclosure url="http://dts.podtrac.com/redirect.mp3/total-immersion-podcast.s3-us-west-2.amazonaws.com/EP63+-+This+Podcast+Writes+Itself.mp3" length=" 204398528" type="audio/mpeg"/>
+      <guid>http://dts.podtrac.com/redirect.mp3/total-immersion-podcast.s3-us-west-2.amazonaws.com/EP63+-+This+Podcast+Writes+Itself.mp3</guid>
+      <itunes:duration/>
+      <pubDate>Sat, 27 Jul 2019 14:30:17 PDT</pubDate>
+    </item>
+    <item>
       <title>62 - Don't Judge a Podcast by it's Cover</title>
       <itunes:author/>
       <itunes:subtitle/>
