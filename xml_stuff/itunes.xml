@@ -27,7 +27,7 @@
       <itunes:summary>Interview with Charlie Craig.  TV writing is discussed.</itunes:summary>
       <description>Interview with Charlie Craig.  TV writing is discussed.</description>
       <itunes:image href="https://s3-us-west-2.amazonaws.com/total-immersion-podcast/total_immersion_cover.jpg"/>
-      <enclosure url="http://dts.podtrac.com/redirect.mp3/total-immersion-podcast.s3-us-west-2.amazonaws.com/EP63+-+This+Podcast+Writes+Itself.mp3" length=" 204398528" type="audio/mpeg"/>
+      <enclosure url="http://dts.podtrac.com/redirect.mp3/s3-us-west-2.amazonaws.com/total-immersion-podcast/EP63+-+This+Podcast+Writes+Itself.mp3" length=" 204398528" type="audio/mpeg"/>
       <guid>http://dts.podtrac.com/redirect.mp3/total-immersion-podcast.s3-us-west-2.amazonaws.com/EP63+-+This+Podcast+Writes+Itself.mp3</guid>
       <itunes:duration/>
       <pubDate>Sat, 27 Jul 2019 14:30:17 PDT</pubDate>
