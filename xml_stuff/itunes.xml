@@ -2,7 +2,8 @@
 <rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
   <channel>
     <title>Total Immersion</title>
-    <link>"https://www.stitcher.com/podcast/tom-craig-rylan-sedivy/total-immersion?refid=stpr"</link>
+    <link>"https://raw.githubusercontent.com/thetomcraig/total-immersion-podcast/master/xml_stuff/itunes.xml"</link>
+
     <language>en-us</language>
     <copyright/>
     <description>Rylan and Tom Immerse themselves in different subcultures.</description>
@@ -197,7 +198,7 @@
       <enclosure url="http://dts.podtrac.com/redirect.mp3/s3-us-west-2.amazonaws.com/total-immersion-podcast/EP50+-+C.+R.+E.+A.+M.+(Cast+Rules+Everything+Around+Me).mp3" length=" 106400768" type="audio/mpeg"/>
       <guid>http://dts.podtrac.com/redirect.mp3/s3-us-west-2.amazonaws.com/total-immersion-podcast/EP50+-+C.+R.+E.+A.+M.+(Cast+Rules+Everything+Around+Me).mp3</guid>
       <itunes:duration>44:20</itunes:duration>
-      <pubDate>Sun, 20 Oct 2018 00:00:00 GMT</pubDate>
+      <pubDate>Sat, 20 Oct 2018 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>49 - Hip, Hip, Hipster!</title>
@@ -350,7 +351,7 @@
       <itunes:summary>Demosceners (Computer Artists) are discussed</itunes:summary>
       <description>Social Media Influencers are discussed</description>
       <itunes:image href="https://s3-us-west-2.amazonaws.com/total-immersion-podcast/total_immersion_cover.jpg"/>
-      <enclosure url="http://dts.podtrac.com/redirect.mp3/s3-us-west-2.amazonaws.com/total-immersion-podcast/EP37+-+Crack+to+the+Future.mp3" length="" type="audio/mpeg"/>
+      <enclosure url="http://dts.podtrac.com/redirect.mp3/s3-us-west-2.amazonaws.com/total-immersion-podcast/EP37+-+Crack+to+the+Future.mp3" type="audio/mpeg"/>
       <guid>http://dts.podtrac.com/redirect.mp3/s3-us-west-2.amazonaws.com/total-immersion-podcast/EP37+-+Crack+to+the+Future.mp3</guid>
       <itunes:duration>35:14</itunes:duration>
       <pubDate>Fri, Jun 29 2018 00:00:00 GMT</pubDate>
