@@ -17,7 +17,6 @@
     <itunes:category text="Comedy"/>
     <itunes:explicit>yes</itunes:explicit>
     <lastBuildDate>Wed, 04 Oct 2017 00:00:00 PDT</lastBuildDate>
-    <itunes:author>Tom Craig</itunes:author>
     <pubDate>Wed, 04 Oct 2017 00:00:00 PDT</pubDate>
     <!-- New episodes here -->
     <item>
@@ -27,10 +26,10 @@
       <itunes:summary>Wicca (witchcraft) is discussed</itunes:summary>
       <description>Wicca (witchcraft) is discussed</description>
       <itunes:image href="https://s3-us-west-2.amazonaws.com/total-immersion-podcast/total_immersion_cover.jpg"/>
-      <enclosure url="http://dts.podtrac.com/redirect.mp3/total-immersion-podcast.s3-us-west-2.amazonaws.com/EP64+-+Witch%2C+Please.mp3" length=" 117645060" type="audio/mpeg"/>
+      <enclosure url="http://dts.podtrac.com/redirect.mp3/total-immersion-podcast.s3-us-west-2.amazonaws.com/EP64+-+Witch%2C+Please.mp3" length="117645060" type="audio/mpeg"/>
       <guid>http://dts.podtrac.com/redirect.mp3/total-immersion-podcast.s3-us-west-2.amazonaws.com/EP64+-+Witch%2C+Please.mp3</guid>
-      <itunes:duration/>
-      <pubDate>Sun, 15 Sep 2019 16:07:57 PDT 00:00:00 GMT-0700</pubDate>
+      <itunes:duration>49:01</itunes:duration>
+      <pubDate>Sun, 15 Sep 2019 16:07:57 PDT</pubDate>
     </item>
     <item>
       <title>63 - This Podcast Writes Itself</title>
@@ -39,9 +38,9 @@
       <itunes:summary>Interview with Charlie Craig.  TV writing is discussed.</itunes:summary>
       <description>Interview with Charlie Craig.  TV writing is discussed.</description>
       <itunes:image href="https://s3-us-west-2.amazonaws.com/total-immersion-podcast/total_immersion_cover.jpg"/>
-      <enclosure url="http://dts.podtrac.com/redirect.mp3/s3-us-west-2.amazonaws.com/total-immersion-podcast/EP63+-+This+Podcast+Writes+Itself.mp3" length=" 204398528" type="audio/mpeg"/>
+      <enclosure url="http://dts.podtrac.com/redirect.mp3/s3-us-west-2.amazonaws.com/total-immersion-podcast/EP63+-+This+Podcast+Writes+Itself.mp3" length="204398528" type="audio/mpeg"/>
       <guid>http://dts.podtrac.com/redirect.mp3/total-immersion-podcast.s3-us-west-2.amazonaws.com/EP63+-+This+Podcast+Writes+Itself.mp3</guid>
-      <itunes:duration/>
+      <itunes:duration>01:25:10</itunes:duration>
       <pubDate>Sat, 27 Jul 2019 14:30:17 PDT</pubDate>
     </item>
     <item>
@@ -51,9 +50,9 @@
       <itunes:summary>Book Collecting is discussed</itunes:summary>
       <description>Book Collecting is discussed</description>
       <itunes:image href="https://s3-us-west-2.amazonaws.com/total-immersion-podcast/total_immersion_cover.jpg"/>
-      <enclosure url="http://dts.podtrac.com/redirect.mp3/s3-us-west-2.amazonaws.com/total-immersion-podcast/EP62+-+Don't+Judge+a+Podcast+by+it's+Cover.mp3" length=" 102101888" type="audio/mpeg"/>
+      <enclosure url="http://dts.podtrac.com/redirect.mp3/s3-us-west-2.amazonaws.com/total-immersion-podcast/EP62+-+Don't+Judge+a+Podcast+by+it's+Cover.mp3" length="102101888" type="audio/mpeg"/>
       <guid>http://dts.podtrac.com/redirect.mp3/total-immersion-podcast.s3-us-west-2.amazonaws.com/EP62+-+Don't+Judge+a+Podcast+by+it's+Cover.mp3</guid>
-      <itunes:duration/>
+      <itunes:duration>42:33</itunes:duration>
       <pubDate>Thu, 27 Jun 2019 20:30:36 PDT</pubDate>
     </item>
     <item>
@@ -63,7 +62,7 @@
       <itunes:summary>Ball Jointed Doll subculture is discussed</itunes:summary>
       <description>Ball Jointed Dolls are discussed</description>
       <itunes:image href="https://s3-us-west-2.amazonaws.com/total-immersion-podcast/total_immersion_cover.jpg"/>
-      <enclosure url="http://dts.podtrac.com/redirect.mp3/s3-us-west-2.amazonaws.com/total-immersion-podcast/EP61+-+Doll+in+the+Family.mp3" length=" 107059328" type="audio/mpeg"/>
+      <enclosure url="http://dts.podtrac.com/redirect.mp3/s3-us-west-2.amazonaws.com/total-immersion-podcast/EP61+-+Doll+in+the+Family.mp3" length="107059328" type="audio/mpeg"/>
       <guid>http://dts.podtrac.com/redirect.mp3/total-immersion-podcast.s3-us-west-2.amazonaws.com/EP61+-+Doll+in+the+Family.mp3</guid>
       <itunes:duration>44:36</itunes:duration>
       <pubDate>Sat, 08 Jun 2019 13:47:38 PDT</pubDate>
@@ -75,7 +74,7 @@
       <itunes:summary>Hobby Drama is discussed</itunes:summary>
       <description>Hobby Drama is discussed</description>
       <itunes:image href="https://s3-us-west-2.amazonaws.com/total-immersion-podcast/total_immersion_cover.jpg"/>
-      <enclosure url="http://dts.podtrac.com/redirect.mp3/s3-us-west-2.amazonaws.com/total-immersion-podcast/EP60+-+Get+Off+Your+High+%5BHobby%5D+Horse.mp3" length=" 111550208" type="audio/mpeg"/>
+      <enclosure url="http://dts.podtrac.com/redirect.mp3/s3-us-west-2.amazonaws.com/total-immersion-podcast/EP60+-+Get+Off+Your+High+%5BHobby%5D+Horse.mp3" length="111550208" type="audio/mpeg"/>
       <guid>http://dts.podtrac.com/redirect.mp3/s3-us-west-2.amazonaws.com/total-immersion-podcast/EP60+-+Get+Off+Your+High+%5BHobby%5D+Horse.mp3</guid>
       <itunes:duration>46:28</itunes:duration>
       <pubDate>Sun, 05 May 2019 00:00:00 GMT</pubDate>
@@ -87,7 +86,7 @@
       <itunes:summary>Dressage is discussed</itunes:summary>
       <description>Dressage is discussed</description>
       <itunes:image href="https://s3-us-west-2.amazonaws.com/total-immersion-podcast/total_immersion_cover.jpg"/>
-      <enclosure url="http://dts.podtrac.com/redirect.mp3/s3-us-west-2.amazonaws.com/total-immersion-podcast/EP59+-+Little+Black+Dressage.mp3" length=" 134248448" type="audio/mpeg"/>
+      <enclosure url="http://dts.podtrac.com/redirect.mp3/s3-us-west-2.amazonaws.com/total-immersion-podcast/EP59+-+Little+Black+Dressage.mp3" length="134248448" type="audio/mpeg"/>
       <guid>http://dts.podtrac.com/redirect.mp3/s3-us-west-2.amazonaws.com/total-immersion-podcast/EP59+-+Little+Black+Dressage.mp3</guid>
       <itunes:duration>55:56</itunes:duration>
       <pubDate>Sun, 07 Apr 2019 00:00:00 GMT</pubDate>
@@ -99,7 +98,7 @@
       <itunes:summary>Zero-waste subculture is discussed</itunes:summary>
       <description>Zero-waste subculture is discussed</description>
       <itunes:image href="https://s3-us-west-2.amazonaws.com/total-immersion-podcast/total_immersion_cover.jpg"/>
-      <enclosure url="http://dts.podtrac.com/redirect.mp3/s3-us-west-2.amazonaws.com/total-immersion-podcast/EP58+-+Reduce+Reuse+Redownload.mp3" length=" 92845568" type="audio/mpeg"/>
+      <enclosure url="http://dts.podtrac.com/redirect.mp3/s3-us-west-2.amazonaws.com/total-immersion-podcast/EP58+-+Reduce+Reuse+Redownload.mp3" length="92845568" type="audio/mpeg"/>
       <guid>http://dts.podtrac.com/redirect.mp3/s3-us-west-2.amazonaws.com/total-immersion-podcast/EP58+-+Reduce+Reuse+Redownload.mp3</guid>
       <itunes:duration>38:41</itunes:duration>
       <pubDate>Sun, 31 Mar 2019 00:00:00 GMT</pubDate>
@@ -111,7 +110,7 @@
       <itunes:summary>Incel subculture is discussed</itunes:summary>
       <description>Incel subculture is discussed</description>
       <itunes:image href="https://s3-us-west-2.amazonaws.com/total-immersion-podcast/total_immersion_cover.jpg"/>
-      <enclosure url="http://dts.podtrac.com/redirect.mp3/s3-us-west-2.amazonaws.com/total-immersion-podcast/EP57+-+Insane+in+the+Incel.mp3" length=" 102030848" type="audio/mpeg"/>
+      <enclosure url="http://dts.podtrac.com/redirect.mp3/s3-us-west-2.amazonaws.com/total-immersion-podcast/EP57+-+Insane+in+the+Incel.mp3" length="102030848" type="audio/mpeg"/>
       <guid>http://dts.podtrac.com/redirect.mp3/s3-us-west-2.amazonaws.com/total-immersion-podcast/EP57+-+Insane+in+the+Incel.mp3</guid>
       <itunes:duration>42:30</itunes:duration>
       <pubDate>Tue, 26 Mar 2019 00:00:00 GMT</pubDate>
@@ -123,7 +122,7 @@
       <itunes:summary>Soul Cycle is discussed</itunes:summary>
       <description>Soul Cycle is discussed</description>
       <itunes:image href="https://s3-us-west-2.amazonaws.com/total-immersion-podcast/total_immersion_cover.jpg"/>
-      <enclosure url="http://dts.podtrac.com/redirect.mp3/s3-us-west-2.amazonaws.com/total-immersion-podcast/EP56+-+De+La+Soul+Cycle.mp3" length=" 131355968" type="audio/mpeg"/>
+      <enclosure url="http://dts.podtrac.com/redirect.mp3/s3-us-west-2.amazonaws.com/total-immersion-podcast/EP56+-+De+La+Soul+Cycle.mp3" length="131355968" type="audio/mpeg"/>
       <guid>http://dts.podtrac.com/redirect.mp3/s3-us-west-2.amazonaws.com/total-immersion-podcast/EP56+-+De+La+Soul+Cycle.mp3</guid>
       <itunes:duration>54:43</itunes:duration>
       <pubDate>Sun, 24 Mar 2019 00:00:00 GMT</pubDate>
@@ -135,7 +134,7 @@
       <itunes:summary>Geocaching is discussed</itunes:summary>
       <description>Geocaching is discussed</description>
       <itunes:image href="https://s3-us-west-2.amazonaws.com/total-immersion-podcast/total_immersion_cover.jpg"/>
-      <enclosure url="http://dts.podtrac.com/redirect.mp3/s3-us-west-2.amazonaws.com/total-immersion-podcast/EP55+-+Cache+Me+if+You+Can.mp3" length=" 135503168" type="audio/mpeg"/>
+      <enclosure url="http://dts.podtrac.com/redirect.mp3/s3-us-west-2.amazonaws.com/total-immersion-podcast/EP55+-+Cache+Me+if+You+Can.mp3" length="135503168" type="audio/mpeg"/>
       <guid>http://dts.podtrac.com/redirect.mp3/s3-us-west-2.amazonaws.com/total-immersion-podcast/EP55+-+Cache+Me+if+You+Can.mp3</guid>
       <itunes:duration>56:27</itunes:duration>
       <pubDate>Wed, 06 Feb 2019 00:00:00 GMT</pubDate>
