@@ -303,7 +303,7 @@
       <description>Slime subculture is discussed</description>
       <itunes:image href="https://s3-us-west-2.amazonaws.com/total-immersion-podcast/total_immersion_cover.jpg"/>
       <enclosure url="http://dts.podtrac.com/redirect.mp3/https://s3-us-west-2.amazonaws.com/total-immersion-podcast/EP41+-+Prime+Time+For+Slime.mp3" length=" 109372096" type="audio/mpeg"/>
-      <guid>http://dts.podtrac.com/redirect.mp3/https://s3-us-west-2.amazonaws.com/total-immersion-podcast/EP41+-+Prime+Time+For+Slime.mp3</guid>
+      <guid>http://dts.podtrac.com/redirect.mp3/s3-us-west-2.amazonaws.com/total-immersion-podcast/EP41+-+Prime+Time+For+Slime.mp3</guid>
       <itunes:duration>45:34</itunes:duration>
       <pubDate>Fri, 21 Jul 2018 00:00:00 GMT</pubDate>
     </item>
@@ -326,8 +326,8 @@
       <itunes:summary>Subculure surrounding the online persona 'Q' is discussed</itunes:summary>
       <description>Subculure surrounding the online persona 'Q' is discussed</description>
       <itunes:image href="https://s3-us-west-2.amazonaws.com/total-immersion-podcast/total_immersion_cover.jpg"/>
-      <enclosure url="http://dts.podtrac.com/redirect.mp3/s3-us-west-2.amazonaws.com/total-immersion-podcast/EP39+-+Uncle+Sam+Wants+Q!.mp3" type="audio/mpeg"/>
-      <guid>http://dts.podtrac.com/redirect.mp3/s3-us-west-2.amazonaws.com/total-immersion-podcast/EP39+-+Uncle+Sam+Wants+Q!.mp3</guid>
+      <enclosure url="http://dts.podtrac.com/redirect.mp3/total-immersion-podcast.s3-us-west-2.amazonaws.com/EP39+-+Uncle+Sam+Wants+Q!.mp3" length=" 112819456" type="audio/mpeg"/>
+      <guid>http://dts.podtrac.com/redirect.mp3/total-immersion-podcast.s3-us-west-2.amazonaws.com/EP39+-+Uncle+Sam+Wants+Q!.mp3</guid>
       <itunes:duration>47:00</itunes:duration>
       <pubDate>Fri, 13 Jul 2018 00:00:00 GMT</pubDate>
     </item>
