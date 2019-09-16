@@ -3,7 +3,6 @@
   <channel>
     <title>Total Immersion</title>
     <link>"https://raw.githubusercontent.com/thetomcraig/total-immersion-podcast/master/xml_stuff/itunes.xml"</link>
-
     <language>en-us</language>
     <copyright/>
     <description>Rylan and Tom Immerse themselves in different subcultures.</description>
@@ -27,10 +26,10 @@
       <itunes:summary>Wicca (witchcraft) is discussed</itunes:summary>
       <description>Wicca (witchcraft) is discussed</description>
       <itunes:image href="https://s3-us-west-2.amazonaws.com/total-immersion-podcast/total_immersion_cover.jpg"/>
-      <enclosure url="http://dts.podtrac.com/redirect.mp3/total-immersion-podcast.s3-us-west-2.amazonaws.com/EP64+-+Witch%2C+Please.mp3" length="117645060" type="audio/mpeg"/>
+      <enclosure url="http://dts.podtrac.com/redirect.mp3/total-immersion-podcast.s3-us-west-2.amazonaws.com/EP64+-+Witch%2C+Please.mp3" length=" 117645060" type="audio/mpeg"/>
       <guid>http://dts.podtrac.com/redirect.mp3/total-immersion-podcast.s3-us-west-2.amazonaws.com/EP64+-+Witch%2C+Please.mp3</guid>
       <itunes:duration>49:01</itunes:duration>
-      <pubDate>Sun, 15 Sep 2019 16:07:57 PDT</pubDate>
+      <pubDate>Sun, 15 Sep 2019 17:38:16 PDT 00:00:00 GMT-0700</pubDate>
     </item>
     <item>
       <title>63 - This Podcast Writes Itself</title>
@@ -327,7 +326,7 @@
       <itunes:summary>Subculure surrounding the online persona 'Q' is discussed</itunes:summary>
       <description>Subculure surrounding the online persona 'Q' is discussed</description>
       <itunes:image href="https://s3-us-west-2.amazonaws.com/total-immersion-podcast/total_immersion_cover.jpg"/>
-      <enclosure url="http://dts.podtrac.com/redirect.mp3/s3-us-west-2.amazonaws.com/total-immersion-podcast/EP39+-+Uncle+Sam+Wants+Q!.mp3"/>
+      <enclosure url="http://dts.podtrac.com/redirect.mp3/s3-us-west-2.amazonaws.com/total-immersion-podcast/EP39+-+Uncle+Sam+Wants+Q!.mp3" type="audio/mpeg"/>
       <guid>http://dts.podtrac.com/redirect.mp3/s3-us-west-2.amazonaws.com/total-immersion-podcast/EP39+-+Uncle+Sam+Wants+Q!.mp3</guid>
       <itunes:duration>47:00</itunes:duration>
       <pubDate>Fri, 13 Jul 2018 00:00:00 GMT</pubDate>
