@@ -305,7 +305,7 @@
       <enclosure url="http://dts.podtrac.com/redirect.mp3/https://s3-us-west-2.amazonaws.com/total-immersion-podcast/EP41+-+Prime+Time+For+Slime.mp3" length=" 109372096" type="audio/mpeg"/>
       <guid>http://dts.podtrac.com/redirect.mp3/s3-us-west-2.amazonaws.com/total-immersion-podcast/EP41+-+Prime+Time+For+Slime.mp3</guid>
       <itunes:duration>45:34</itunes:duration>
-      <pubDate>Fri, 21 Jul 2018 00:00:00 GMT</pubDate>
+      <pubDate>Sat, 21 Jul 2018 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>40 - Yo ho yo ho, Pirate Radio Life for Me</title>
@@ -348,10 +348,10 @@
       <itunes:author/>
       <itunes:subtitle/>
       <itunes:summary>Demosceners (Computer Artists) are discussed</itunes:summary>
-      <description>Social Media Influencers are discussed</description>
+      <description>Demosceners (Computer Artists) are discussed</description>
       <itunes:image href="https://s3-us-west-2.amazonaws.com/total-immersion-podcast/total_immersion_cover.jpg"/>
-      <enclosure url="http://dts.podtrac.com/redirect.mp3/s3-us-west-2.amazonaws.com/total-immersion-podcast/EP37+-+Crack+to+the+Future.mp3" type="audio/mpeg"/>
-      <guid>http://dts.podtrac.com/redirect.mp3/s3-us-west-2.amazonaws.com/total-immersion-podcast/EP37+-+Crack+to+the+Future.mp3</guid>
+      <enclosure url="http://dts.podtrac.com/redirect.mp3/total-immersion-podcast.s3-us-west-2.amazonaws.com/EP37+-+Crack+to+the+Future.mp3" length=" 84555136" type="audio/mpeg"/>
+      <guid>http://dts.podtrac.com/redirect.mp3/total-immersion-podcast.s3-us-west-2.amazonaws.com/EP37+-+Crack+to+the+Future.mp3</guid>
       <itunes:duration>35:14</itunes:duration>
       <pubDate>Fri, Jun 29 2018 00:00:00 GMT</pubDate>
     </item>
