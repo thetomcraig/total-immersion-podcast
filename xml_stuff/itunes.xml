@@ -20,6 +20,18 @@
     <pubDate>Wed, 04 Oct 2017 00:00:00 PDT</pubDate>
     <!-- New episodes here -->
     <item>
+      <title>66 - Tales From The Crypto</title>
+      <itunes:author/>
+      <itunes:subtitle/>
+      <itunes:summary>Cryptocurrency and its subculture of users and miners is discussed</itunes:summary>
+      <description>Cryptocurrency and its subculture of users and miners is discussed</description>
+      <itunes:image href="https://s3-us-west-2.amazonaws.com/total-immersion-podcast/total_immersion_cover.jpg"/>
+      <enclosure url="http://dts.podtrac.com/redirect.mp3/total-immersion-podcast.s3-us-west-2.amazonaws.com/EP66+-+Tales+From+The+Crypto.mp3" length=" 124455616" type="audio/mpeg"/>
+      <guid>http://dts.podtrac.com/redirect.mp3/total-immersion-podcast.s3-us-west-2.amazonaws.com/EP66+-+Tales+From+The+Crypto.mp3</guid>
+      <itunes:duration>51:51</itunes:duration>
+      <pubDate>Tue, 07 Jan 2020 15:14:04 PST</pubDate>
+    </item>
+    <item>
       <title>65 - Keyboard Keys to the Kingdom</title>
       <itunes:author/>
       <itunes:subtitle/>
