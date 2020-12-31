@@ -89,3 +89,19 @@ Podcast is available to download or listen from these fine sources:
 * All of our episode notes are available in `episode_notes`
 * Our music files are located in `music`
 * Index files and back end stuff is located in `xml_stuff`
+
+### Recording Workflow
+* We use [Source Connect Now](https://now.source-elements.com) to talk to each other with low latency.
+* We run [Audio Hijack](https://rogueamoeba.com/audiohijack/) on our macs to record our audio to mp3 files.
+
+### New Episode Workflow
+* After a new episode file is ready, these are the steps I go through to add a new episode to the podcast.
+* Add the mp3 file to our AWS S3 bucket.
+* Update the [itunes.xml file](https://raw.githubusercontent.com/thetomcraig/total-immersion-podcast/master/xml_stuff/itunes.xml).
+  * I have a script that calculates the fields necessary to add a tnew `<item>` section, you can see the source code [here](https://github.com/thetomcraig/APOLLO/blob/master/apollo.sh).
+  * The XML links to the file on S3, and uses the prefix for tracking with [Podtrac](http://analytics.podtrac.com/).
+* With the itunes XML file ready, I push it to this repo
+* Validate the XML
+  * https://castfeedvalidator.com/
+  * https://validator.w3.org/feed/
+* With any errors fixed, I push changes to this repo, then update in iTunes, pasting in theraw GItHub URL to the `itunes.xml` file.
